@@ -23,8 +23,8 @@ for render_engine in render_engines:
 bpy.context.scene.render.engine = render_engines[0]
 
 # поменять путь сохранения картинки !!!!!!!!!!!!
-bpy.context.scene.appleseed.renderer_passes = 23 # 30 min
-bpy.context.scene.render.filepath = 'C:/Users/boris/Desktop/Diplom/3D_Models/A_Glass/0_appleseed/A_23_samp.png'
+bpy.context.scene.appleseed.renderer_passes = 23 # ~30 min
+bpy.context.scene.render.filepath = 'C:/путь_до_папки/Diplom/3D_Models/A_Glass/0_appleseed/A_23_samp.png'
 
 start = time.time()
 bpy.ops.render.render(write_still=True) 
@@ -32,8 +32,8 @@ end = time.time()
 print("23", render_times)
 
 # поменять путь сохранения картинки !!!!!!!!!!!!
-bpy.context.scene.appleseed.renderer_passes = 46# 1 hour
-bpy.context.scene.render.filepath = 'C:/Users/boris/Desktop/Diplom/3D_Models/A_Glass/0_appleseed/A_46_samp.png'
+bpy.context.scene.appleseed.renderer_passes = 46# ~1 hour
+bpy.context.scene.render.filepath = 'C:/путь_до_папки/Diplom/3D_Models/A_Glass/0_appleseed/A_46_samp.png'
 
 start = time.time()
 bpy.ops.render.render(write_still=True) 
@@ -41,8 +41,8 @@ end = time.time()
 print("46", render_times)
 
 # поменять путь сохранения картинки !!!!!!!!!!!!
-bpy.context.scene.appleseed.renderer_passes = 92 # 2 hours
-bpy.context.scene.render.filepath = 'C:/Users/boris/Desktop/Diplom/3D_Models/A_Glass/0_appleseed/A_92_samp.png'
+bpy.context.scene.appleseed.renderer_passes = 92 # ~2 hours
+bpy.context.scene.render.filepath = 'C:/путь_до_папки/Diplom/3D_Models/A_Glass/0_appleseed/A_92_samp.png'
 
 start = time.time()
 bpy.ops.render.render(write_still=True) 
@@ -50,8 +50,8 @@ end = time.time()
 print("92", render_times)
 
 # поменять путь сохранения картинки !!!!!!!!!!!!
-bpy.context.scene.appleseed.renderer_passes = 184 # 4 hours
-bpy.context.scene.render.filepath = 'C:/Users/boris/Desktop/Diplom/3D_Models/A_Glass/0_appleseed/A_184_smp.png'
+bpy.context.scene.appleseed.renderer_passes = 184 # ~4 hours
+bpy.context.scene.render.filepath = 'C:/путь_до_папки/Diplom/3D_Models/A_Glass/0_appleseed/A_184_smp.png'
 
 start = time.time()
 bpy.ops.render.render(write_still=True) 
