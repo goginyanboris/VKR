@@ -1,0 +1,1801 @@
+start rendering
+==================================================
+[Engine/Final] Rendering layer "RenderLayer"
+[Exporter] Creating session
+[SDL][18076.969] Camera type: perspective
+[SDL][18076.969] Camera position: Point[0.0955119, 28.5975, 13.2955]
+[SDL][18076.969] Camera target: Point[0.148943, 27.6321, 13.04]
+[SDL][18076.969] Camera clipping plane disabled
+[SDL][18077.172] Texture definition: 2162000912904fresnel_helper
+[SDL][18077.172] Texture definition: 2162002436520Color
+[SDL][18077.172] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\Curtain Textures\Buzz_lighter.jpg
+[SDL][18077.188] Texture definition: 2162002438504Bump
+[SDL][18077.188] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\Curtain Textures\Fabric01_nrm.jpg
+[SDL][18077.719] Texture definition: 2162002438504Bump_normalmap
+[SDL][18077.719] Texture definition: 2162000915384Color
+[SDL][18077.719] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-diffuse.jpg
+[SDL][18077.813] Texture definition: 2162000915880Color
+[SDL][18077.813] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-specular.jpg
+[SDL][18077.891] Texture definition: 2162000917864Bump
+[SDL][18077.891] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-normal.jpg
+[SDL][18077.953] Texture definition: 2162000917864Bump_normalmap
+[SDL][18077.953] Texture definition: 2162002439000Color
+[SDL][18077.953] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg
+[SDL][18078.047] Texture definition: 2162002437016Color
+[SDL][18078.047] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-specular.jpg
+[SDL][18078.125] Texture definition: 2162002439496Bump
+[SDL][18078.125] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-normal.jpg
+[SDL][18078.156] Texture definition: 2162002439496Bump_normalmap
+[SDL][18078.156] Material definition: as_crishka__material2161991841560
+[SDL][18078.156] Material definition: as_glass2161991827448
+[SDL][18078.156] Material definition: as_metalic2161991824760
+[SDL][18078.156] Material definition: 2161756353032Material
+[SDL][18078.156] Material definition: 2160967432072Material
+[SDL][18078.156] Material definition: as_translucent__silk2161991829800
+[SDL][18078.156] Material definition: 2161900172024_AREA_LIGHT_MAT
+[SDL][18078.156] Material definition: as_BG_white_brick_wall2161991827112
+[SDL][18078.156] Material definition: asWood2161991842232
+[SDL][18078.156] Material definition: as_red__glass2161991841896
+[SDL][18078.156] Material definition: as_blue__glass2161991838200
+[SDL][18078.156] The 21619001720240 object is a light sources with 2 triangles
+[SDL][18078.156] Scene objects count: 10
+[SDL][18078.156] Light definition: 2161900194344
+[SDL][18078.156] Light definition: __WORLD_BACKGROUND_LIGHT__
+[LuxCore][18078.172] Configuration:
+[LuxCore][18078.172]   light.maxdepth = 16
+[LuxCore][18078.172]   path.maxdepth = 12
+[LuxCore][18078.172]   film.noiseestimation.warmup = 8
+[LuxCore][18078.172]   film.noiseestimation.step = 32
+[LuxCore][18078.172]   sampler.sobol.adaptive.strength = 0.89999997615814209
+[LuxCore][18078.172]   sampler.sobol.bucketsize = 16
+[LuxCore][18078.172]   sampler.sobol.tilesize = 16
+[LuxCore][18078.172]   sampler.sobol.supersampling = 1
+[LuxCore][18078.172]   sampler.sobol.overlapping = 1
+[LuxCore][18078.172]   renderengine.type = "BIDIRCPU"
+[LuxCore][18078.172]   sampler.type = "SOBOL"
+[LuxCore][18078.172]   film.width = 1120
+[LuxCore][18078.172]   film.height = 1540
+[LuxCore][18078.172]   film.filter.type = "BLACKMANHARRIS"
+[LuxCore][18078.172]   film.filter.width = 1.5
+[LuxCore][18078.172]   lightstrategy.type = "LOG_POWER"
+[LuxCore][18078.172]   scene.epsilon.min = 9.9999997473787516e-06
+[LuxCore][18078.172]   scene.epsilon.max = 0.10000000149011612
+[LuxCore][18078.172]   film.opencl.enable = 1
+[LuxCore][18078.172]   film.opencl.device = 0
+[LuxCore][18078.172]   path.clamping.variance.maxvalue = 0.43002888560295105
+[LuxCore][18078.172]   path.forceblackbackground.enable = 0
+[LuxCore][18078.172]   native.threads.count = 12
+[LuxCore][18078.172]   renderengine.seed = 1
+[LuxCore][18078.172]   film.outputs.0.type = "RGB_IMAGEPIPELINE"
+[LuxCore][18078.172]   film.outputs.0.index = 0
+[LuxCore][18078.172]   film.outputs.0.filename = "RGB_IMAGEPIPELINE_0.png"
+[LuxCore][18078.172]   film.outputs.1.type = "RGB_IMAGEPIPELINE"
+[LuxCore][18078.172]   film.outputs.1.index = 1
+[LuxCore][18078.172]   film.outputs.1.filename = "RGB_IMAGEPIPELINE_1.png"
+[LuxCore][18078.172]   film.imagepipelines.001.0.type = "NOP"
+[LuxCore][18078.172]   film.imagepipelines.001.1.type = "TONEMAP_LINEAR"
+[LuxCore][18078.172]   film.imagepipelines.001.1.scale = 1
+[LuxCore][18078.172]   film.imagepipelines.001.radiancescales.0.enabled = 1
+[LuxCore][18078.172]   film.imagepipelines.001.radiancescales.0.globalscale = 1
+[LuxCore][18078.172]   film.imagepipelines.001.radiancescales.0.rgbscale = 1 1 1
+[LuxCore][18078.172]   film.imagepipelines.001.2.type = "GAMMA_CORRECTION"
+[LuxCore][18078.172]   film.imagepipelines.001.2.value = 2.2000000000000002
+[LuxCore][18078.172]   film.noiseestimation.index = 1
+[LuxCore][18078.172]   film.imagepipelines.000.0.type = "NOP"
+[LuxCore][18078.172]   film.imagepipelines.000.1.type = "TONEMAP_LINEAR"
+[LuxCore][18078.172]   film.imagepipelines.000.1.scale = 1
+[LuxCore][18078.172]   film.imagepipelines.000.radiancescales.0.enabled = 1
+[LuxCore][18078.172]   film.imagepipelines.000.radiancescales.0.globalscale = 1
+[LuxCore][18078.172]   film.imagepipelines.000.radiancescales.0.rgbscale = 1 1 1
+[LuxCore][18078.172]   batch.haltspp = 50
+[LuxCore][18078.172]   batch.halttime = 0
+[LuxCore][18078.172] File Name Resolver Configuration:
+Export took 1.2 s
+[LuxCore][18078.172] Film resolution: 1120x1540
+[SDL][18078.172] Film output definition: RGB_IMAGEPIPELINE [image.png]
+[SDL][18078.172] Image pipeline: film.imagepipelines.000
+[SDL][18078.172] Image pipeline step 0: NOP
+[SDL][18078.172] Image pipeline step 1: TONEMAP_LINEAR
+[SDL][18078.172] Image pipeline: film.imagepipelines.001
+[SDL][18078.172] Image pipeline step 0: NOP
+[SDL][18078.172] Image pipeline step 1: TONEMAP_LINEAR
+[SDL][18078.172] Image pipeline step 2: GAMMA_CORRECTION
+[SDL][18078.172] Film output definition: RGB_IMAGEPIPELINE [RGB_IMAGEPIPELINE_0.png]
+[SDL][18078.172] Film output definition: RGB_IMAGEPIPELINE [RGB_IMAGEPIPELINE_1.png]
+[LuxRays][18078.188] OpenCL Platform 0: NVIDIA Corporation
+[LuxRays][18078.188] CUDA driver version: 10.20
+[LuxRays][18078.188] CUDA device count: 1
+[LuxRays][18078.188] Device 0 name: Native
+[LuxRays][18078.188] Device 0 type: NATIVE_THREAD
+[LuxRays][18078.188] Device 0 compute units: 1
+[LuxRays][18078.188] Device 0 preferred float vector width: 4
+[LuxRays][18078.188] Device 0 max allocable memory: 17592186044415MBytes
+[LuxRays][18078.188] Device 0 max allocable memory block size: 17592186044415MBytes
+[LuxRays][18078.188] Device 0 has out of core memory support: 0
+[LuxRays][18078.188] Device 1 name: GeForce GTX 1660 Ti
+[LuxRays][18078.188] Device 1 type: OPENCL_GPU
+[LuxRays][18078.188] Device 1 compute units: 24
+[LuxRays][18078.188] Device 1 preferred float vector width: 1
+[LuxRays][18078.188] Device 1 max allocable memory: 6144MBytes
+[LuxRays][18078.188] Device 1 max allocable memory block size: 1536MBytes
+[LuxRays][18078.188] Device 1 has out of core memory support: 0
+[LuxRays][18078.188] Device 2 name: GeForce GTX 1660 Ti
+[LuxRays][18078.188] Device 2 type: CUDA_GPU
+[LuxRays][18078.188] Device 2 compute units: 64
+[LuxRays][18078.188] Device 2 preferred float vector width: 1
+[LuxRays][18078.188] Device 2 max allocable memory: 6144MBytes
+[LuxRays][18078.188] Device 2 max allocable memory block size: 17592186044415MBytes
+[LuxRays][18078.188] Device 2 has out of core memory support: 1
+[LuxRays][18078.188] Creating 12 intersection device(s)
+[LuxRays][18078.188] Allocating intersection device 0: Native (Type = NATIVE_THREAD)
+[LuxRays][18078.188] Allocating intersection device 1: Native (Type = NATIVE_THREAD)
+[LuxRays][18078.188] Allocating intersection device 2: Native (Type = NATIVE_THREAD)
+[LuxRays][18078.188] Allocating intersection device 3: Native (Type = NATIVE_THREAD)
+[LuxRays][18078.188] Allocating intersection device 4: Native (Type = NATIVE_THREAD)
+[LuxRays][18078.188] Allocating intersection device 5: Native (Type = NATIVE_THREAD)
+[LuxRays][18078.188] Allocating intersection device 6: Native (Type = NATIVE_THREAD)
+[LuxRays][18078.188] Allocating intersection device 7: Native (Type = NATIVE_THREAD)
+[LuxRays][18078.188] Allocating intersection device 8: Native (Type = NATIVE_THREAD)
+[LuxRays][18078.188] Allocating intersection device 9: Native (Type = NATIVE_THREAD)
+[LuxRays][18078.188] Allocating intersection device 10: Native (Type = NATIVE_THREAD)
+[LuxRays][18078.188] Allocating intersection device 11: Native (Type = NATIVE_THREAD)
+[LuxCore][18078.188] Configuring 12 CPU render threads
+[LuxRays][18078.188] Preprocessing DataSet
+[LuxRays][18078.188] Total vertex count: 543967
+[LuxRays][18078.188] Total triangle count: 1086862
+[LuxRays][18078.188] Preprocessing DataSet done
+[LuxRays][18078.188] Adding DataSet accelerator: EMBREE
+[LuxRays][18078.188] Total vertex count: 543967
+[LuxRays][18078.188] Total triangle count: 1086862
+[LuxRays][18078.281] EmbreeAccel build time: 92ms
+Session started in 0.2 s
+[LuxCore][18078.391] Film hardware image pipeline
+[LuxCore][18078.391] Film hardware device used: GeForce GTX 1660 Ti OpenCLIntersect (Type: OPENCL_GPU)
+[LuxCore][18078.391]   Device OpenCL version: OpenCL 1.2 CUDA
+[LuxRays][18078.516] [Device GeForce GTX 1660 Ti OpenCLIntersect] IMAGEPIPELINE buffer size: 20212Kbytes
+[LuxRays][18078.531] [Device GeForce GTX 1660 Ti OpenCLIntersect] Merge buffer size: 26950Kbytes
+[LuxRays][18078.531] [MergeSampleBuffersOCL] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][18078.531] [MergeSampleBuffersOCL] Compiling kernels
+[LuxRays][18078.531] [MergeSampleBuffersOCL] Program cached
+[LuxCore][18078.531] [MergeSampleBuffersOCL] Compiling Film_MergeBufferInitialize Kernel
+[LuxCore][18078.531] [MergeSampleBuffersOCL] Compiling Film_MergeRADIANCE_PER_PIXEL_NORMALIZED Kernel
+[LuxCore][18078.531] [MergeSampleBuffersOCL] Compiling Film_MergeRADIANCE_PER_SCREEN_NORMALIZED Kernel
+[LuxCore][18078.531] [MergeSampleBuffersOCL] Compiling Film_MergeBufferFinalize Kernel
+[LuxCore][18078.531] [MergeSampleBuffersOCL] Kernels compilation time: 0ms
+[LuxRays][18078.563] [LinearToneMap] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][18078.563] [LinearToneMap] Compiling kernels
+[LuxRays][18078.563] [LinearToneMap] Program cached
+[LuxCore][18078.563] [AutoLinearToneMap] Compiling LinearToneMap_Apply Kernel
+[LuxCore][18078.563] [LinearToneMap] Kernels compilation time: 0ms
+[LuxRays][18183.953] [LinearToneMap] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][18183.953] [LinearToneMap] Compiling kernels
+[LuxRays][18183.953] [LinearToneMap] Program cached
+[LuxCore][18183.953] [AutoLinearToneMap] Compiling LinearToneMap_Apply Kernel
+[LuxCore][18183.953] [LinearToneMap] Kernels compilation time: 0ms
+[LuxRays][18183.953] [Device GeForce GTX 1660 Ti OpenCLIntersect] Gamma table buffer size: 16Kbytes
+[LuxRays][18183.953] [GammaCorrectionPlugin] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][18183.953] [GammaCorrectionPlugin] Compiling kernels
+[LuxRays][18183.953] [GammaCorrectionPlugin] Program cached
+[LuxCore][18183.953] [GammaCorrectionPlugin] Compiling GammaCorrectionPlugin_Apply Kernel
+[LuxCore][18183.953] [GammaCorrectionPlugin] Kernels compilation time: 0ms
+[LuxCore][18183.969] Noise estimation: first pass
+[LuxCore][18240.985] Samples per pixel 100%, rendering done.
+[LuxCore][18241.031] [GeForce GTX 1660 Ti OpenCLIntersect] Memory used for hardware image pipeline: 47162Kbytes
+[Engine/Final] Finished rendering layer "RenderLayer"
+Saved: 'C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\2_LuxCore\B2_50_12tr.png'
+ Time: 02:44.64 (Saving: 00:00.20)
+
+mean time = 164.64777302742004
+Info: Saved "lux_translucent_curtains.blend"
+
+Info: Saved "lux_translucent_curtains.blend"
+
+start rendering
+==================================================
+[Engine/Final] Rendering layer "RenderLayer"
+[Exporter] Creating session
+[SDL][20195.953] Camera type: perspective
+[SDL][20195.953] Camera position: Point[0.0955119, 28.5975, 13.2955]
+[SDL][20195.953] Camera target: Point[0.148943, 27.6321, 13.04]
+[SDL][20195.953] Camera clipping plane disabled
+[SDL][20196.156] Texture definition: 2162000912904fresnel_helper
+[SDL][20196.156] Texture definition: 2162002436520Color
+[SDL][20196.156] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\Curtain Textures\Buzz_lighter.jpg
+[SDL][20196.172] Texture definition: 2162002438504Bump
+[SDL][20196.172] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\Curtain Textures\Fabric01_nrm.jpg
+[SDL][20196.703] Texture definition: 2162002438504Bump_normalmap
+[SDL][20196.703] Texture definition: 2162000915384Color
+[SDL][20196.703] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-diffuse.jpg
+[SDL][20196.797] Texture definition: 2162000915880Color
+[SDL][20196.797] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-specular.jpg
+[SDL][20196.875] Texture definition: 2162000917864Bump
+[SDL][20196.875] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-normal.jpg
+[SDL][20196.938] Texture definition: 2162000917864Bump_normalmap
+[SDL][20196.938] Texture definition: 2162002439000Color
+[SDL][20196.938] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg
+[SDL][20197.031] Texture definition: 2162002437016Color
+[SDL][20197.031] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-specular.jpg
+[SDL][20197.094] Texture definition: 2162002439496Bump
+[SDL][20197.094] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-normal.jpg
+[SDL][20197.141] Texture definition: 2162002439496Bump_normalmap
+[SDL][20197.141] Material definition: as_crishka__material2161991841560
+[SDL][20197.141] Material definition: as_glass2161991827448
+[SDL][20197.141] Material definition: as_metalic2161991824760
+[SDL][20197.141] Material definition: 2161756353032Material
+[SDL][20197.141] Material definition: 2160967432072Material
+[SDL][20197.141] Material definition: as_translucent__silk2161991829800
+[SDL][20197.141] Material definition: 2161900172024_AREA_LIGHT_MAT
+[SDL][20197.141] Material definition: as_BG_white_brick_wall2161991827112
+[SDL][20197.141] Material definition: asWood2161991842232
+[SDL][20197.141] Material definition: as_red__glass2161991841896
+[SDL][20197.141] Material definition: as_blue__glass2161991838200
+[SDL][20197.141] The 21619001720240 object is a light sources with 2 triangles
+[SDL][20197.141] Scene objects count: 10
+[SDL][20197.141] Light definition: 2161900194344
+[SDL][20197.141] Light definition: __WORLD_BACKGROUND_LIGHT__
+[LuxCore][20197.156] Configuration:
+[LuxCore][20197.156]   light.maxdepth = 16
+[LuxCore][20197.156]   path.maxdepth = 12
+[LuxCore][20197.156]   film.noiseestimation.warmup = 8
+[LuxCore][20197.156]   film.noiseestimation.step = 32
+[LuxCore][20197.156]   sampler.sobol.adaptive.strength = 0.89999997615814209
+[LuxCore][20197.156]   sampler.sobol.bucketsize = 16
+[LuxCore][20197.156]   sampler.sobol.tilesize = 16
+[LuxCore][20197.156]   sampler.sobol.supersampling = 1
+[LuxCore][20197.156]   sampler.sobol.overlapping = 1
+[LuxCore][20197.156]   renderengine.type = "BIDIRCPU"
+[LuxCore][20197.156]   sampler.type = "SOBOL"
+[LuxCore][20197.156]   film.width = 1120
+[LuxCore][20197.156]   film.height = 1540
+[LuxCore][20197.156]   film.filter.type = "BLACKMANHARRIS"
+[LuxCore][20197.156]   film.filter.width = 1.5
+[LuxCore][20197.156]   lightstrategy.type = "LOG_POWER"
+[LuxCore][20197.156]   scene.epsilon.min = 9.9999997473787516e-06
+[LuxCore][20197.156]   scene.epsilon.max = 0.10000000149011612
+[LuxCore][20197.156]   film.opencl.enable = 1
+[LuxCore][20197.156]   film.opencl.device = 0
+[LuxCore][20197.156]   path.clamping.variance.maxvalue = 0.5
+[LuxCore][20197.156]   path.forceblackbackground.enable = 0
+[LuxCore][20197.156]   native.threads.count = 12
+[LuxCore][20197.156]   renderengine.seed = 1
+[LuxCore][20197.156]   film.outputs.0.type = "RGB_IMAGEPIPELINE"
+[LuxCore][20197.156]   film.outputs.0.index = 0
+[LuxCore][20197.156]   film.outputs.0.filename = "RGB_IMAGEPIPELINE_0.png"
+[LuxCore][20197.156]   film.outputs.1.type = "RGB_IMAGEPIPELINE"
+[LuxCore][20197.156]   film.outputs.1.index = 1
+[LuxCore][20197.156]   film.outputs.1.filename = "RGB_IMAGEPIPELINE_1.png"
+[LuxCore][20197.156]   film.imagepipelines.001.0.type = "NOP"
+[LuxCore][20197.156]   film.imagepipelines.001.1.type = "TONEMAP_LINEAR"
+[LuxCore][20197.156]   film.imagepipelines.001.1.scale = 1
+[LuxCore][20197.156]   film.imagepipelines.001.radiancescales.0.enabled = 1
+[LuxCore][20197.156]   film.imagepipelines.001.radiancescales.0.globalscale = 1
+[LuxCore][20197.156]   film.imagepipelines.001.radiancescales.0.rgbscale = 1 1 1
+[LuxCore][20197.156]   film.imagepipelines.001.2.type = "GAMMA_CORRECTION"
+[LuxCore][20197.156]   film.imagepipelines.001.2.value = 2.2000000000000002
+[LuxCore][20197.156]   film.noiseestimation.index = 1
+[LuxCore][20197.156]   film.imagepipelines.000.0.type = "NOP"
+[LuxCore][20197.156]   film.imagepipelines.000.1.type = "TONEMAP_LINEAR"
+[LuxCore][20197.156]   film.imagepipelines.000.1.scale = 1
+[LuxCore][20197.156]   film.imagepipelines.000.radiancescales.0.enabled = 1
+[LuxCore][20197.156]   film.imagepipelines.000.radiancescales.0.globalscale = 1
+[LuxCore][20197.156]   film.imagepipelines.000.radiancescales.0.rgbscale = 1 1 1
+[LuxCore][20197.156]   batch.haltspp = 401
+[LuxCore][20197.156]   batch.halttime = 0
+[LuxCore][20197.156] File Name Resolver Configuration:
+Export took 1.2 s
+[LuxCore][20197.156] Film resolution: 1120x1540
+[SDL][20197.156] Film output definition: RGB_IMAGEPIPELINE [image.png]
+[SDL][20197.156] Image pipeline: film.imagepipelines.000
+[SDL][20197.156] Image pipeline step 0: NOP
+[SDL][20197.156] Image pipeline step 1: TONEMAP_LINEAR
+[SDL][20197.156] Image pipeline: film.imagepipelines.001
+[SDL][20197.156] Image pipeline step 0: NOP
+[SDL][20197.156] Image pipeline step 1: TONEMAP_LINEAR
+[SDL][20197.156] Image pipeline step 2: GAMMA_CORRECTION
+[SDL][20197.156] Film output definition: RGB_IMAGEPIPELINE [RGB_IMAGEPIPELINE_0.png]
+[SDL][20197.156] Film output definition: RGB_IMAGEPIPELINE [RGB_IMAGEPIPELINE_1.png]
+[LuxRays][20197.172] OpenCL Platform 0: NVIDIA Corporation
+[LuxRays][20197.172] CUDA driver version: 10.20
+[LuxRays][20197.172] CUDA device count: 1
+[LuxRays][20197.172] Device 0 name: Native
+[LuxRays][20197.172] Device 0 type: NATIVE_THREAD
+[LuxRays][20197.172] Device 0 compute units: 1
+[LuxRays][20197.172] Device 0 preferred float vector width: 4
+[LuxRays][20197.172] Device 0 max allocable memory: 17592186044415MBytes
+[LuxRays][20197.172] Device 0 max allocable memory block size: 17592186044415MBytes
+[LuxRays][20197.172] Device 0 has out of core memory support: 0
+[LuxRays][20197.172] Device 1 name: GeForce GTX 1660 Ti
+[LuxRays][20197.172] Device 1 type: OPENCL_GPU
+[LuxRays][20197.172] Device 1 compute units: 24
+[LuxRays][20197.172] Device 1 preferred float vector width: 1
+[LuxRays][20197.172] Device 1 max allocable memory: 6144MBytes
+[LuxRays][20197.172] Device 1 max allocable memory block size: 1536MBytes
+[LuxRays][20197.172] Device 1 has out of core memory support: 0
+[LuxRays][20197.172] Device 2 name: GeForce GTX 1660 Ti
+[LuxRays][20197.172] Device 2 type: CUDA_GPU
+[LuxRays][20197.172] Device 2 compute units: 64
+[LuxRays][20197.172] Device 2 preferred float vector width: 1
+[LuxRays][20197.172] Device 2 max allocable memory: 6144MBytes
+[LuxRays][20197.172] Device 2 max allocable memory block size: 17592186044415MBytes
+[LuxRays][20197.172] Device 2 has out of core memory support: 1
+[LuxRays][20197.172] Creating 12 intersection device(s)
+[LuxRays][20197.172] Allocating intersection device 0: Native (Type = NATIVE_THREAD)
+[LuxRays][20197.172] Allocating intersection device 1: Native (Type = NATIVE_THREAD)
+[LuxRays][20197.172] Allocating intersection device 2: Native (Type = NATIVE_THREAD)
+[LuxRays][20197.172] Allocating intersection device 3: Native (Type = NATIVE_THREAD)
+[LuxRays][20197.172] Allocating intersection device 4: Native (Type = NATIVE_THREAD)
+[LuxRays][20197.172] Allocating intersection device 5: Native (Type = NATIVE_THREAD)
+[LuxRays][20197.172] Allocating intersection device 6: Native (Type = NATIVE_THREAD)
+[LuxRays][20197.172] Allocating intersection device 7: Native (Type = NATIVE_THREAD)
+[LuxRays][20197.172] Allocating intersection device 8: Native (Type = NATIVE_THREAD)
+[LuxRays][20197.172] Allocating intersection device 9: Native (Type = NATIVE_THREAD)
+[LuxRays][20197.172] Allocating intersection device 10: Native (Type = NATIVE_THREAD)
+[LuxRays][20197.172] Allocating intersection device 11: Native (Type = NATIVE_THREAD)
+[LuxCore][20197.172] Configuring 12 CPU render threads
+[LuxRays][20197.172] Preprocessing DataSet
+[LuxRays][20197.172] Total vertex count: 543967
+[LuxRays][20197.172] Total triangle count: 1086862
+[LuxRays][20197.172] Preprocessing DataSet done
+[LuxRays][20197.172] Adding DataSet accelerator: EMBREE
+[LuxRays][20197.172] Total vertex count: 543967
+[LuxRays][20197.172] Total triangle count: 1086862
+[LuxRays][20197.266] EmbreeAccel build time: 94ms
+Session started in 0.2 s
+[LuxCore][20197.375] Film hardware image pipeline
+[LuxCore][20197.375] Film hardware device used: GeForce GTX 1660 Ti OpenCLIntersect (Type: OPENCL_GPU)
+[LuxCore][20197.375]   Device OpenCL version: OpenCL 1.2 CUDA
+[LuxRays][20197.485] [Device GeForce GTX 1660 Ti OpenCLIntersect] IMAGEPIPELINE buffer size: 20212Kbytes
+[LuxRays][20197.500] [Device GeForce GTX 1660 Ti OpenCLIntersect] Merge buffer size: 26950Kbytes
+[LuxRays][20197.500] [MergeSampleBuffersOCL] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][20197.500] [MergeSampleBuffersOCL] Compiling kernels
+[LuxRays][20197.500] [MergeSampleBuffersOCL] Program cached
+[LuxCore][20197.500] [MergeSampleBuffersOCL] Compiling Film_MergeBufferInitialize Kernel
+[LuxCore][20197.500] [MergeSampleBuffersOCL] Compiling Film_MergeRADIANCE_PER_PIXEL_NORMALIZED Kernel
+[LuxCore][20197.500] [MergeSampleBuffersOCL] Compiling Film_MergeRADIANCE_PER_SCREEN_NORMALIZED Kernel
+[LuxCore][20197.500] [MergeSampleBuffersOCL] Compiling Film_MergeBufferFinalize Kernel
+[LuxCore][20197.500] [MergeSampleBuffersOCL] Kernels compilation time: 0ms
+[LuxRays][20197.531] [LinearToneMap] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][20197.531] [LinearToneMap] Compiling kernels
+[LuxRays][20197.531] [LinearToneMap] Program cached
+[LuxCore][20197.531] [AutoLinearToneMap] Compiling LinearToneMap_Apply Kernel
+[LuxCore][20197.531] [LinearToneMap] Kernels compilation time: 0ms
+[LuxRays][20302.953] [LinearToneMap] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][20302.953] [LinearToneMap] Compiling kernels
+[LuxRays][20302.953] [LinearToneMap] Program cached
+[LuxCore][20302.953] [AutoLinearToneMap] Compiling LinearToneMap_Apply Kernel
+[LuxCore][20302.953] [LinearToneMap] Kernels compilation time: 0ms
+[LuxRays][20302.953] [Device GeForce GTX 1660 Ti OpenCLIntersect] Gamma table buffer size: 16Kbytes
+[LuxRays][20302.953] [GammaCorrectionPlugin] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][20302.953] [GammaCorrectionPlugin] Compiling kernels
+[LuxRays][20302.953] [GammaCorrectionPlugin] Program cached
+[LuxCore][20302.953] [GammaCorrectionPlugin] Compiling GammaCorrectionPlugin_Apply Kernel
+[LuxCore][20302.953] [GammaCorrectionPlugin] Kernels compilation time: 0ms
+[LuxCore][20302.969] Noise estimation: first pass
+[LuxCore][20413.922] Noise estimation: Error mean = 0.0588018
+[LuxCore][20524.672] Noise estimation: Error mean = 0.0351906
+[LuxCore][20635.422] Noise estimation: Error mean = 0.0243576
+[LuxCore][20746.219] Noise estimation: Error mean = 0.0187782
+[LuxCore][20857.000] Noise estimation: Error mean = 0.0155748
+[LuxCore][20967.750] Noise estimation: Error mean = 0.0132512
+[LuxCore][21078.516] Noise estimation: Error mean = 0.0115289
+[LuxCore][21189.266] Noise estimation: Error mean = 0.0102065
+[LuxCore][21300.016] Noise estimation: Error mean = 0.00912451
+[LuxCore][21410.781] Noise estimation: Error mean = 0.00825604
+[LuxCore][21521.375] Samples per pixel 100%, rendering done.
+[LuxCore][21521.422] [GeForce GTX 1660 Ti OpenCLIntersect] Memory used for hardware image pipeline: 47162Kbytes
+[Engine/Final] Finished rendering layer "RenderLayer"
+Saved: 'C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\2_LuxCore\B2_50_12tr.png'
+ Time: 22:06.03 (Saving: 00:00.20)
+
+mean time = 1326.0427594184875
+==================================================
+[Engine/Final] Rendering layer "RenderLayer"
+[Exporter] Creating session
+[SDL][22712.281] Camera type: perspective
+[SDL][22712.281] Camera position: Point[0.0955119, 28.5975, 13.2955]
+[SDL][22712.281] Camera target: Point[0.148943, 27.6321, 13.04]
+[SDL][22712.281] Camera clipping plane disabled
+[SDL][22712.485] Texture definition: 2162000912904fresnel_helper
+[SDL][22712.485] Texture definition: 2162002436520Color
+[SDL][22712.485] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\Curtain Textures\Buzz_lighter.jpg
+[SDL][22712.500] Texture definition: 2162002438504Bump
+[SDL][22712.500] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\Curtain Textures\Fabric01_nrm.jpg
+[SDL][22713.031] Texture definition: 2162002438504Bump_normalmap
+[SDL][22713.031] Texture definition: 2162000915384Color
+[SDL][22713.031] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-diffuse.jpg
+[SDL][22713.125] Texture definition: 2162000917864Bump
+[SDL][22713.125] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-normal.jpg
+[SDL][22713.203] Texture definition: 2162000917864Bump_normalmap
+[SDL][22713.203] Texture definition: 2162002439000Color
+[SDL][22713.203] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg
+[SDL][22713.281] Texture definition: 2162002437016Color
+[SDL][22713.281] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-specular.jpg
+[SDL][22713.360] Texture definition: 2162002439496Bump
+[SDL][22713.360] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-normal.jpg
+[SDL][22713.406] Texture definition: 2162002439496Bump_normalmap
+[SDL][22713.406] Material definition: as_crishka__material2161991841560
+[SDL][22713.406] Material definition: as_glass2161991827448
+[SDL][22713.406] Material definition: as_metalic2161991824760
+[SDL][22713.406] Material definition: 2161756353032Material
+[SDL][22713.406] Material definition: 2160967432072Material
+[SDL][22713.406] Material definition: as_translucent__silk2161991829800
+[SDL][22713.406] Material definition: 2161900172024_AREA_LIGHT_MAT
+[SDL][22713.406] Material definition: as_BG_white_brick_wall2161991827112
+[SDL][22713.406] Material definition: asWood2161991842232
+[SDL][22713.406] Material definition: as_red__glass2161991841896
+[SDL][22713.406] Material definition: as_blue__glass2161991838200
+[SDL][22713.406] The 21619001720240 object is a light sources with 2 triangles
+[SDL][22713.406] Scene objects count: 10
+[SDL][22713.406] Light definition: 2161900194344
+[SDL][22713.406] Light definition: __WORLD_BACKGROUND_LIGHT__
+[LuxCore][22713.422] Configuration:
+[LuxCore][22713.422]   light.maxdepth = 16
+[LuxCore][22713.422]   path.maxdepth = 12
+[LuxCore][22713.422]   film.noiseestimation.warmup = 8
+[LuxCore][22713.422]   film.noiseestimation.step = 32
+[LuxCore][22713.422]   sampler.sobol.adaptive.strength = 0.89999997615814209
+[LuxCore][22713.422]   sampler.sobol.bucketsize = 16
+[LuxCore][22713.422]   sampler.sobol.tilesize = 16
+[LuxCore][22713.422]   sampler.sobol.supersampling = 1
+[LuxCore][22713.422]   sampler.sobol.overlapping = 1
+[LuxCore][22713.422]   renderengine.type = "BIDIRCPU"
+[LuxCore][22713.422]   sampler.type = "SOBOL"
+[LuxCore][22713.422]   film.width = 1120
+[LuxCore][22713.422]   film.height = 1540
+[LuxCore][22713.422]   film.filter.type = "BLACKMANHARRIS"
+[LuxCore][22713.422]   film.filter.width = 1.5
+[LuxCore][22713.422]   lightstrategy.type = "LOG_POWER"
+[LuxCore][22713.422]   scene.epsilon.min = 9.9999997473787516e-06
+[LuxCore][22713.422]   scene.epsilon.max = 0.10000000149011612
+[LuxCore][22713.422]   film.opencl.enable = 1
+[LuxCore][22713.422]   film.opencl.device = 0
+[LuxCore][22713.422]   path.clamping.variance.maxvalue = 0.5
+[LuxCore][22713.422]   path.forceblackbackground.enable = 0
+[LuxCore][22713.422]   native.threads.count = 12
+[LuxCore][22713.422]   renderengine.seed = 1
+[LuxCore][22713.422]   film.outputs.0.type = "RGB_IMAGEPIPELINE"
+[LuxCore][22713.422]   film.outputs.0.index = 0
+[LuxCore][22713.422]   film.outputs.0.filename = "RGB_IMAGEPIPELINE_0.png"
+[LuxCore][22713.422]   film.outputs.1.type = "RGB_IMAGEPIPELINE"
+[LuxCore][22713.422]   film.outputs.1.index = 1
+[LuxCore][22713.422]   film.outputs.1.filename = "RGB_IMAGEPIPELINE_1.png"
+[LuxCore][22713.422]   film.imagepipelines.001.0.type = "NOP"
+[LuxCore][22713.422]   film.imagepipelines.001.1.type = "TONEMAP_LINEAR"
+[LuxCore][22713.422]   film.imagepipelines.001.1.scale = 1
+[LuxCore][22713.422]   film.imagepipelines.001.radiancescales.0.enabled = 1
+[LuxCore][22713.422]   film.imagepipelines.001.radiancescales.0.globalscale = 1
+[LuxCore][22713.422]   film.imagepipelines.001.radiancescales.0.rgbscale = 1 1 1
+[LuxCore][22713.422]   film.imagepipelines.001.2.type = "GAMMA_CORRECTION"
+[LuxCore][22713.422]   film.imagepipelines.001.2.value = 2.2000000000000002
+[LuxCore][22713.422]   film.noiseestimation.index = 1
+[LuxCore][22713.422]   film.imagepipelines.000.0.type = "NOP"
+[LuxCore][22713.422]   film.imagepipelines.000.1.type = "TONEMAP_LINEAR"
+[LuxCore][22713.422]   film.imagepipelines.000.1.scale = 1
+[LuxCore][22713.422]   film.imagepipelines.000.radiancescales.0.enabled = 1
+[LuxCore][22713.422]   film.imagepipelines.000.radiancescales.0.globalscale = 1
+[LuxCore][22713.422]   film.imagepipelines.000.radiancescales.0.rgbscale = 1 1 1
+[LuxCore][22713.422]   batch.haltspp = 401
+[LuxCore][22713.422]   batch.halttime = 0
+[LuxCore][22713.422] File Name Resolver Configuration:
+Export took 1.1 s
+[LuxCore][22713.422] Film resolution: 1120x1540
+[SDL][22713.422] Film output definition: RGB_IMAGEPIPELINE [image.png]
+[SDL][22713.422] Image pipeline: film.imagepipelines.000
+[SDL][22713.422] Image pipeline step 0: NOP
+[SDL][22713.422] Image pipeline step 1: TONEMAP_LINEAR
+[SDL][22713.422] Image pipeline: film.imagepipelines.001
+[SDL][22713.422] Image pipeline step 0: NOP
+[SDL][22713.422] Image pipeline step 1: TONEMAP_LINEAR
+[SDL][22713.422] Image pipeline step 2: GAMMA_CORRECTION
+[SDL][22713.422] Film output definition: RGB_IMAGEPIPELINE [RGB_IMAGEPIPELINE_0.png]
+[SDL][22713.422] Film output definition: RGB_IMAGEPIPELINE [RGB_IMAGEPIPELINE_1.png]
+[LuxRays][22713.438] OpenCL Platform 0: NVIDIA Corporation
+[LuxRays][22713.438] CUDA driver version: 10.20
+[LuxRays][22713.438] CUDA device count: 1
+[LuxRays][22713.438] Device 0 name: Native
+[LuxRays][22713.438] Device 0 type: NATIVE_THREAD
+[LuxRays][22713.438] Device 0 compute units: 1
+[LuxRays][22713.438] Device 0 preferred float vector width: 4
+[LuxRays][22713.438] Device 0 max allocable memory: 17592186044415MBytes
+[LuxRays][22713.438] Device 0 max allocable memory block size: 17592186044415MBytes
+[LuxRays][22713.438] Device 0 has out of core memory support: 0
+[LuxRays][22713.438] Device 1 name: GeForce GTX 1660 Ti
+[LuxRays][22713.438] Device 1 type: OPENCL_GPU
+[LuxRays][22713.438] Device 1 compute units: 24
+[LuxRays][22713.438] Device 1 preferred float vector width: 1
+[LuxRays][22713.438] Device 1 max allocable memory: 6144MBytes
+[LuxRays][22713.438] Device 1 max allocable memory block size: 1536MBytes
+[LuxRays][22713.438] Device 1 has out of core memory support: 0
+[LuxRays][22713.438] Device 2 name: GeForce GTX 1660 Ti
+[LuxRays][22713.438] Device 2 type: CUDA_GPU
+[LuxRays][22713.438] Device 2 compute units: 64
+[LuxRays][22713.438] Device 2 preferred float vector width: 1
+[LuxRays][22713.438] Device 2 max allocable memory: 6144MBytes
+[LuxRays][22713.438] Device 2 max allocable memory block size: 17592186044415MBytes
+[LuxRays][22713.438] Device 2 has out of core memory support: 1
+[LuxRays][22713.438] Creating 12 intersection device(s)
+[LuxRays][22713.438] Allocating intersection device 0: Native (Type = NATIVE_THREAD)
+[LuxRays][22713.438] Allocating intersection device 1: Native (Type = NATIVE_THREAD)
+[LuxRays][22713.438] Allocating intersection device 2: Native (Type = NATIVE_THREAD)
+[LuxRays][22713.438] Allocating intersection device 3: Native (Type = NATIVE_THREAD)
+[LuxRays][22713.438] Allocating intersection device 4: Native (Type = NATIVE_THREAD)
+[LuxRays][22713.438] Allocating intersection device 5: Native (Type = NATIVE_THREAD)
+[LuxRays][22713.438] Allocating intersection device 6: Native (Type = NATIVE_THREAD)
+[LuxRays][22713.438] Allocating intersection device 7: Native (Type = NATIVE_THREAD)
+[LuxRays][22713.438] Allocating intersection device 8: Native (Type = NATIVE_THREAD)
+[LuxRays][22713.438] Allocating intersection device 9: Native (Type = NATIVE_THREAD)
+[LuxRays][22713.438] Allocating intersection device 10: Native (Type = NATIVE_THREAD)
+[LuxRays][22713.438] Allocating intersection device 11: Native (Type = NATIVE_THREAD)
+[LuxCore][22713.438] Configuring 12 CPU render threads
+[LuxRays][22713.438] Preprocessing DataSet
+[LuxRays][22713.438] Total vertex count: 543967
+[LuxRays][22713.438] Total triangle count: 1086862
+[LuxRays][22713.438] Preprocessing DataSet done
+[LuxRays][22713.438] Adding DataSet accelerator: EMBREE
+[LuxRays][22713.438] Total vertex count: 543967
+[LuxRays][22713.438] Total triangle count: 1086862
+[LuxRays][22713.531] EmbreeAccel build time: 92ms
+Session started in 0.2 s
+[LuxCore][22713.641] Film hardware image pipeline
+[LuxCore][22713.641] Film hardware device used: GeForce GTX 1660 Ti OpenCLIntersect (Type: OPENCL_GPU)
+[LuxCore][22713.641]   Device OpenCL version: OpenCL 1.2 CUDA
+[LuxRays][22713.766] [Device GeForce GTX 1660 Ti OpenCLIntersect] IMAGEPIPELINE buffer size: 20212Kbytes
+[LuxRays][22713.766] [Device GeForce GTX 1660 Ti OpenCLIntersect] Merge buffer size: 26950Kbytes
+[LuxRays][22713.766] [MergeSampleBuffersOCL] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][22713.766] [MergeSampleBuffersOCL] Compiling kernels
+[LuxRays][22713.766] [MergeSampleBuffersOCL] Program cached
+[LuxCore][22713.766] [MergeSampleBuffersOCL] Compiling Film_MergeBufferInitialize Kernel
+[LuxCore][22713.766] [MergeSampleBuffersOCL] Compiling Film_MergeRADIANCE_PER_PIXEL_NORMALIZED Kernel
+[LuxCore][22713.766] [MergeSampleBuffersOCL] Compiling Film_MergeRADIANCE_PER_SCREEN_NORMALIZED Kernel
+[LuxCore][22713.766] [MergeSampleBuffersOCL] Compiling Film_MergeBufferFinalize Kernel
+[LuxCore][22713.766] [MergeSampleBuffersOCL] Kernels compilation time: 0ms
+[LuxRays][22713.797] [LinearToneMap] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][22713.797] [LinearToneMap] Compiling kernels
+[LuxRays][22713.797] [LinearToneMap] Program cached
+[LuxCore][22713.797] [AutoLinearToneMap] Compiling LinearToneMap_Apply Kernel
+[LuxCore][22713.797] [LinearToneMap] Kernels compilation time: 0ms
+[LuxCore][22729.313] [GeForce GTX 1660 Ti OpenCLIntersect] Memory used for hardware image pipeline: 47162Kbytes
+==================================================
+[Engine/Final] Rendering layer "RenderLayer"
+[Exporter] Creating session
+[SDL][22752.672] Camera type: perspective
+[SDL][22752.672] Camera position: Point[0.0955119, 28.5975, 13.2955]
+[SDL][22752.672] Camera target: Point[0.148943, 27.6321, 13.04]
+[SDL][22752.672] Camera clipping plane disabled
+[SDL][22752.891] Texture definition: 2162000912904fresnel_helper
+[SDL][22752.891] Texture definition: 2162002436520Color
+[SDL][22752.891] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\Curtain Textures\Buzz_lighter.jpg
+[SDL][22752.906] Texture definition: 2162002438504Bump
+[SDL][22752.906] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\Curtain Textures\Fabric01_nrm.jpg
+[SDL][22753.438] Texture definition: 2162002438504Bump_normalmap
+[SDL][22753.438] Texture definition: 2162000915384Color
+[SDL][22753.438] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-diffuse.jpg
+[SDL][22753.531] Texture definition: 2162000915880Color
+[SDL][22753.531] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-specular.jpg
+[SDL][22753.594] Texture definition: 2162000917864Bump
+[SDL][22753.594] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-normal.jpg
+[SDL][22753.719] Texture definition: 2162000917864Bump_normalmap
+[SDL][22753.719] Texture definition: 2162002439000Color
+[SDL][22753.719] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg
+[SDL][22753.797] Texture definition: 2162002437016Color
+[SDL][22753.797] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-specular.jpg
+[SDL][22753.875] Texture definition: 2162002439496Bump
+[SDL][22753.875] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-normal.jpg
+[SDL][22753.922] Texture definition: 2162002439496Bump_normalmap
+[SDL][22753.922] Material definition: as_crishka__material2161991841560
+[SDL][22753.922] Material definition: as_glass2161991827448
+[SDL][22753.922] Material definition: as_metalic2161991824760
+[SDL][22753.922] Material definition: 2161756353032Material
+[SDL][22753.922] Material definition: 2160967432072Material
+[SDL][22753.922] Material definition: as_translucent__silk2161991829800
+[SDL][22753.922] Material definition: 2161900172024_AREA_LIGHT_MAT
+[SDL][22753.922] Material definition: as_BG_white_brick_wall2161991827112
+[SDL][22753.922] Material definition: asWood2161991842232
+[SDL][22753.922] Material definition: as_red__glass2161991841896
+[SDL][22753.922] Material definition: as_blue__glass2161991838200
+[SDL][22753.922] The 21619001720240 object is a light sources with 2 triangles
+[SDL][22753.922] Scene objects count: 10
+[SDL][22753.922] Light definition: 2161900194344
+[SDL][22753.922] Light definition: __WORLD_BACKGROUND_LIGHT__
+[LuxCore][22753.938] Configuration:
+[LuxCore][22753.938]   light.maxdepth = 16
+[LuxCore][22753.938]   path.maxdepth = 12
+[LuxCore][22753.938]   film.noiseestimation.warmup = 8
+[LuxCore][22753.938]   film.noiseestimation.step = 32
+[LuxCore][22753.938]   sampler.sobol.adaptive.strength = 0.89999997615814209
+[LuxCore][22753.938]   sampler.sobol.bucketsize = 16
+[LuxCore][22753.938]   sampler.sobol.tilesize = 16
+[LuxCore][22753.938]   sampler.sobol.supersampling = 1
+[LuxCore][22753.938]   sampler.sobol.overlapping = 1
+[LuxCore][22753.938]   renderengine.type = "BIDIRCPU"
+[LuxCore][22753.938]   sampler.type = "SOBOL"
+[LuxCore][22753.938]   film.width = 1120
+[LuxCore][22753.938]   film.height = 1540
+[LuxCore][22753.938]   film.filter.type = "BLACKMANHARRIS"
+[LuxCore][22753.938]   film.filter.width = 1.5
+[LuxCore][22753.938]   lightstrategy.type = "LOG_POWER"
+[LuxCore][22753.938]   scene.epsilon.min = 9.9999997473787516e-06
+[LuxCore][22753.938]   scene.epsilon.max = 0.10000000149011612
+[LuxCore][22753.938]   film.opencl.enable = 1
+[LuxCore][22753.938]   film.opencl.device = 0
+[LuxCore][22753.938]   path.clamping.variance.maxvalue = 0.5
+[LuxCore][22753.938]   path.forceblackbackground.enable = 0
+[LuxCore][22753.938]   native.threads.count = 12
+[LuxCore][22753.938]   renderengine.seed = 1
+[LuxCore][22753.938]   film.outputs.0.type = "RGB_IMAGEPIPELINE"
+[LuxCore][22753.938]   film.outputs.0.index = 0
+[LuxCore][22753.938]   film.outputs.0.filename = "RGB_IMAGEPIPELINE_0.png"
+[LuxCore][22753.938]   film.outputs.1.type = "RGB_IMAGEPIPELINE"
+[LuxCore][22753.938]   film.outputs.1.index = 1
+[LuxCore][22753.938]   film.outputs.1.filename = "RGB_IMAGEPIPELINE_1.png"
+[LuxCore][22753.938]   film.imagepipelines.001.0.type = "NOP"
+[LuxCore][22753.938]   film.imagepipelines.001.1.type = "TONEMAP_LINEAR"
+[LuxCore][22753.938]   film.imagepipelines.001.1.scale = 1
+[LuxCore][22753.938]   film.imagepipelines.001.radiancescales.0.enabled = 1
+[LuxCore][22753.938]   film.imagepipelines.001.radiancescales.0.globalscale = 1
+[LuxCore][22753.938]   film.imagepipelines.001.radiancescales.0.rgbscale = 1 1 1
+[LuxCore][22753.938]   film.imagepipelines.001.2.type = "GAMMA_CORRECTION"
+[LuxCore][22753.938]   film.imagepipelines.001.2.value = 2.2000000000000002
+[LuxCore][22753.938]   film.noiseestimation.index = 1
+[LuxCore][22753.938]   film.imagepipelines.000.0.type = "NOP"
+[LuxCore][22753.938]   film.imagepipelines.000.1.type = "TONEMAP_LINEAR"
+[LuxCore][22753.938]   film.imagepipelines.000.1.scale = 1
+[LuxCore][22753.938]   film.imagepipelines.000.radiancescales.0.enabled = 1
+[LuxCore][22753.938]   film.imagepipelines.000.radiancescales.0.globalscale = 1
+[LuxCore][22753.938]   film.imagepipelines.000.radiancescales.0.rgbscale = 1 1 1
+[LuxCore][22753.938]   batch.haltspp = 401
+[LuxCore][22753.938]   batch.halttime = 0
+[LuxCore][22753.938] File Name Resolver Configuration:
+Export took 1.3 s
+[LuxCore][22753.938] Film resolution: 1120x1540
+[SDL][22753.938] Film output definition: RGB_IMAGEPIPELINE [image.png]
+[SDL][22753.938] Image pipeline: film.imagepipelines.000
+[SDL][22753.938] Image pipeline step 0: NOP
+[SDL][22753.938] Image pipeline step 1: TONEMAP_LINEAR
+[SDL][22753.938] Image pipeline: film.imagepipelines.001
+[SDL][22753.938] Image pipeline step 0: NOP
+[SDL][22753.938] Image pipeline step 1: TONEMAP_LINEAR
+[SDL][22753.938] Image pipeline step 2: GAMMA_CORRECTION
+[SDL][22753.938] Film output definition: RGB_IMAGEPIPELINE [RGB_IMAGEPIPELINE_0.png]
+[SDL][22753.938] Film output definition: RGB_IMAGEPIPELINE [RGB_IMAGEPIPELINE_1.png]
+[LuxRays][22753.953] OpenCL Platform 0: NVIDIA Corporation
+[LuxRays][22753.953] CUDA driver version: 10.20
+[LuxRays][22753.953] CUDA device count: 1
+[LuxRays][22753.953] Device 0 name: Native
+[LuxRays][22753.953] Device 0 type: NATIVE_THREAD
+[LuxRays][22753.953] Device 0 compute units: 1
+[LuxRays][22753.953] Device 0 preferred float vector width: 4
+[LuxRays][22753.953] Device 0 max allocable memory: 17592186044415MBytes
+[LuxRays][22753.953] Device 0 max allocable memory block size: 17592186044415MBytes
+[LuxRays][22753.953] Device 0 has out of core memory support: 0
+[LuxRays][22753.953] Device 1 name: GeForce GTX 1660 Ti
+[LuxRays][22753.953] Device 1 type: OPENCL_GPU
+[LuxRays][22753.953] Device 1 compute units: 24
+[LuxRays][22753.953] Device 1 preferred float vector width: 1
+[LuxRays][22753.953] Device 1 max allocable memory: 6144MBytes
+[LuxRays][22753.953] Device 1 max allocable memory block size: 1536MBytes
+[LuxRays][22753.953] Device 1 has out of core memory support: 0
+[LuxRays][22753.953] Device 2 name: GeForce GTX 1660 Ti
+[LuxRays][22753.953] Device 2 type: CUDA_GPU
+[LuxRays][22753.953] Device 2 compute units: 64
+[LuxRays][22753.953] Device 2 preferred float vector width: 1
+[LuxRays][22753.953] Device 2 max allocable memory: 6144MBytes
+[LuxRays][22753.953] Device 2 max allocable memory block size: 17592186044415MBytes
+[LuxRays][22753.953] Device 2 has out of core memory support: 1
+[LuxRays][22753.953] Creating 12 intersection device(s)
+[LuxRays][22753.953] Allocating intersection device 0: Native (Type = NATIVE_THREAD)
+[LuxRays][22753.953] Allocating intersection device 1: Native (Type = NATIVE_THREAD)
+[LuxRays][22753.953] Allocating intersection device 2: Native (Type = NATIVE_THREAD)
+[LuxRays][22753.953] Allocating intersection device 3: Native (Type = NATIVE_THREAD)
+[LuxRays][22753.953] Allocating intersection device 4: Native (Type = NATIVE_THREAD)
+[LuxRays][22753.953] Allocating intersection device 5: Native (Type = NATIVE_THREAD)
+[LuxRays][22753.953] Allocating intersection device 6: Native (Type = NATIVE_THREAD)
+[LuxRays][22753.953] Allocating intersection device 7: Native (Type = NATIVE_THREAD)
+[LuxRays][22753.953] Allocating intersection device 8: Native (Type = NATIVE_THREAD)
+[LuxRays][22753.953] Allocating intersection device 9: Native (Type = NATIVE_THREAD)
+[LuxRays][22753.953] Allocating intersection device 10: Native (Type = NATIVE_THREAD)
+[LuxRays][22753.953] Allocating intersection device 11: Native (Type = NATIVE_THREAD)
+[LuxCore][22753.953] Configuring 12 CPU render threads
+[LuxRays][22753.953] Preprocessing DataSet
+[LuxRays][22753.953] Total vertex count: 543967
+[LuxRays][22753.953] Total triangle count: 1086862
+[LuxRays][22753.953] Preprocessing DataSet done
+[LuxRays][22753.953] Adding DataSet accelerator: EMBREE
+[LuxRays][22753.953] Total vertex count: 543967
+[LuxRays][22753.953] Total triangle count: 1086862
+[LuxRays][22754.047] EmbreeAccel build time: 93ms
+Session started in 0.2 s
+[LuxCore][22754.156] Film hardware image pipeline
+[LuxCore][22754.156] Film hardware device used: GeForce GTX 1660 Ti OpenCLIntersect (Type: OPENCL_GPU)
+[LuxCore][22754.156]   Device OpenCL version: OpenCL 1.2 CUDA
+[LuxRays][22754.266] [Device GeForce GTX 1660 Ti OpenCLIntersect] IMAGEPIPELINE buffer size: 20212Kbytes
+[LuxRays][22754.281] [Device GeForce GTX 1660 Ti OpenCLIntersect] Merge buffer size: 26950Kbytes
+[LuxRays][22754.281] [MergeSampleBuffersOCL] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][22754.281] [MergeSampleBuffersOCL] Compiling kernels
+[LuxRays][22754.281] [MergeSampleBuffersOCL] Program cached
+[LuxCore][22754.281] [MergeSampleBuffersOCL] Compiling Film_MergeBufferInitialize Kernel
+[LuxCore][22754.281] [MergeSampleBuffersOCL] Compiling Film_MergeRADIANCE_PER_PIXEL_NORMALIZED Kernel
+[LuxCore][22754.281] [MergeSampleBuffersOCL] Compiling Film_MergeRADIANCE_PER_SCREEN_NORMALIZED Kernel
+[LuxCore][22754.281] [MergeSampleBuffersOCL] Compiling Film_MergeBufferFinalize Kernel
+[LuxCore][22754.281] [MergeSampleBuffersOCL] Kernels compilation time: 0ms
+[LuxRays][22754.313] [LinearToneMap] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][22754.313] [LinearToneMap] Compiling kernels
+[LuxRays][22754.313] [LinearToneMap] Program cached
+[LuxCore][22754.313] [AutoLinearToneMap] Compiling LinearToneMap_Apply Kernel
+[LuxCore][22754.313] [LinearToneMap] Kernels compilation time: 0ms
+[LuxRays][22863.953] [LinearToneMap] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][22863.953] [LinearToneMap] Compiling kernels
+[LuxRays][22863.953] [LinearToneMap] Program cached
+[LuxCore][22863.953] [AutoLinearToneMap] Compiling LinearToneMap_Apply Kernel
+[LuxCore][22863.953] [LinearToneMap] Kernels compilation time: 0ms
+[LuxRays][22863.953] [Device GeForce GTX 1660 Ti OpenCLIntersect] Gamma table buffer size: 16Kbytes
+[LuxRays][22863.953] [GammaCorrectionPlugin] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][22863.953] [GammaCorrectionPlugin] Compiling kernels
+[LuxRays][22863.969] [GammaCorrectionPlugin] Program cached
+[LuxCore][22863.969] [GammaCorrectionPlugin] Compiling GammaCorrectionPlugin_Apply Kernel
+[LuxCore][22863.969] [GammaCorrectionPlugin] Kernels compilation time: 16ms
+[LuxCore][22863.969] Noise estimation: first pass
+[LuxCore][22870.938] [GeForce GTX 1660 Ti OpenCLIntersect] Memory used for hardware image pipeline: 47162Kbytes
+==================================================
+[Engine/Final] Rendering layer "RenderLayer"
+[Exporter] Creating session
+[SDL][22917.578] Camera type: perspective
+[SDL][22917.578] Camera position: Point[0.0955119, 28.5975, 13.2955]
+[SDL][22917.578] Camera target: Point[0.148943, 27.6321, 13.04]
+[SDL][22917.578] Camera clipping plane disabled
+[SDL][22917.781] Texture definition: 2162000912904fresnel_helper
+[SDL][22917.781] Texture definition: 2162002436520Color
+[SDL][22917.781] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\Curtain Textures\Buzz_lighter.jpg
+[SDL][22917.813] Texture definition: 2162002438504Bump
+[SDL][22917.813] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\Curtain Textures\Fabric01_nrm.jpg
+[SDL][22918.328] Texture definition: 2162002438504Bump_normalmap
+[SDL][22918.328] Texture definition: 2162000915384Color
+[SDL][22918.328] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-diffuse.jpg
+[SDL][22918.438] Texture definition: 2162000915880Color
+[SDL][22918.438] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-specular.jpg
+[SDL][22918.500] Texture definition: 2162000917864Bump
+[SDL][22918.500] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-normal.jpg
+[SDL][22918.625] Texture definition: 2162000917864Bump_normalmap
+[SDL][22918.625] Texture definition: 2162002439000Color
+[SDL][22918.625] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg
+[SDL][22918.703] Texture definition: 2162002437016Color
+[SDL][22918.703] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-specular.jpg
+[SDL][22918.781] Texture definition: 2162002439496Bump
+[SDL][22918.781] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-normal.jpg
+[SDL][22918.828] Texture definition: 2162002439496Bump_normalmap
+[SDL][22918.828] Material definition: as_crishka__material2161991841560
+[SDL][22918.828] Material definition: as_glass2161991827448
+[SDL][22918.828] Material definition: as_metalic2161991824760
+[SDL][22918.828] Material definition: 2161756353032Material
+[SDL][22918.828] Material definition: 2160967432072Material
+[SDL][22918.828] Material definition: as_translucent__silk2161991829800
+[SDL][22918.828] Material definition: 2161900172024_AREA_LIGHT_MAT
+[SDL][22918.828] Material definition: as_BG_white_brick_wall2161991827112
+[SDL][22918.828] Material definition: asWood2161991842232
+[SDL][22918.828] Material definition: as_red__glass2161991841896
+[SDL][22918.828] Material definition: as_blue__glass2161991838200
+[SDL][22918.828] The 21619001720240 object is a light sources with 2 triangles
+[SDL][22918.828] Scene objects count: 10
+[SDL][22918.828] Light definition: 2161900194344
+[SDL][22918.828] Light definition: __WORLD_BACKGROUND_LIGHT__
+[LuxCore][22918.844] Configuration:
+[LuxCore][22918.844]   light.maxdepth = 16
+[LuxCore][22918.844]   path.maxdepth = 12
+[LuxCore][22918.844]   film.noiseestimation.warmup = 8
+[LuxCore][22918.844]   film.noiseestimation.step = 32
+[LuxCore][22918.844]   sampler.sobol.adaptive.strength = 0.89999997615814209
+[LuxCore][22918.844]   sampler.sobol.bucketsize = 16
+[LuxCore][22918.844]   sampler.sobol.tilesize = 16
+[LuxCore][22918.844]   sampler.sobol.supersampling = 1
+[LuxCore][22918.844]   sampler.sobol.overlapping = 1
+[LuxCore][22918.844]   renderengine.type = "BIDIRCPU"
+[LuxCore][22918.844]   sampler.type = "SOBOL"
+[LuxCore][22918.844]   film.width = 1120
+[LuxCore][22918.844]   film.height = 1540
+[LuxCore][22918.844]   film.filter.type = "BLACKMANHARRIS"
+[LuxCore][22918.844]   film.filter.width = 1.5
+[LuxCore][22918.844]   lightstrategy.type = "LOG_POWER"
+[LuxCore][22918.844]   scene.epsilon.min = 9.9999997473787516e-06
+[LuxCore][22918.844]   scene.epsilon.max = 0.10000000149011612
+[LuxCore][22918.844]   film.opencl.enable = 1
+[LuxCore][22918.844]   film.opencl.device = 0
+[LuxCore][22918.844]   path.clamping.variance.maxvalue = 0.5
+[LuxCore][22918.844]   path.forceblackbackground.enable = 0
+[LuxCore][22918.844]   native.threads.count = 12
+[LuxCore][22918.844]   renderengine.seed = 1
+[LuxCore][22918.844]   film.outputs.0.type = "RGB_IMAGEPIPELINE"
+[LuxCore][22918.844]   film.outputs.0.index = 0
+[LuxCore][22918.844]   film.outputs.0.filename = "RGB_IMAGEPIPELINE_0.png"
+[LuxCore][22918.844]   film.outputs.1.type = "RGB_IMAGEPIPELINE"
+[LuxCore][22918.844]   film.outputs.1.index = 1
+[LuxCore][22918.844]   film.outputs.1.filename = "RGB_IMAGEPIPELINE_1.png"
+[LuxCore][22918.844]   film.imagepipelines.001.0.type = "NOP"
+[LuxCore][22918.844]   film.imagepipelines.001.1.type = "TONEMAP_LINEAR"
+[LuxCore][22918.844]   film.imagepipelines.001.1.scale = 1
+[LuxCore][22918.844]   film.imagepipelines.001.radiancescales.0.enabled = 1
+[LuxCore][22918.844]   film.imagepipelines.001.radiancescales.0.globalscale = 1
+[LuxCore][22918.844]   film.imagepipelines.001.radiancescales.0.rgbscale = 1 1 1
+[LuxCore][22918.844]   film.imagepipelines.001.2.type = "GAMMA_CORRECTION"
+[LuxCore][22918.844]   film.imagepipelines.001.2.value = 2.2000000000000002
+[LuxCore][22918.844]   film.noiseestimation.index = 1
+[LuxCore][22918.844]   film.imagepipelines.000.0.type = "NOP"
+[LuxCore][22918.844]   film.imagepipelines.000.1.type = "TONEMAP_LINEAR"
+[LuxCore][22918.844]   film.imagepipelines.000.1.scale = 1
+[LuxCore][22918.844]   film.imagepipelines.000.radiancescales.0.enabled = 1
+[LuxCore][22918.844]   film.imagepipelines.000.radiancescales.0.globalscale = 1
+[LuxCore][22918.844]   film.imagepipelines.000.radiancescales.0.rgbscale = 1 1 1
+[LuxCore][22918.844]   batch.haltspp = 401
+[LuxCore][22918.844]   batch.halttime = 0
+[LuxCore][22918.844] File Name Resolver Configuration:
+Export took 1.3 s
+[LuxCore][22918.844] Film resolution: 1120x1540
+[SDL][22918.844] Film output definition: RGB_IMAGEPIPELINE [image.png]
+[SDL][22918.844] Image pipeline: film.imagepipelines.000
+[SDL][22918.844] Image pipeline step 0: NOP
+[SDL][22918.844] Image pipeline step 1: TONEMAP_LINEAR
+[SDL][22918.844] Image pipeline: film.imagepipelines.001
+[SDL][22918.844] Image pipeline step 0: NOP
+[SDL][22918.844] Image pipeline step 1: TONEMAP_LINEAR
+[SDL][22918.844] Image pipeline step 2: GAMMA_CORRECTION
+[SDL][22918.844] Film output definition: RGB_IMAGEPIPELINE [RGB_IMAGEPIPELINE_0.png]
+[SDL][22918.844] Film output definition: RGB_IMAGEPIPELINE [RGB_IMAGEPIPELINE_1.png]
+[LuxRays][22918.860] OpenCL Platform 0: NVIDIA Corporation
+[LuxRays][22918.860] CUDA driver version: 10.20
+[LuxRays][22918.860] CUDA device count: 1
+[LuxRays][22918.860] Device 0 name: Native
+[LuxRays][22918.860] Device 0 type: NATIVE_THREAD
+[LuxRays][22918.860] Device 0 compute units: 1
+[LuxRays][22918.860] Device 0 preferred float vector width: 4
+[LuxRays][22918.860] Device 0 max allocable memory: 17592186044415MBytes
+[LuxRays][22918.860] Device 0 max allocable memory block size: 17592186044415MBytes
+[LuxRays][22918.860] Device 0 has out of core memory support: 0
+[LuxRays][22918.860] Device 1 name: GeForce GTX 1660 Ti
+[LuxRays][22918.860] Device 1 type: OPENCL_GPU
+[LuxRays][22918.860] Device 1 compute units: 24
+[LuxRays][22918.860] Device 1 preferred float vector width: 1
+[LuxRays][22918.860] Device 1 max allocable memory: 6144MBytes
+[LuxRays][22918.860] Device 1 max allocable memory block size: 1536MBytes
+[LuxRays][22918.860] Device 1 has out of core memory support: 0
+[LuxRays][22918.860] Device 2 name: GeForce GTX 1660 Ti
+[LuxRays][22918.860] Device 2 type: CUDA_GPU
+[LuxRays][22918.860] Device 2 compute units: 64
+[LuxRays][22918.860] Device 2 preferred float vector width: 1
+[LuxRays][22918.860] Device 2 max allocable memory: 6144MBytes
+[LuxRays][22918.860] Device 2 max allocable memory block size: 17592186044415MBytes
+[LuxRays][22918.860] Device 2 has out of core memory support: 1
+[LuxRays][22918.860] Creating 12 intersection device(s)
+[LuxRays][22918.860] Allocating intersection device 0: Native (Type = NATIVE_THREAD)
+[LuxRays][22918.860] Allocating intersection device 1: Native (Type = NATIVE_THREAD)
+[LuxRays][22918.860] Allocating intersection device 2: Native (Type = NATIVE_THREAD)
+[LuxRays][22918.860] Allocating intersection device 3: Native (Type = NATIVE_THREAD)
+[LuxRays][22918.860] Allocating intersection device 4: Native (Type = NATIVE_THREAD)
+[LuxRays][22918.860] Allocating intersection device 5: Native (Type = NATIVE_THREAD)
+[LuxRays][22918.860] Allocating intersection device 6: Native (Type = NATIVE_THREAD)
+[LuxRays][22918.860] Allocating intersection device 7: Native (Type = NATIVE_THREAD)
+[LuxRays][22918.860] Allocating intersection device 8: Native (Type = NATIVE_THREAD)
+[LuxRays][22918.860] Allocating intersection device 9: Native (Type = NATIVE_THREAD)
+[LuxRays][22918.860] Allocating intersection device 10: Native (Type = NATIVE_THREAD)
+[LuxRays][22918.860] Allocating intersection device 11: Native (Type = NATIVE_THREAD)
+[LuxCore][22918.860] Configuring 12 CPU render threads
+[LuxRays][22918.860] Preprocessing DataSet
+[LuxRays][22918.860] Total vertex count: 543967
+[LuxRays][22918.860] Total triangle count: 1086862
+[LuxRays][22918.860] Preprocessing DataSet done
+[LuxRays][22918.860] Adding DataSet accelerator: EMBREE
+[LuxRays][22918.860] Total vertex count: 543967
+[LuxRays][22918.860] Total triangle count: 1086862
+[LuxRays][22918.953] EmbreeAccel build time: 92ms
+Session started in 0.2 s
+[LuxCore][22919.063] Film hardware image pipeline
+[LuxCore][22919.063] Film hardware device used: GeForce GTX 1660 Ti OpenCLIntersect (Type: OPENCL_GPU)
+[LuxCore][22919.063]   Device OpenCL version: OpenCL 1.2 CUDA
+[LuxRays][22919.156] [Device GeForce GTX 1660 Ti OpenCLIntersect] IMAGEPIPELINE buffer size: 20212Kbytes
+[LuxRays][22919.172] [Device GeForce GTX 1660 Ti OpenCLIntersect] Merge buffer size: 26950Kbytes
+[LuxRays][22919.172] [MergeSampleBuffersOCL] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][22919.172] [MergeSampleBuffersOCL] Compiling kernels
+[LuxRays][22919.172] [MergeSampleBuffersOCL] Program cached
+[LuxCore][22919.172] [MergeSampleBuffersOCL] Compiling Film_MergeBufferInitialize Kernel
+[LuxCore][22919.172] [MergeSampleBuffersOCL] Compiling Film_MergeRADIANCE_PER_PIXEL_NORMALIZED Kernel
+[LuxCore][22919.172] [MergeSampleBuffersOCL] Compiling Film_MergeRADIANCE_PER_SCREEN_NORMALIZED Kernel
+[LuxCore][22919.172] [MergeSampleBuffersOCL] Compiling Film_MergeBufferFinalize Kernel
+[LuxCore][22919.172] [MergeSampleBuffersOCL] Kernels compilation time: 0ms
+[LuxRays][22919.203] [LinearToneMap] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][22919.203] [LinearToneMap] Compiling kernels
+[LuxRays][22919.203] [LinearToneMap] Program cached
+[LuxCore][22919.203] [AutoLinearToneMap] Compiling LinearToneMap_Apply Kernel
+[LuxCore][22919.203] [LinearToneMap] Kernels compilation time: 0ms
+[LuxCore][22939.938] [GeForce GTX 1660 Ti OpenCLIntersect] Memory used for hardware image pipeline: 47162Kbytes
+start rendering
+==================================================
+[Engine/Final] Rendering layer "RenderLayer"
+[Exporter] Creating session
+[SDL][23142.531] Camera type: perspective
+[SDL][23142.531] Camera position: Point[0.0955119, 28.5975, 13.2955]
+[SDL][23142.531] Camera target: Point[0.148943, 27.6321, 13.04]
+[SDL][23142.531] Camera clipping plane disabled
+[SDL][23142.735] Texture definition: 2162000912904fresnel_helper
+[SDL][23142.735] Texture definition: 2162002436520Color
+[SDL][23142.735] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\Curtain Textures\Buzz_lighter.jpg
+[SDL][23142.750] Texture definition: 2162002438504Bump
+[SDL][23142.750] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\Curtain Textures\Fabric01_nrm.jpg
+[SDL][23143.266] Texture definition: 2162002438504Bump_normalmap
+[SDL][23143.266] Texture definition: 2162000915384Color
+[SDL][23143.266] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-diffuse.jpg
+[SDL][23143.360] Texture definition: 2162000915880Color
+[SDL][23143.360] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-specular.jpg
+[SDL][23143.438] Texture definition: 2162000917864Bump
+[SDL][23143.438] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-normal.jpg
+[SDL][23143.563] Texture definition: 2162000917864Bump_normalmap
+[SDL][23143.563] Texture definition: 2162002439000Color
+[SDL][23143.563] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg
+[SDL][23143.641] Texture definition: 2162002437016Color
+[SDL][23143.641] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-specular.jpg
+[SDL][23143.719] Texture definition: 2162002439496Bump
+[SDL][23143.719] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-normal.jpg
+[SDL][23143.766] Texture definition: 2162002439496Bump_normalmap
+[SDL][23143.766] Material definition: as_crishka__material2161991841560
+[SDL][23143.766] Material definition: as_glass2161991827448
+[SDL][23143.766] Material definition: as_metalic2161991824760
+[SDL][23143.766] Material definition: 2161756353032Material
+[SDL][23143.766] Material definition: 2160967432072Material
+[SDL][23143.766] Material definition: as_translucent__silk2161991829800
+[SDL][23143.766] Material definition: 2161900172024_AREA_LIGHT_MAT
+[SDL][23143.766] Material definition: as_BG_white_brick_wall2161991827112
+[SDL][23143.766] Material definition: asWood2161991842232
+[SDL][23143.766] Material definition: as_red__glass2161991841896
+[SDL][23143.766] Material definition: as_blue__glass2161991838200
+[SDL][23143.766] The 21619001720240 object is a light sources with 2 triangles
+[SDL][23143.766] Scene objects count: 10
+[SDL][23143.766] Light definition: 2161900194344
+[SDL][23143.766] Light definition: __WORLD_BACKGROUND_LIGHT__
+[LuxCore][23143.781] Configuration:
+[LuxCore][23143.781]   light.maxdepth = 16
+[LuxCore][23143.781]   path.maxdepth = 12
+[LuxCore][23143.781]   film.noiseestimation.warmup = 8
+[LuxCore][23143.781]   film.noiseestimation.step = 32
+[LuxCore][23143.781]   sampler.sobol.adaptive.strength = 0.89999997615814209
+[LuxCore][23143.781]   sampler.sobol.bucketsize = 16
+[LuxCore][23143.781]   sampler.sobol.tilesize = 16
+[LuxCore][23143.781]   sampler.sobol.supersampling = 1
+[LuxCore][23143.781]   sampler.sobol.overlapping = 1
+[LuxCore][23143.781]   renderengine.type = "BIDIRCPU"
+[LuxCore][23143.781]   sampler.type = "SOBOL"
+[LuxCore][23143.781]   film.width = 1120
+[LuxCore][23143.781]   film.height = 1540
+[LuxCore][23143.781]   film.filter.type = "BLACKMANHARRIS"
+[LuxCore][23143.781]   film.filter.width = 1.5
+[LuxCore][23143.781]   lightstrategy.type = "LOG_POWER"
+[LuxCore][23143.781]   scene.epsilon.min = 9.9999997473787516e-06
+[LuxCore][23143.781]   scene.epsilon.max = 0.10000000149011612
+[LuxCore][23143.781]   film.opencl.enable = 1
+[LuxCore][23143.781]   film.opencl.device = 0
+[LuxCore][23143.781]   path.clamping.variance.maxvalue = 0.5
+[LuxCore][23143.781]   path.forceblackbackground.enable = 0
+[LuxCore][23143.781]   native.threads.count = 12
+[LuxCore][23143.781]   renderengine.seed = 1
+[LuxCore][23143.781]   film.outputs.0.type = "RGB_IMAGEPIPELINE"
+[LuxCore][23143.781]   film.outputs.0.index = 0
+[LuxCore][23143.781]   film.outputs.0.filename = "RGB_IMAGEPIPELINE_0.png"
+[LuxCore][23143.781]   film.outputs.1.type = "RGB_IMAGEPIPELINE"
+[LuxCore][23143.781]   film.outputs.1.index = 1
+[LuxCore][23143.781]   film.outputs.1.filename = "RGB_IMAGEPIPELINE_1.png"
+[LuxCore][23143.781]   film.imagepipelines.001.0.type = "NOP"
+[LuxCore][23143.781]   film.imagepipelines.001.1.type = "TONEMAP_LINEAR"
+[LuxCore][23143.781]   film.imagepipelines.001.1.scale = 1
+[LuxCore][23143.781]   film.imagepipelines.001.radiancescales.0.enabled = 1
+[LuxCore][23143.781]   film.imagepipelines.001.radiancescales.0.globalscale = 1
+[LuxCore][23143.781]   film.imagepipelines.001.radiancescales.0.rgbscale = 1 1 1
+[LuxCore][23143.781]   film.imagepipelines.001.2.type = "GAMMA_CORRECTION"
+[LuxCore][23143.781]   film.imagepipelines.001.2.value = 2.2000000000000002
+[LuxCore][23143.781]   film.noiseestimation.index = 1
+[LuxCore][23143.781]   film.imagepipelines.000.0.type = "NOP"
+[LuxCore][23143.781]   film.imagepipelines.000.1.type = "TONEMAP_LINEAR"
+[LuxCore][23143.781]   film.imagepipelines.000.1.scale = 1
+[LuxCore][23143.781]   film.imagepipelines.000.radiancescales.0.enabled = 1
+[LuxCore][23143.781]   film.imagepipelines.000.radiancescales.0.globalscale = 1
+[LuxCore][23143.781]   film.imagepipelines.000.radiancescales.0.rgbscale = 1 1 1
+[LuxCore][23143.781]   batch.haltspp = 401
+[LuxCore][23143.781]   batch.halttime = 0
+[LuxCore][23143.781] File Name Resolver Configuration:
+Export took 1.3 s
+[LuxCore][23143.781] Film resolution: 1120x1540
+[SDL][23143.781] Film output definition: RGB_IMAGEPIPELINE [image.png]
+[SDL][23143.781] Image pipeline: film.imagepipelines.000
+[SDL][23143.781] Image pipeline step 0: NOP
+[SDL][23143.781] Image pipeline step 1: TONEMAP_LINEAR
+[SDL][23143.781] Image pipeline: film.imagepipelines.001
+[SDL][23143.781] Image pipeline step 0: NOP
+[SDL][23143.781] Image pipeline step 1: TONEMAP_LINEAR
+[SDL][23143.781] Image pipeline step 2: GAMMA_CORRECTION
+[SDL][23143.781] Film output definition: RGB_IMAGEPIPELINE [RGB_IMAGEPIPELINE_0.png]
+[SDL][23143.781] Film output definition: RGB_IMAGEPIPELINE [RGB_IMAGEPIPELINE_1.png]
+[LuxRays][23143.797] OpenCL Platform 0: NVIDIA Corporation
+[LuxRays][23143.797] CUDA driver version: 10.20
+[LuxRays][23143.797] CUDA device count: 1
+[LuxRays][23143.797] Device 0 name: Native
+[LuxRays][23143.797] Device 0 type: NATIVE_THREAD
+[LuxRays][23143.797] Device 0 compute units: 1
+[LuxRays][23143.797] Device 0 preferred float vector width: 4
+[LuxRays][23143.797] Device 0 max allocable memory: 17592186044415MBytes
+[LuxRays][23143.797] Device 0 max allocable memory block size: 17592186044415MBytes
+[LuxRays][23143.797] Device 0 has out of core memory support: 0
+[LuxRays][23143.797] Device 1 name: GeForce GTX 1660 Ti
+[LuxRays][23143.797] Device 1 type: OPENCL_GPU
+[LuxRays][23143.797] Device 1 compute units: 24
+[LuxRays][23143.797] Device 1 preferred float vector width: 1
+[LuxRays][23143.797] Device 1 max allocable memory: 6144MBytes
+[LuxRays][23143.797] Device 1 max allocable memory block size: 1536MBytes
+[LuxRays][23143.797] Device 1 has out of core memory support: 0
+[LuxRays][23143.797] Device 2 name: GeForce GTX 1660 Ti
+[LuxRays][23143.797] Device 2 type: CUDA_GPU
+[LuxRays][23143.797] Device 2 compute units: 64
+[LuxRays][23143.797] Device 2 preferred float vector width: 1
+[LuxRays][23143.797] Device 2 max allocable memory: 6144MBytes
+[LuxRays][23143.797] Device 2 max allocable memory block size: 17592186044415MBytes
+[LuxRays][23143.797] Device 2 has out of core memory support: 1
+[LuxRays][23143.797] Creating 12 intersection device(s)
+[LuxRays][23143.797] Allocating intersection device 0: Native (Type = NATIVE_THREAD)
+[LuxRays][23143.797] Allocating intersection device 1: Native (Type = NATIVE_THREAD)
+[LuxRays][23143.797] Allocating intersection device 2: Native (Type = NATIVE_THREAD)
+[LuxRays][23143.797] Allocating intersection device 3: Native (Type = NATIVE_THREAD)
+[LuxRays][23143.797] Allocating intersection device 4: Native (Type = NATIVE_THREAD)
+[LuxRays][23143.797] Allocating intersection device 5: Native (Type = NATIVE_THREAD)
+[LuxRays][23143.797] Allocating intersection device 6: Native (Type = NATIVE_THREAD)
+[LuxRays][23143.797] Allocating intersection device 7: Native (Type = NATIVE_THREAD)
+[LuxRays][23143.797] Allocating intersection device 8: Native (Type = NATIVE_THREAD)
+[LuxRays][23143.797] Allocating intersection device 9: Native (Type = NATIVE_THREAD)
+[LuxRays][23143.797] Allocating intersection device 10: Native (Type = NATIVE_THREAD)
+[LuxRays][23143.797] Allocating intersection device 11: Native (Type = NATIVE_THREAD)
+[LuxCore][23143.797] Configuring 12 CPU render threads
+[LuxRays][23143.797] Preprocessing DataSet
+[LuxRays][23143.797] Total vertex count: 543967
+[LuxRays][23143.797] Total triangle count: 1086862
+[LuxRays][23143.797] Preprocessing DataSet done
+[LuxRays][23143.797] Adding DataSet accelerator: EMBREE
+[LuxRays][23143.797] Total vertex count: 543967
+[LuxRays][23143.797] Total triangle count: 1086862
+[LuxRays][23143.891] EmbreeAccel build time: 94ms
+Session started in 0.2 s
+[LuxCore][23144.000] Film hardware image pipeline
+[LuxCore][23144.000] Film hardware device used: GeForce GTX 1660 Ti OpenCLIntersect (Type: OPENCL_GPU)
+[LuxCore][23144.000]   Device OpenCL version: OpenCL 1.2 CUDA
+[LuxRays][23144.125] [Device GeForce GTX 1660 Ti OpenCLIntersect] IMAGEPIPELINE buffer size: 20212Kbytes
+[LuxRays][23144.125] [Device GeForce GTX 1660 Ti OpenCLIntersect] Merge buffer size: 26950Kbytes
+[LuxRays][23144.125] [MergeSampleBuffersOCL] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][23144.125] [MergeSampleBuffersOCL] Compiling kernels
+[LuxRays][23144.141] [MergeSampleBuffersOCL] Program cached
+[LuxCore][23144.141] [MergeSampleBuffersOCL] Compiling Film_MergeBufferInitialize Kernel
+[LuxCore][23144.141] [MergeSampleBuffersOCL] Compiling Film_MergeRADIANCE_PER_PIXEL_NORMALIZED Kernel
+[LuxCore][23144.141] [MergeSampleBuffersOCL] Compiling Film_MergeRADIANCE_PER_SCREEN_NORMALIZED Kernel
+[LuxCore][23144.141] [MergeSampleBuffersOCL] Compiling Film_MergeBufferFinalize Kernel
+[LuxCore][23144.141] [MergeSampleBuffersOCL] Kernels compilation time: 16ms
+[LuxRays][23144.172] [LinearToneMap] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][23144.172] [LinearToneMap] Compiling kernels
+[LuxRays][23144.172] [LinearToneMap] Program cached
+[LuxCore][23144.172] [AutoLinearToneMap] Compiling LinearToneMap_Apply Kernel
+[LuxCore][23144.172] [LinearToneMap] Kernels compilation time: 0ms
+[LuxRays][23249.578] [LinearToneMap] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][23249.578] [LinearToneMap] Compiling kernels
+[LuxRays][23249.578] [LinearToneMap] Program cached
+[LuxCore][23249.578] [AutoLinearToneMap] Compiling LinearToneMap_Apply Kernel
+[LuxCore][23249.578] [LinearToneMap] Kernels compilation time: 0ms
+[LuxRays][23249.594] [Device GeForce GTX 1660 Ti OpenCLIntersect] Gamma table buffer size: 16Kbytes
+[LuxRays][23249.594] [GammaCorrectionPlugin] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][23249.594] [GammaCorrectionPlugin] Compiling kernels
+[LuxRays][23249.594] [GammaCorrectionPlugin] Program cached
+[LuxCore][23249.594] [GammaCorrectionPlugin] Compiling GammaCorrectionPlugin_Apply Kernel
+[LuxCore][23249.594] [GammaCorrectionPlugin] Kernels compilation time: 0ms
+[LuxCore][23249.594] Noise estimation: first pass
+[LuxCore][23360.547] Noise estimation: Error mean = 0.0587245
+[LuxCore][23471.344] Noise estimation: Error mean = 0.0349824
+[LuxCore][23582.141] Noise estimation: Error mean = 0.0242438
+[LuxCore][23692.891] Noise estimation: Error mean = 0.0188517
+[LuxCore][23803.656] Noise estimation: Error mean = 0.0155403
+[LuxCore][23914.422] Noise estimation: Error mean = 0.013193
+[LuxCore][24025.188] Noise estimation: Error mean = 0.0114891
+[LuxCore][24135.938] Noise estimation: Error mean = 0.0101909
+[LuxCore][24246.688] Noise estimation: Error mean = 0.00912394
+[LuxCore][24357.453] Noise estimation: Error mean = 0.00825166
+[LuxCore][24468.031] Samples per pixel 100%, rendering done.
+[LuxCore][24468.094] [GeForce GTX 1660 Ti OpenCLIntersect] Memory used for hardware image pipeline: 47162Kbytes
+[Engine/Final] Finished rendering layer "RenderLayer"
+Saved: 'C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\2_LuxCore\╨б2_401_12tr_.png'
+ Time: 22:06.14 (Saving: 00:00.21)
+
+mean time = 1326.1526372432709
+==================================================
+[Engine/Final] Rendering layer "RenderLayer"
+[Exporter] Creating session
+[SDL][24468.688] Camera type: perspective
+[SDL][24468.688] Camera position: Point[0.0955119, 28.5975, 13.2955]
+[SDL][24468.688] Camera target: Point[0.148943, 27.6321, 13.04]
+[SDL][24468.688] Camera clipping plane disabled
+[SDL][24468.891] Texture definition: 2162000912904fresnel_helper
+[SDL][24468.891] Texture definition: 2162002436520Color
+[SDL][24468.891] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\Curtain Textures\Buzz_lighter.jpg
+[SDL][24468.906] Texture definition: 2162002438504Bump
+[SDL][24468.906] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\Curtain Textures\Fabric01_nrm.jpg
+[SDL][24469.469] Texture definition: 2162002438504Bump_normalmap
+[SDL][24469.469] Texture definition: 2162000915384Color
+[SDL][24469.469] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-diffuse.jpg
+[SDL][24469.563] Texture definition: 2162000915880Color
+[SDL][24469.563] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-specular.jpg
+[SDL][24469.641] Texture definition: 2162000917864Bump
+[SDL][24469.641] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-normal.jpg
+[SDL][24469.750] Texture definition: 2162000917864Bump_normalmap
+[SDL][24469.750] Texture definition: 2162002439000Color
+[SDL][24469.750] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg
+[SDL][24469.844] Texture definition: 2162002437016Color
+[SDL][24469.844] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-specular.jpg
+[SDL][24469.922] Texture definition: 2162002439496Bump
+[SDL][24469.922] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-normal.jpg
+[SDL][24469.969] Texture definition: 2162002439496Bump_normalmap
+[SDL][24469.969] Material definition: as_crishka__material2161991841560
+[SDL][24469.969] Material definition: as_glass2161991827448
+[SDL][24469.969] Material definition: as_metalic2161991824760
+[SDL][24469.969] Material definition: 2161756353032Material
+[SDL][24469.969] Material definition: 2160967432072Material
+[SDL][24469.969] Material definition: as_translucent__silk2161991829800
+[SDL][24469.969] Material definition: 2161900172024_AREA_LIGHT_MAT
+[SDL][24469.969] Material definition: as_BG_white_brick_wall2161991827112
+[SDL][24469.969] Material definition: asWood2161991842232
+[SDL][24469.969] Material definition: as_red__glass2161991841896
+[SDL][24469.969] Material definition: as_blue__glass2161991838200
+[SDL][24469.969] The 21619001720240 object is a light sources with 2 triangles
+[SDL][24469.969] Scene objects count: 10
+[SDL][24469.969] Light definition: 2161900194344
+[SDL][24469.969] Light definition: __WORLD_BACKGROUND_LIGHT__
+[LuxCore][24469.985] Configuration:
+[LuxCore][24469.985]   light.maxdepth = 16
+[LuxCore][24469.985]   path.maxdepth = 12
+[LuxCore][24469.985]   film.noiseestimation.warmup = 8
+[LuxCore][24469.985]   film.noiseestimation.step = 32
+[LuxCore][24469.985]   sampler.sobol.adaptive.strength = 0.89999997615814209
+[LuxCore][24469.985]   sampler.sobol.bucketsize = 16
+[LuxCore][24469.985]   sampler.sobol.tilesize = 16
+[LuxCore][24469.985]   sampler.sobol.supersampling = 1
+[LuxCore][24469.985]   sampler.sobol.overlapping = 1
+[LuxCore][24469.985]   renderengine.type = "BIDIRCPU"
+[LuxCore][24469.985]   sampler.type = "SOBOL"
+[LuxCore][24469.985]   film.width = 1120
+[LuxCore][24469.985]   film.height = 1540
+[LuxCore][24469.985]   film.filter.type = "BLACKMANHARRIS"
+[LuxCore][24469.985]   film.filter.width = 1.5
+[LuxCore][24469.985]   lightstrategy.type = "LOG_POWER"
+[LuxCore][24469.985]   scene.epsilon.min = 9.9999997473787516e-06
+[LuxCore][24469.985]   scene.epsilon.max = 0.10000000149011612
+[LuxCore][24469.985]   film.opencl.enable = 1
+[LuxCore][24469.985]   film.opencl.device = 0
+[LuxCore][24469.985]   path.clamping.variance.maxvalue = 0.5
+[LuxCore][24469.985]   path.forceblackbackground.enable = 0
+[LuxCore][24469.985]   native.threads.count = 12
+[LuxCore][24469.985]   renderengine.seed = 1
+[LuxCore][24469.985]   film.outputs.0.type = "RGB_IMAGEPIPELINE"
+[LuxCore][24469.985]   film.outputs.0.index = 0
+[LuxCore][24469.985]   film.outputs.0.filename = "RGB_IMAGEPIPELINE_0.png"
+[LuxCore][24469.985]   film.outputs.1.type = "RGB_IMAGEPIPELINE"
+[LuxCore][24469.985]   film.outputs.1.index = 1
+[LuxCore][24469.985]   film.outputs.1.filename = "RGB_IMAGEPIPELINE_1.png"
+[LuxCore][24469.985]   film.imagepipelines.001.0.type = "NOP"
+[LuxCore][24469.985]   film.imagepipelines.001.1.type = "TONEMAP_LINEAR"
+[LuxCore][24469.985]   film.imagepipelines.001.1.scale = 1
+[LuxCore][24469.985]   film.imagepipelines.001.radiancescales.0.enabled = 1
+[LuxCore][24469.985]   film.imagepipelines.001.radiancescales.0.globalscale = 1
+[LuxCore][24469.985]   film.imagepipelines.001.radiancescales.0.rgbscale = 1 1 1
+[LuxCore][24469.985]   film.imagepipelines.001.2.type = "GAMMA_CORRECTION"
+[LuxCore][24469.985]   film.imagepipelines.001.2.value = 2.2000000000000002
+[LuxCore][24469.985]   film.noiseestimation.index = 1
+[LuxCore][24469.985]   film.imagepipelines.000.0.type = "NOP"
+[LuxCore][24469.985]   film.imagepipelines.000.1.type = "TONEMAP_LINEAR"
+[LuxCore][24469.985]   film.imagepipelines.000.1.scale = 1
+[LuxCore][24469.985]   film.imagepipelines.000.radiancescales.0.enabled = 1
+[LuxCore][24469.985]   film.imagepipelines.000.radiancescales.0.globalscale = 1
+[LuxCore][24469.985]   film.imagepipelines.000.radiancescales.0.rgbscale = 1 1 1
+[LuxCore][24469.985]   batch.haltspp = 789
+[LuxCore][24469.985]   batch.halttime = 0
+[LuxCore][24469.985] File Name Resolver Configuration:
+Export took 1.3 s
+[LuxCore][24469.985] Film resolution: 1120x1540
+[SDL][24469.985] Film output definition: RGB_IMAGEPIPELINE [image.png]
+[SDL][24469.985] Image pipeline: film.imagepipelines.000
+[SDL][24469.985] Image pipeline step 0: NOP
+[SDL][24469.985] Image pipeline step 1: TONEMAP_LINEAR
+[SDL][24469.985] Image pipeline: film.imagepipelines.001
+[SDL][24469.985] Image pipeline step 0: NOP
+[SDL][24469.985] Image pipeline step 1: TONEMAP_LINEAR
+[SDL][24469.985] Image pipeline step 2: GAMMA_CORRECTION
+[SDL][24469.985] Film output definition: RGB_IMAGEPIPELINE [RGB_IMAGEPIPELINE_0.png]
+[SDL][24469.985] Film output definition: RGB_IMAGEPIPELINE [RGB_IMAGEPIPELINE_1.png]
+[LuxRays][24470.000] OpenCL Platform 0: NVIDIA Corporation
+[LuxRays][24470.000] CUDA driver version: 10.20
+[LuxRays][24470.000] CUDA device count: 1
+[LuxRays][24470.000] Device 0 name: Native
+[LuxRays][24470.000] Device 0 type: NATIVE_THREAD
+[LuxRays][24470.000] Device 0 compute units: 1
+[LuxRays][24470.000] Device 0 preferred float vector width: 4
+[LuxRays][24470.000] Device 0 max allocable memory: 17592186044415MBytes
+[LuxRays][24470.000] Device 0 max allocable memory block size: 17592186044415MBytes
+[LuxRays][24470.000] Device 0 has out of core memory support: 0
+[LuxRays][24470.000] Device 1 name: GeForce GTX 1660 Ti
+[LuxRays][24470.000] Device 1 type: OPENCL_GPU
+[LuxRays][24470.000] Device 1 compute units: 24
+[LuxRays][24470.000] Device 1 preferred float vector width: 1
+[LuxRays][24470.000] Device 1 max allocable memory: 6144MBytes
+[LuxRays][24470.000] Device 1 max allocable memory block size: 1536MBytes
+[LuxRays][24470.000] Device 1 has out of core memory support: 0
+[LuxRays][24470.000] Device 2 name: GeForce GTX 1660 Ti
+[LuxRays][24470.000] Device 2 type: CUDA_GPU
+[LuxRays][24470.000] Device 2 compute units: 64
+[LuxRays][24470.000] Device 2 preferred float vector width: 1
+[LuxRays][24470.000] Device 2 max allocable memory: 6144MBytes
+[LuxRays][24470.000] Device 2 max allocable memory block size: 17592186044415MBytes
+[LuxRays][24470.000] Device 2 has out of core memory support: 1
+[LuxRays][24470.000] Creating 12 intersection device(s)
+[LuxRays][24470.000] Allocating intersection device 0: Native (Type = NATIVE_THREAD)
+[LuxRays][24470.000] Allocating intersection device 1: Native (Type = NATIVE_THREAD)
+[LuxRays][24470.000] Allocating intersection device 2: Native (Type = NATIVE_THREAD)
+[LuxRays][24470.000] Allocating intersection device 3: Native (Type = NATIVE_THREAD)
+[LuxRays][24470.000] Allocating intersection device 4: Native (Type = NATIVE_THREAD)
+[LuxRays][24470.000] Allocating intersection device 5: Native (Type = NATIVE_THREAD)
+[LuxRays][24470.000] Allocating intersection device 6: Native (Type = NATIVE_THREAD)
+[LuxRays][24470.000] Allocating intersection device 7: Native (Type = NATIVE_THREAD)
+[LuxRays][24470.000] Allocating intersection device 8: Native (Type = NATIVE_THREAD)
+[LuxRays][24470.000] Allocating intersection device 9: Native (Type = NATIVE_THREAD)
+[LuxRays][24470.000] Allocating intersection device 10: Native (Type = NATIVE_THREAD)
+[LuxRays][24470.000] Allocating intersection device 11: Native (Type = NATIVE_THREAD)
+[LuxCore][24470.000] Configuring 12 CPU render threads
+[LuxRays][24470.000] Preprocessing DataSet
+[LuxRays][24470.000] Total vertex count: 543967
+[LuxRays][24470.000] Total triangle count: 1086862
+[LuxRays][24470.000] Preprocessing DataSet done
+[LuxRays][24470.000] Adding DataSet accelerator: EMBREE
+[LuxRays][24470.000] Total vertex count: 543967
+[LuxRays][24470.000] Total triangle count: 1086862
+[LuxRays][24470.094] EmbreeAccel build time: 93ms
+Session started in 0.2 s
+[LuxCore][24470.203] Film hardware image pipeline
+[LuxCore][24470.203] Film hardware device used: GeForce GTX 1660 Ti OpenCLIntersect (Type: OPENCL_GPU)
+[LuxCore][24470.203]   Device OpenCL version: OpenCL 1.2 CUDA
+[LuxRays][24470.328] [Device GeForce GTX 1660 Ti OpenCLIntersect] IMAGEPIPELINE buffer size: 20212Kbytes
+[LuxRays][24470.328] [Device GeForce GTX 1660 Ti OpenCLIntersect] Merge buffer size: 26950Kbytes
+[LuxRays][24470.328] [MergeSampleBuffersOCL] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][24470.328] [MergeSampleBuffersOCL] Compiling kernels
+[LuxRays][24470.328] [MergeSampleBuffersOCL] Program cached
+[LuxCore][24470.328] [MergeSampleBuffersOCL] Compiling Film_MergeBufferInitialize Kernel
+[LuxCore][24470.328] [MergeSampleBuffersOCL] Compiling Film_MergeRADIANCE_PER_PIXEL_NORMALIZED Kernel
+[LuxCore][24470.328] [MergeSampleBuffersOCL] Compiling Film_MergeRADIANCE_PER_SCREEN_NORMALIZED Kernel
+[LuxCore][24470.344] [MergeSampleBuffersOCL] Compiling Film_MergeBufferFinalize Kernel
+[LuxCore][24470.344] [MergeSampleBuffersOCL] Kernels compilation time: 16ms
+[LuxRays][24470.360] [LinearToneMap] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][24470.375] [LinearToneMap] Compiling kernels
+[LuxRays][24470.375] [LinearToneMap] Program cached
+[LuxCore][24470.375] [AutoLinearToneMap] Compiling LinearToneMap_Apply Kernel
+[LuxCore][24470.375] [LinearToneMap] Kernels compilation time: 15ms
+[LuxRays][24575.766] [LinearToneMap] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][24575.766] [LinearToneMap] Compiling kernels
+[LuxRays][24575.781] [LinearToneMap] Program cached
+[LuxCore][24575.781] [AutoLinearToneMap] Compiling LinearToneMap_Apply Kernel
+[LuxCore][24575.781] [LinearToneMap] Kernels compilation time: 14ms
+[LuxRays][24575.781] [Device GeForce GTX 1660 Ti OpenCLIntersect] Gamma table buffer size: 16Kbytes
+[LuxRays][24575.781] [GammaCorrectionPlugin] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][24575.781] [GammaCorrectionPlugin] Compiling kernels
+[LuxRays][24575.781] [GammaCorrectionPlugin] Program cached
+[LuxCore][24575.781] [GammaCorrectionPlugin] Compiling GammaCorrectionPlugin_Apply Kernel
+[LuxCore][24575.781] [GammaCorrectionPlugin] Kernels compilation time: 0ms
+[LuxCore][24575.781] Noise estimation: first pass
+[LuxCore][24686.719] Noise estimation: Error mean = 0.0588515
+[LuxCore][24797.485] Noise estimation: Error mean = 0.0350962
+[LuxCore][24908.235] Noise estimation: Error mean = 0.0243138
+[LuxCore][25018.969] Noise estimation: Error mean = 0.018816
+[LuxCore][25129.735] Noise estimation: Error mean = 0.015558
+[LuxCore][25240.500] Noise estimation: Error mean = 0.0131988
+[LuxCore][25351.266] Noise estimation: Error mean = 0.0115088
+[LuxCore][25462.031] Noise estimation: Error mean = 0.0102079
+[LuxCore][25572.828] Noise estimation: Error mean = 0.00911428
+[LuxCore][25683.594] Noise estimation: Error mean = 0.00825295
+[LuxCore][25794.344] Noise estimation: Error mean = 0.0075121
+[LuxCore][25905.110] Noise estimation: Error mean = 0.00689078
+[LuxCore][26015.860] Noise estimation: Error mean = 0.00640788
+[LuxCore][26126.610] Noise estimation: Error mean = 0.0059706
+[LuxCore][26237.375] Noise estimation: Error mean = 0.0055993
+[LuxCore][26348.110] Noise estimation: Error mean = 0.00523921
+[LuxCore][26458.860] Noise estimation: Error mean = 0.00492787
+[LuxCore][26569.610] Noise estimation: Error mean = 0.00466642
+[LuxCore][26680.360] Noise estimation: Error mean = 0.00444441
+[LuxCore][26791.156] Noise estimation: Error mean = 0.00419316
+[LuxCore][26901.953] Noise estimation: Error mean = 0.00400541
+[LuxCore][27012.719] Noise estimation: Error mean = 0.00383994
+[LuxCore][27083.016] Samples per pixel 100%, rendering done.
+[LuxCore][27083.063] [GeForce GTX 1660 Ti OpenCLIntersect] Memory used for hardware image pipeline: 47162Kbytes
+[Engine/Final] Finished rendering layer "RenderLayer"
+Saved: 'C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\2_LuxCore\╨б2_789_12tr_.png'
+ Time: 43:34.96 (Saving: 00:00.21)
+
+mean time = [1326.1526372432709, 2614.972304582596]
+==================================================
+[Engine/Final] Rendering layer "RenderLayer"
+[Exporter] Creating session
+[SDL][27083.656] Camera type: perspective
+[SDL][27083.656] Camera position: Point[0.0955119, 28.5975, 13.2955]
+[SDL][27083.656] Camera target: Point[0.148943, 27.6321, 13.04]
+[SDL][27083.656] Camera clipping plane disabled
+[SDL][27083.860] Texture definition: 2162000912904fresnel_helper
+[SDL][27083.860] Texture definition: 2162002436520Color
+[SDL][27083.860] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\Curtain Textures\Buzz_lighter.jpg
+[SDL][27083.875] Texture definition: 2162002438504Bump
+[SDL][27083.875] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\Curtain Textures\Fabric01_nrm.jpg
+[SDL][27084.406] Texture definition: 2162002438504Bump_normalmap
+[SDL][27084.406] Texture definition: 2162000915384Color
+[SDL][27084.406] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-diffuse.jpg
+[SDL][27084.500] Texture definition: 2162000915880Color
+[SDL][27084.500] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-specular.jpg
+[SDL][27084.578] Texture definition: 2162000917864Bump
+[SDL][27084.578] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-normal.jpg
+[SDL][27084.703] Texture definition: 2162000917864Bump_normalmap
+[SDL][27084.703] Texture definition: 2162002439000Color
+[SDL][27084.703] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg
+[SDL][27084.781] Texture definition: 2162002437016Color
+[SDL][27084.781] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-specular.jpg
+[SDL][27084.860] Texture definition: 2162002439496Bump
+[SDL][27084.860] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-normal.jpg
+[SDL][27084.906] Texture definition: 2162002439496Bump_normalmap
+[SDL][27084.906] Material definition: as_crishka__material2161991841560
+[SDL][27084.906] Material definition: as_glass2161991827448
+[SDL][27084.906] Material definition: as_metalic2161991824760
+[SDL][27084.906] Material definition: 2161756353032Material
+[SDL][27084.906] Material definition: 2160967432072Material
+[SDL][27084.906] Material definition: as_translucent__silk2161991829800
+[SDL][27084.906] Material definition: 2161900172024_AREA_LIGHT_MAT
+[SDL][27084.906] Material definition: as_BG_white_brick_wall2161991827112
+[SDL][27084.906] Material definition: asWood2161991842232
+[SDL][27084.906] Material definition: as_red__glass2161991841896
+[SDL][27084.906] Material definition: as_blue__glass2161991838200
+[SDL][27084.906] The 21619001720240 object is a light sources with 2 triangles
+[SDL][27084.906] Scene objects count: 10
+[SDL][27084.906] Light definition: 2161900194344
+[SDL][27084.906] Light definition: __WORLD_BACKGROUND_LIGHT__
+[LuxCore][27084.922] Configuration:
+[LuxCore][27084.922]   light.maxdepth = 16
+[LuxCore][27084.922]   path.maxdepth = 12
+[LuxCore][27084.922]   film.noiseestimation.warmup = 8
+[LuxCore][27084.922]   film.noiseestimation.step = 32
+[LuxCore][27084.922]   sampler.sobol.adaptive.strength = 0.89999997615814209
+[LuxCore][27084.922]   sampler.sobol.bucketsize = 16
+[LuxCore][27084.922]   sampler.sobol.tilesize = 16
+[LuxCore][27084.922]   sampler.sobol.supersampling = 1
+[LuxCore][27084.938]   sampler.sobol.overlapping = 1
+[LuxCore][27084.938]   renderengine.type = "BIDIRCPU"
+[LuxCore][27084.938]   sampler.type = "SOBOL"
+[LuxCore][27084.938]   film.width = 1120
+[LuxCore][27084.938]   film.height = 1540
+[LuxCore][27084.938]   film.filter.type = "BLACKMANHARRIS"
+[LuxCore][27084.938]   film.filter.width = 1.5
+[LuxCore][27084.938]   lightstrategy.type = "LOG_POWER"
+[LuxCore][27084.938]   scene.epsilon.min = 9.9999997473787516e-06
+[LuxCore][27084.938]   scene.epsilon.max = 0.10000000149011612
+[LuxCore][27084.938]   film.opencl.enable = 1
+[LuxCore][27084.938]   film.opencl.device = 0
+[LuxCore][27084.938]   path.clamping.variance.maxvalue = 0.5
+[LuxCore][27084.938]   path.forceblackbackground.enable = 0
+[LuxCore][27084.938]   native.threads.count = 12
+[LuxCore][27084.938]   renderengine.seed = 1
+[LuxCore][27084.938]   film.outputs.0.type = "RGB_IMAGEPIPELINE"
+[LuxCore][27084.938]   film.outputs.0.index = 0
+[LuxCore][27084.938]   film.outputs.0.filename = "RGB_IMAGEPIPELINE_0.png"
+[LuxCore][27084.938]   film.outputs.1.type = "RGB_IMAGEPIPELINE"
+[LuxCore][27084.938]   film.outputs.1.index = 1
+[LuxCore][27084.938]   film.outputs.1.filename = "RGB_IMAGEPIPELINE_1.png"
+[LuxCore][27084.938]   film.imagepipelines.001.0.type = "NOP"
+[LuxCore][27084.938]   film.imagepipelines.001.1.type = "TONEMAP_LINEAR"
+[LuxCore][27084.938]   film.imagepipelines.001.1.scale = 1
+[LuxCore][27084.938]   film.imagepipelines.001.radiancescales.0.enabled = 1
+[LuxCore][27084.938]   film.imagepipelines.001.radiancescales.0.globalscale = 1
+[LuxCore][27084.938]   film.imagepipelines.001.radiancescales.0.rgbscale = 1 1 1
+[LuxCore][27084.938]   film.imagepipelines.001.2.type = "GAMMA_CORRECTION"
+[LuxCore][27084.938]   film.imagepipelines.001.2.value = 2.2000000000000002
+[LuxCore][27084.938]   film.noiseestimation.index = 1
+[LuxCore][27084.938]   film.imagepipelines.000.0.type = "NOP"
+[LuxCore][27084.938]   film.imagepipelines.000.1.type = "TONEMAP_LINEAR"
+[LuxCore][27084.938]   film.imagepipelines.000.1.scale = 1
+[LuxCore][27084.938]   film.imagepipelines.000.radiancescales.0.enabled = 1
+[LuxCore][27084.938]   film.imagepipelines.000.radiancescales.0.globalscale = 1
+[LuxCore][27084.938]   film.imagepipelines.000.radiancescales.0.rgbscale = 1 1 1
+[LuxCore][27084.938]   batch.haltspp = 1556
+[LuxCore][27084.938]   batch.halttime = 0
+[LuxCore][27084.938] File Name Resolver Configuration:
+Export took 1.3 s
+[LuxCore][27084.938] Film resolution: 1120x1540
+[SDL][27084.938] Film output definition: RGB_IMAGEPIPELINE [image.png]
+[SDL][27084.938] Image pipeline: film.imagepipelines.000
+[SDL][27084.938] Image pipeline step 0: NOP
+[SDL][27084.938] Image pipeline step 1: TONEMAP_LINEAR
+[SDL][27084.938] Image pipeline: film.imagepipelines.001
+[SDL][27084.938] Image pipeline step 0: NOP
+[SDL][27084.938] Image pipeline step 1: TONEMAP_LINEAR
+[SDL][27084.953] Image pipeline step 2: GAMMA_CORRECTION
+[SDL][27084.953] Film output definition: RGB_IMAGEPIPELINE [RGB_IMAGEPIPELINE_0.png]
+[SDL][27084.953] Film output definition: RGB_IMAGEPIPELINE [RGB_IMAGEPIPELINE_1.png]
+[LuxRays][27084.953] OpenCL Platform 0: NVIDIA Corporation
+[LuxRays][27084.953] CUDA driver version: 10.20
+[LuxRays][27084.953] CUDA device count: 1
+[LuxRays][27084.953] Device 0 name: Native
+[LuxRays][27084.953] Device 0 type: NATIVE_THREAD
+[LuxRays][27084.953] Device 0 compute units: 1
+[LuxRays][27084.953] Device 0 preferred float vector width: 4
+[LuxRays][27084.953] Device 0 max allocable memory: 17592186044415MBytes
+[LuxRays][27084.953] Device 0 max allocable memory block size: 17592186044415MBytes
+[LuxRays][27084.953] Device 0 has out of core memory support: 0
+[LuxRays][27084.953] Device 1 name: GeForce GTX 1660 Ti
+[LuxRays][27084.953] Device 1 type: OPENCL_GPU
+[LuxRays][27084.953] Device 1 compute units: 24
+[LuxRays][27084.953] Device 1 preferred float vector width: 1
+[LuxRays][27084.953] Device 1 max allocable memory: 6144MBytes
+[LuxRays][27084.953] Device 1 max allocable memory block size: 1536MBytes
+[LuxRays][27084.953] Device 1 has out of core memory support: 0
+[LuxRays][27084.953] Device 2 name: GeForce GTX 1660 Ti
+[LuxRays][27084.969] Device 2 type: CUDA_GPU
+[LuxRays][27084.969] Device 2 compute units: 64
+[LuxRays][27084.969] Device 2 preferred float vector width: 1
+[LuxRays][27084.969] Device 2 max allocable memory: 6144MBytes
+[LuxRays][27084.969] Device 2 max allocable memory block size: 17592186044415MBytes
+[LuxRays][27084.969] Device 2 has out of core memory support: 1
+[LuxRays][27084.969] Creating 12 intersection device(s)
+[LuxRays][27084.969] Allocating intersection device 0: Native (Type = NATIVE_THREAD)
+[LuxRays][27084.969] Allocating intersection device 1: Native (Type = NATIVE_THREAD)
+[LuxRays][27084.969] Allocating intersection device 2: Native (Type = NATIVE_THREAD)
+[LuxRays][27084.969] Allocating intersection device 3: Native (Type = NATIVE_THREAD)
+[LuxRays][27084.969] Allocating intersection device 4: Native (Type = NATIVE_THREAD)
+[LuxRays][27084.969] Allocating intersection device 5: Native (Type = NATIVE_THREAD)
+[LuxRays][27084.969] Allocating intersection device 6: Native (Type = NATIVE_THREAD)
+[LuxRays][27084.969] Allocating intersection device 7: Native (Type = NATIVE_THREAD)
+[LuxRays][27084.969] Allocating intersection device 8: Native (Type = NATIVE_THREAD)
+[LuxRays][27084.969] Allocating intersection device 9: Native (Type = NATIVE_THREAD)
+[LuxRays][27084.969] Allocating intersection device 10: Native (Type = NATIVE_THREAD)
+[LuxRays][27084.969] Allocating intersection device 11: Native (Type = NATIVE_THREAD)
+[LuxCore][27084.969] Configuring 12 CPU render threads
+[LuxRays][27084.969] Preprocessing DataSet
+[LuxRays][27084.969] Total vertex count: 543967
+[LuxRays][27084.969] Total triangle count: 1086862
+[LuxRays][27084.969] Preprocessing DataSet done
+[LuxRays][27084.969] Adding DataSet accelerator: EMBREE
+[LuxRays][27084.969] Total vertex count: 543967
+[LuxRays][27084.969] Total triangle count: 1086862
+[LuxRays][27085.078] EmbreeAccel build time: 108ms
+Session started in 0.2 s
+[LuxCore][27085.172] Film hardware image pipeline
+[LuxCore][27085.188] Film hardware device used: GeForce GTX 1660 Ti OpenCLIntersect (Type: OPENCL_GPU)
+[LuxCore][27085.188]   Device OpenCL version: OpenCL 1.2 CUDA
+[LuxRays][27085.297] [Device GeForce GTX 1660 Ti OpenCLIntersect] IMAGEPIPELINE buffer size: 20212Kbytes
+[LuxRays][27085.297] [Device GeForce GTX 1660 Ti OpenCLIntersect] Merge buffer size: 26950Kbytes
+[LuxRays][27085.297] [MergeSampleBuffersOCL] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][27085.297] [MergeSampleBuffersOCL] Compiling kernels
+[LuxRays][27085.297] [MergeSampleBuffersOCL] Program cached
+[LuxCore][27085.297] [MergeSampleBuffersOCL] Compiling Film_MergeBufferInitialize Kernel
+[LuxCore][27085.297] [MergeSampleBuffersOCL] Compiling Film_MergeRADIANCE_PER_PIXEL_NORMALIZED Kernel
+[LuxCore][27085.297] [MergeSampleBuffersOCL] Compiling Film_MergeRADIANCE_PER_SCREEN_NORMALIZED Kernel
+[LuxCore][27085.297] [MergeSampleBuffersOCL] Compiling Film_MergeBufferFinalize Kernel
+[LuxCore][27085.297] [MergeSampleBuffersOCL] Kernels compilation time: 0ms
+[LuxRays][27085.328] [LinearToneMap] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][27085.328] [LinearToneMap] Compiling kernels
+[LuxRays][27085.328] [LinearToneMap] Program cached
+[LuxCore][27085.328] [AutoLinearToneMap] Compiling LinearToneMap_Apply Kernel
+[LuxCore][27085.344] [LinearToneMap] Kernels compilation time: 16ms
+[LuxRays][27190.750] [LinearToneMap] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][27190.750] [LinearToneMap] Compiling kernels
+[LuxRays][27190.750] [LinearToneMap] Program cached
+[LuxCore][27190.750] [AutoLinearToneMap] Compiling LinearToneMap_Apply Kernel
+[LuxCore][27190.750] [LinearToneMap] Kernels compilation time: 0ms
+[LuxRays][27190.750] [Device GeForce GTX 1660 Ti OpenCLIntersect] Gamma table buffer size: 16Kbytes
+[LuxRays][27190.750] [GammaCorrectionPlugin] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][27190.750] [GammaCorrectionPlugin] Compiling kernels
+[LuxRays][27190.750] [GammaCorrectionPlugin] Program cached
+[LuxCore][27190.750] [GammaCorrectionPlugin] Compiling GammaCorrectionPlugin_Apply Kernel
+[LuxCore][27190.750] [GammaCorrectionPlugin] Kernels compilation time: 0ms
+[LuxCore][27190.750] Noise estimation: first pass
+[LuxCore][27301.703] Noise estimation: Error mean = 0.0589872
+[LuxCore][27412.453] Noise estimation: Error mean = 0.0351622
+[LuxCore][27523.219] Noise estimation: Error mean = 0.0243486
+[LuxCore][27633.969] Noise estimation: Error mean = 0.0188069
+[LuxCore][27744.735] Noise estimation: Error mean = 0.0155115
+[LuxCore][27855.485] Noise estimation: Error mean = 0.0131825
+[LuxCore][27966.250] Noise estimation: Error mean = 0.0114935
+[LuxCore][28077.031] Noise estimation: Error mean = 0.0101589
+[LuxCore][28187.813] Noise estimation: Error mean = 0.00912006
+[LuxCore][28298.547] Noise estimation: Error mean = 0.00824526
+[LuxCore][28409.297] Noise estimation: Error mean = 0.00751941
+[LuxCore][28520.031] Noise estimation: Error mean = 0.0069207
+[LuxCore][28630.781] Noise estimation: Error mean = 0.00639089
+[LuxCore][28741.531] Noise estimation: Error mean = 0.00596084
+[LuxCore][28852.281] Noise estimation: Error mean = 0.00554991
+[LuxCore][28963.063] Noise estimation: Error mean = 0.00521586
+[LuxCore][29073.844] Noise estimation: Error mean = 0.00493766
+[LuxCore][29184.610] Noise estimation: Error mean = 0.00465815
+[LuxCore][29295.360] Noise estimation: Error mean = 0.00442908
+[LuxCore][29406.110] Noise estimation: Error mean = 0.00421118
+[LuxCore][29516.875] Noise estimation: Error mean = 0.0040088
+[LuxCore][29627.625] Noise estimation: Error mean = 0.00382562
+[LuxCore][29738.375] Noise estimation: Error mean = 0.00367413
+[LuxCore][29849.156] Noise estimation: Error mean = 0.00352475
+[LuxCore][29959.938] Noise estimation: Error mean = 0.00337742
+[LuxCore][30070.688] Noise estimation: Error mean = 0.00325797
+[LuxCore][30181.438] Noise estimation: Error mean = 0.00312969
+[LuxCore][30292.188] Noise estimation: Error mean = 0.00301433
+[LuxCore][30402.953] Noise estimation: Error mean = 0.00291948
+[LuxCore][30513.719] Noise estimation: Error mean = 0.00282547
+[LuxCore][30624.469] Noise estimation: Error mean = 0.00273351
+[LuxCore][30735.219] Noise estimation: Error mean = 0.00265498
+[LuxCore][30846.000] Noise estimation: Error mean = 0.00256291
+[LuxCore][30956.766] Noise estimation: Error mean = 0.00249459
+[LuxCore][31067.453] Noise estimation: Error mean = 0.0024192
+[LuxCore][31178.203] Noise estimation: Error mean = 0.00235781
+[LuxCore][31288.953] Noise estimation: Error mean = 0.002294
+[LuxCore][31399.703] Noise estimation: Error mean = 0.00223461
+[LuxCore][31510.469] Noise estimation: Error mean = 0.00217186
+[LuxCore][31621.219] Noise estimation: Error mean = 0.00211139
+[LuxCore][31731.985] Noise estimation: Error mean = 0.00206207
+[LuxCore][31842.735] Noise estimation: Error mean = 0.00201426
+[LuxCore][31953.500] Noise estimation: Error mean = 0.00197181
+[LuxCore][32064.250] Noise estimation: Error mean = 0.00192506
+[LuxCore][32175.000] Noise estimation: Error mean = 0.00188252
+[LuxCore][32194.953] Samples per pixel 100%, rendering done.
+[LuxCore][32195.000] [GeForce GTX 1660 Ti OpenCLIntersect] Memory used for hardware image pipeline: 47162Kbytes
+[Engine/Final] Finished rendering layer "RenderLayer"
+Saved: 'C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\2_LuxCore\╨б2_1556_12tr_.png'
+ Time: 01:25:11.91 (Saving: 00:00.20)
+
+mean time = 1326.1526372432709
+==================================================
+[Engine/Final] Rendering layer "RenderLayer"
+[Exporter] Creating session
+[SDL][32195.578] Camera type: perspective
+[SDL][32195.578] Camera position: Point[0.0955119, 28.5975, 13.2955]
+[SDL][32195.578] Camera target: Point[0.148943, 27.6321, 13.04]
+[SDL][32195.578] Camera clipping plane disabled
+[SDL][32195.781] Texture definition: 2162000912904fresnel_helper
+[SDL][32195.781] Texture definition: 2162002436520Color
+[SDL][32195.781] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\Curtain Textures\Buzz_lighter.jpg
+[SDL][32195.797] Texture definition: 2162002438504Bump
+[SDL][32195.797] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\Curtain Textures\Fabric01_nrm.jpg
+[SDL][32196.328] Texture definition: 2162002438504Bump_normalmap
+[SDL][32196.328] Texture definition: 2162000915384Color
+[SDL][32196.328] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-diffuse.jpg
+[SDL][32196.422] Texture definition: 2162000915880Color
+[SDL][32196.422] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-specular.jpg
+[SDL][32196.500] Texture definition: 2162000917864Bump
+[SDL][32196.500] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-cracked_wood_plank-normal.jpg
+[SDL][32196.625] Texture definition: 2162000917864Bump_normalmap
+[SDL][32196.625] Texture definition: 2162002439000Color
+[SDL][32196.625] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg
+[SDL][32196.719] Texture definition: 2162002437016Color
+[SDL][32196.719] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-specular.jpg
+[SDL][32196.797] Texture definition: 2162002439496Bump
+[SDL][32196.797] Reading texture map: C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\3_LuxCore\..\0_appleseed\textures\2K-wood_fine_4-normal.jpg
+[SDL][32196.828] Texture definition: 2162002439496Bump_normalmap
+[SDL][32196.828] Material definition: as_crishka__material2161991841560
+[SDL][32196.828] Material definition: as_glass2161991827448
+[SDL][32196.828] Material definition: as_metalic2161991824760
+[SDL][32196.828] Material definition: 2161756353032Material
+[SDL][32196.828] Material definition: 2160967432072Material
+[SDL][32196.828] Material definition: as_translucent__silk2161991829800
+[SDL][32196.828] Material definition: 2161900172024_AREA_LIGHT_MAT
+[SDL][32196.844] Material definition: as_BG_white_brick_wall2161991827112
+[SDL][32196.844] Material definition: asWood2161991842232
+[SDL][32196.844] Material definition: as_red__glass2161991841896
+[SDL][32196.844] Material definition: as_blue__glass2161991838200
+[SDL][32196.844] The 21619001720240 object is a light sources with 2 triangles
+[SDL][32196.844] Scene objects count: 10
+[SDL][32196.844] Light definition: 2161900194344
+[SDL][32196.844] Light definition: __WORLD_BACKGROUND_LIGHT__
+[LuxCore][32196.860] Configuration:
+[LuxCore][32196.860]   light.maxdepth = 16
+[LuxCore][32196.860]   path.maxdepth = 12
+[LuxCore][32196.860]   film.noiseestimation.warmup = 8
+[LuxCore][32196.860]   film.noiseestimation.step = 32
+[LuxCore][32196.860]   sampler.sobol.adaptive.strength = 0.89999997615814209
+[LuxCore][32196.860]   sampler.sobol.bucketsize = 16
+[LuxCore][32196.860]   sampler.sobol.tilesize = 16
+[LuxCore][32196.860]   sampler.sobol.supersampling = 1
+[LuxCore][32196.860]   sampler.sobol.overlapping = 1
+[LuxCore][32196.860]   renderengine.type = "BIDIRCPU"
+[LuxCore][32196.860]   sampler.type = "SOBOL"
+[LuxCore][32196.860]   film.width = 1120
+[LuxCore][32196.860]   film.height = 1540
+[LuxCore][32196.860]   film.filter.type = "BLACKMANHARRIS"
+[LuxCore][32196.860]   film.filter.width = 1.5
+[LuxCore][32196.860]   lightstrategy.type = "LOG_POWER"
+[LuxCore][32196.860]   scene.epsilon.min = 9.9999997473787516e-06
+[LuxCore][32196.860]   scene.epsilon.max = 0.10000000149011612
+[LuxCore][32196.860]   film.opencl.enable = 1
+[LuxCore][32196.860]   film.opencl.device = 0
+[LuxCore][32196.860]   path.clamping.variance.maxvalue = 0.5
+[LuxCore][32196.860]   path.forceblackbackground.enable = 0
+[LuxCore][32196.860]   native.threads.count = 12
+[LuxCore][32196.860]   renderengine.seed = 1
+[LuxCore][32196.860]   film.outputs.0.type = "RGB_IMAGEPIPELINE"
+[LuxCore][32196.860]   film.outputs.0.index = 0
+[LuxCore][32196.860]   film.outputs.0.filename = "RGB_IMAGEPIPELINE_0.png"
+[LuxCore][32196.860]   film.outputs.1.type = "RGB_IMAGEPIPELINE"
+[LuxCore][32196.860]   film.outputs.1.index = 1
+[LuxCore][32196.860]   film.outputs.1.filename = "RGB_IMAGEPIPELINE_1.png"
+[LuxCore][32196.860]   film.imagepipelines.001.0.type = "NOP"
+[LuxCore][32196.860]   film.imagepipelines.001.1.type = "TONEMAP_LINEAR"
+[LuxCore][32196.860]   film.imagepipelines.001.1.scale = 1
+[LuxCore][32196.860]   film.imagepipelines.001.radiancescales.0.enabled = 1
+[LuxCore][32196.860]   film.imagepipelines.001.radiancescales.0.globalscale = 1
+[LuxCore][32196.860]   film.imagepipelines.001.radiancescales.0.rgbscale = 1 1 1
+[LuxCore][32196.860]   film.imagepipelines.001.2.type = "GAMMA_CORRECTION"
+[LuxCore][32196.860]   film.imagepipelines.001.2.value = 2.2000000000000002
+[LuxCore][32196.860]   film.noiseestimation.index = 1
+[LuxCore][32196.860]   film.imagepipelines.000.0.type = "NOP"
+[LuxCore][32196.860]   film.imagepipelines.000.1.type = "TONEMAP_LINEAR"
+[LuxCore][32196.860]   film.imagepipelines.000.1.scale = 1
+[LuxCore][32196.860]   film.imagepipelines.000.radiancescales.0.enabled = 1
+[LuxCore][32196.860]   film.imagepipelines.000.radiancescales.0.globalscale = 1
+[LuxCore][32196.875]   film.imagepipelines.000.radiancescales.0.rgbscale = 1 1 1
+[LuxCore][32196.875]   batch.haltspp = 3145
+[LuxCore][32196.875]   batch.halttime = 0
+[LuxCore][32196.875] File Name Resolver Configuration:
+Export took 1.3 s
+[LuxCore][32196.875] Film resolution: 1120x1540
+[SDL][32196.875] Film output definition: RGB_IMAGEPIPELINE [image.png]
+[SDL][32196.875] Image pipeline: film.imagepipelines.000
+[SDL][32196.875] Image pipeline step 0: NOP
+[SDL][32196.875] Image pipeline step 1: TONEMAP_LINEAR
+[SDL][32196.875] Image pipeline: film.imagepipelines.001
+[SDL][32196.875] Image pipeline step 0: NOP
+[SDL][32196.875] Image pipeline step 1: TONEMAP_LINEAR
+[SDL][32196.875] Image pipeline step 2: GAMMA_CORRECTION
+[SDL][32196.875] Film output definition: RGB_IMAGEPIPELINE [RGB_IMAGEPIPELINE_0.png]
+[SDL][32196.875] Film output definition: RGB_IMAGEPIPELINE [RGB_IMAGEPIPELINE_1.png]
+[LuxRays][32196.875] OpenCL Platform 0: NVIDIA Corporation
+[LuxRays][32196.875] CUDA driver version: 10.20
+[LuxRays][32196.875] CUDA device count: 1
+[LuxRays][32196.875] Device 0 name: Native
+[LuxRays][32196.875] Device 0 type: NATIVE_THREAD
+[LuxRays][32196.875] Device 0 compute units: 1
+[LuxRays][32196.875] Device 0 preferred float vector width: 4
+[LuxRays][32196.875] Device 0 max allocable memory: 17592186044415MBytes
+[LuxRays][32196.891] Device 0 max allocable memory block size: 17592186044415MBytes
+[LuxRays][32196.891] Device 0 has out of core memory support: 0
+[LuxRays][32196.891] Device 1 name: GeForce GTX 1660 Ti
+[LuxRays][32196.891] Device 1 type: OPENCL_GPU
+[LuxRays][32196.891] Device 1 compute units: 24
+[LuxRays][32196.891] Device 1 preferred float vector width: 1
+[LuxRays][32196.891] Device 1 max allocable memory: 6144MBytes
+[LuxRays][32196.891] Device 1 max allocable memory block size: 1536MBytes
+[LuxRays][32196.891] Device 1 has out of core memory support: 0
+[LuxRays][32196.891] Device 2 name: GeForce GTX 1660 Ti
+[LuxRays][32196.891] Device 2 type: CUDA_GPU
+[LuxRays][32196.891] Device 2 compute units: 64
+[LuxRays][32196.891] Device 2 preferred float vector width: 1
+[LuxRays][32196.891] Device 2 max allocable memory: 6144MBytes
+[LuxRays][32196.891] Device 2 max allocable memory block size: 17592186044415MBytes
+[LuxRays][32196.891] Device 2 has out of core memory support: 1
+[LuxRays][32196.891] Creating 12 intersection device(s)
+[LuxRays][32196.891] Allocating intersection device 0: Native (Type = NATIVE_THREAD)
+[LuxRays][32196.891] Allocating intersection device 1: Native (Type = NATIVE_THREAD)
+[LuxRays][32196.891] Allocating intersection device 2: Native (Type = NATIVE_THREAD)
+[LuxRays][32196.891] Allocating intersection device 3: Native (Type = NATIVE_THREAD)
+[LuxRays][32196.891] Allocating intersection device 4: Native (Type = NATIVE_THREAD)
+[LuxRays][32196.891] Allocating intersection device 5: Native (Type = NATIVE_THREAD)
+[LuxRays][32196.891] Allocating intersection device 6: Native (Type = NATIVE_THREAD)
+[LuxRays][32196.891] Allocating intersection device 7: Native (Type = NATIVE_THREAD)
+[LuxRays][32196.891] Allocating intersection device 8: Native (Type = NATIVE_THREAD)
+[LuxRays][32196.891] Allocating intersection device 9: Native (Type = NATIVE_THREAD)
+[LuxRays][32196.891] Allocating intersection device 10: Native (Type = NATIVE_THREAD)
+[LuxRays][32196.891] Allocating intersection device 11: Native (Type = NATIVE_THREAD)
+[LuxCore][32196.891] Configuring 12 CPU render threads
+[LuxRays][32196.891] Preprocessing DataSet
+[LuxRays][32196.891] Total vertex count: 543967
+[LuxRays][32196.891] Total triangle count: 1086862
+[LuxRays][32196.891] Preprocessing DataSet done
+[LuxRays][32196.891] Adding DataSet accelerator: EMBREE
+[LuxRays][32196.891] Total vertex count: 543967
+[LuxRays][32196.891] Total triangle count: 1086862
+[LuxRays][32197.000] EmbreeAccel build time: 108ms
+Session started in 0.2 s
+[LuxCore][32197.110] Film hardware image pipeline
+[LuxCore][32197.110] Film hardware device used: GeForce GTX 1660 Ti OpenCLIntersect (Type: OPENCL_GPU)
+[LuxCore][32197.110]   Device OpenCL version: OpenCL 1.2 CUDA
+[LuxRays][32197.203] [Device GeForce GTX 1660 Ti OpenCLIntersect] IMAGEPIPELINE buffer size: 20212Kbytes
+[LuxRays][32197.219] [Device GeForce GTX 1660 Ti OpenCLIntersect] Merge buffer size: 26950Kbytes
+[LuxRays][32197.219] [MergeSampleBuffersOCL] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][32197.219] [MergeSampleBuffersOCL] Compiling kernels
+[LuxRays][32197.219] [MergeSampleBuffersOCL] Program cached
+[LuxCore][32197.219] [MergeSampleBuffersOCL] Compiling Film_MergeBufferInitialize Kernel
+[LuxCore][32197.219] [MergeSampleBuffersOCL] Compiling Film_MergeRADIANCE_PER_PIXEL_NORMALIZED Kernel
+[LuxCore][32197.219] [MergeSampleBuffersOCL] Compiling Film_MergeRADIANCE_PER_SCREEN_NORMALIZED Kernel
+[LuxCore][32197.219] [MergeSampleBuffersOCL] Compiling Film_MergeBufferFinalize Kernel
+[LuxCore][32197.219] [MergeSampleBuffersOCL] Kernels compilation time: 0ms
+[LuxRays][32197.250] [LinearToneMap] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][32197.250] [LinearToneMap] Compiling kernels
+[LuxRays][32197.250] [LinearToneMap] Program cached
+[LuxCore][32197.250] [AutoLinearToneMap] Compiling LinearToneMap_Apply Kernel
+[LuxCore][32197.250] [LinearToneMap] Kernels compilation time: 0ms
+[LuxRays][32302.656] [LinearToneMap] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][32302.656] [LinearToneMap] Compiling kernels
+[LuxRays][32302.672] [LinearToneMap] Program cached
+[LuxCore][32302.672] [AutoLinearToneMap] Compiling LinearToneMap_Apply Kernel
+[LuxCore][32302.672] [LinearToneMap] Kernels compilation time: 16ms
+[LuxRays][32302.672] [Device GeForce GTX 1660 Ti OpenCLIntersect] Gamma table buffer size: 16Kbytes
+[LuxRays][32302.672] [GammaCorrectionPlugin] Compiler options: -D LUXRAYS_OPENCL_KERNEL -D SLG_OPENCL_KERNEL -D LUXRAYS_OPENCL_DEVICE -D LUXRAYS_OS_WINDOWS
+[LuxRays][32302.672] [GammaCorrectionPlugin] Compiling kernels
+[LuxRays][32302.672] [GammaCorrectionPlugin] Program cached
+[LuxCore][32302.672] [GammaCorrectionPlugin] Compiling GammaCorrectionPlugin_Apply Kernel
+[LuxCore][32302.672] [GammaCorrectionPlugin] Kernels compilation time: 0ms
+[LuxCore][32302.672] Noise estimation: first pass
+[LuxCore][32413.610] Noise estimation: Error mean = 0.0587527
+[LuxCore][32524.375] Noise estimation: Error mean = 0.0350492
+[LuxCore][32635.156] Noise estimation: Error mean = 0.0242778
+[LuxCore][32745.938] Noise estimation: Error mean = 0.0188024
+[LuxCore][32856.688] Noise estimation: Error mean = 0.0155091
+[LuxCore][32967.438] Noise estimation: Error mean = 0.0131758
+[LuxCore][33078.188] Noise estimation: Error mean = 0.0114626
+[LuxCore][33188.953] Noise estimation: Error mean = 0.0101412
+[LuxCore][33299.703] Noise estimation: Error mean = 0.00913059
+[LuxCore][33410.453] Noise estimation: Error mean = 0.00824473
+[LuxCore][33521.235] Noise estimation: Error mean = 0.00752123
+[LuxCore][33632.016] Noise estimation: Error mean = 0.00693142
+[LuxCore][33742.766] Noise estimation: Error mean = 0.00641056
+[LuxCore][33853.516] Noise estimation: Error mean = 0.0059561
+[LuxCore][33964.266] Noise estimation: Error mean = 0.00557615
+[LuxCore][34075.016] Noise estimation: Error mean = 0.0052265
+[LuxCore][34185.750] Noise estimation: Error mean = 0.00493783
+[LuxCore][34296.516] Noise estimation: Error mean = 0.00466734
+[LuxCore][34407.266] Noise estimation: Error mean = 0.00439842
+[LuxCore][34518.063] Noise estimation: Error mean = 0.00421177
+[LuxCore][34628.844] Noise estimation: Error mean = 0.00400617
+[LuxCore][34739.578] Noise estimation: Error mean = 0.00383768
+[LuxCore][34850.344] Noise estimation: Error mean = 0.00366811
+[LuxCore][34961.094] Noise estimation: Error mean = 0.00352782
+[LuxCore][35071.828] Noise estimation: Error mean = 0.00338367
+[LuxCore][35182.578] Noise estimation: Error mean = 0.00325686
+[LuxCore][35293.328] Noise estimation: Error mean = 0.0031357
+[LuxCore][35404.125] Noise estimation: Error mean = 0.00302239
+[LuxCore][35514.906] Noise estimation: Error mean = 0.0029263
+[LuxCore][35625.656] Noise estimation: Error mean = 0.00282984
+[LuxCore][35736.406] Noise estimation: Error mean = 0.00273628
+[LuxCore][35847.156] Noise estimation: Error mean = 0.00265216
+[LuxCore][35957.906] Noise estimation: Error mean = 0.00256651
+[LuxCore][36068.672] Noise estimation: Error mean = 0.00249476
+[LuxCore][36179.438] Noise estimation: Error mean = 0.00241649
+[LuxCore][36290.203] Noise estimation: Error mean = 0.0023551
+[LuxCore][36400.969] Noise estimation: Error mean = 0.00229384
+[LuxCore][36511.735] Noise estimation: Error mean = 0.00223197
+[LuxCore][36622.500] Noise estimation: Error mean = 0.00217122
+[LuxCore][36733.281] Noise estimation: Error mean = 0.00211944
+[LuxCore][36844.094] Noise estimation: Error mean = 0.0020776
+[LuxCore][36954.844] Noise estimation: Error mean = 0.00201976
+[LuxCore][37065.610] Noise estimation: Error mean = 0.00197422
+[LuxCore][37176.375] Noise estimation: Error mean = 0.00192596
+[LuxCore][37287.141] Noise estimation: Error mean = 0.00189432
+[LuxCore][37397.906] Noise estimation: Error mean = 0.00184273
+[LuxCore][37508.672] Noise estimation: Error mean = 0.00180656
+[LuxCore][37619.469] Noise estimation: Error mean = 0.00176151
+[LuxCore][37730.281] Noise estimation: Error mean = 0.00172923
+[LuxCore][37841.063] Noise estimation: Error mean = 0.00169202
+[LuxCore][37951.828] Noise estimation: Error mean = 0.00166595
+[LuxCore][38062.578] Noise estimation: Error mean = 0.00162875
+[LuxCore][38173.313] Noise estimation: Error mean = 0.00160358
+[LuxCore][38284.047] Noise estimation: Error mean = 0.00157325
+[LuxCore][38394.781] Noise estimation: Error mean = 0.00154187
+[LuxCore][38505.563] Noise estimation: Error mean = 0.00151638
+[LuxCore][38616.328] Noise estimation: Error mean = 0.00149472
+[LuxCore][38727.078] Noise estimation: Error mean = 0.00146764
+[LuxCore][38837.813] Noise estimation: Error mean = 0.00144578
+[LuxCore][38948.563] Noise estimation: Error mean = 0.00141733
+[LuxCore][39059.297] Noise estimation: Error mean = 0.00139678
+[LuxCore][39170.047] Noise estimation: Error mean = 0.00136991
+[LuxCore][39280.797] Noise estimation: Error mean = 0.00135021
+[LuxCore][39391.547] Noise estimation: Error mean = 0.00131902
+[LuxCore][39502.297] Noise estimation: Error mean = 0.00130663
+[LuxCore][39613.094] Noise estimation: Error mean = 0.001285
+[LuxCore][39723.860] Noise estimation: Error mean = 0.00126993
+[LuxCore][39834.610] Noise estimation: Error mean = 0.00124831
+[LuxCore][39945.344] Noise estimation: Error mean = 0.00123025
+[LuxCore][40056.110] Noise estimation: Error mean = 0.00120342
+[LuxCore][43650.469] Samples per pixel 100%, rendering done.
+[LuxCore][43650.516] [GeForce GTX 1660 Ti OpenCLIntersect] Memory used for hardware image pipeline: 47162Kbytes
+[Engine/Final] Finished rendering layer "RenderLayer"
+Saved: 'C:\
+ Time: 03:10:55.50 (Saving: 00:00.20)
