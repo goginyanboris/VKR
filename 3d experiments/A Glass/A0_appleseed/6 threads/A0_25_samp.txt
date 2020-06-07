@@ -1,0 +1,201 @@
+start rendering
+2020-05-08T10:44:26.645043Z <014>   661 MB info    | texture store settings:
+2020-05-08T10:44:26.645043Z <014>   661 MB info    |   max store size                1.0 GB
+2020-05-08T10:44:26.645043Z <014>   661 MB info    |   track store size              off
+2020-05-08T10:44:26.645043Z <014>   661 MB info    |   track tile loading            off
+2020-05-08T10:44:26.645043Z <014>   661 MB info    |   track tile unloading          off
+2020-05-08T10:44:26.648046Z <014>   661 MB info    | setting oiio texture cache size to 1.0 GB.
+2020-05-08T10:44:26.648046Z <014>   661 MB info    | setting oiio search paths to C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders
+2020-05-08T10:44:26.649047Z <014>   661 MB info    | setting osl shader search paths to C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders
+2020-05-08T10:44:26.649047Z <014>   661 MB info    | found OSL headers in C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders\stdosl.h
+2020-05-08T10:44:26.672068Z <014>   676 MB info    | collecting light emitters...
+2020-05-08T10:44:26.672068Z <014>   676 MB info    | found 1 non-physical light, 0 emitting shape.
+2020-05-08T10:44:26.672068Z <014>   676 MB info    | collecting light emitters...
+2020-05-08T10:44:26.673068Z <014>   676 MB info    | found 1 non-physical light, 0 light-tree compatible light, 0 emitting shape.
+2020-05-08T10:44:26.674069Z <014>   677 MB info    | the scene does not rely on alpha mapping and does not contain participating media; using probe tracing.
+2020-05-08T10:44:26.675070Z <014>   679 MB info    | generic frame renderer settings:
+2020-05-08T10:44:26.675070Z <014>   679 MB info    |   spectrum mode                 rgb
+2020-05-08T10:44:26.675070Z <014>   679 MB info    |   sampling mode                 qmc
+2020-05-08T10:44:26.675070Z <014>   679 MB info    |   rendering threads             6
+2020-05-08T10:44:26.675070Z <014>   679 MB info    |   tile ordering                 spiral
+2020-05-08T10:44:26.675070Z <014>   679 MB info    |   passes                        25
+2020-05-08T10:44:26.676071Z <014>   679 MB info    | uniform pixel renderer settings:
+2020-05-08T10:44:26.676071Z <014>   679 MB info    |   samples                       2
+2020-05-08T10:44:26.676071Z <014>   679 MB info    |   force anti-aliasing           on
+2020-05-08T10:44:26.677072Z <014>   679 MB info    | generic sample renderer settings:
+2020-05-08T10:44:26.677072Z <014>   679 MB info    |   transparency threshold        0.001000
+2020-05-08T10:44:26.677072Z <014>   679 MB info    |   max iterations                100
+2020-05-08T10:44:26.677072Z <014>   679 MB info    |   report self intersections     off
+2020-05-08T10:44:26.678073Z <014>   679 MB info    | sppm settings:
+2020-05-08T10:44:26.678073Z <014>   679 MB info    |   photon type                   polychromatic
+2020-05-08T10:44:26.678073Z <014>   679 MB info    |   dl                            sppm
+2020-05-08T10:44:26.678073Z <014>   679 MB info    |   ibl                           on
+2020-05-08T10:44:26.678073Z <014>   679 MB info    |   importons                     off
+2020-05-08T10:44:26.680075Z <014>   679 MB info    | sppm photon tracing settings:
+2020-05-08T10:44:26.680075Z <014>   679 MB info    |   light photons                 1,000,000
+2020-05-08T10:44:26.680075Z <014>   679 MB info    |   environment photons           1,000,000
+2020-05-08T10:44:26.680075Z <014>   679 MB info    |   max bounces                   unlimited
+2020-05-08T10:44:26.680075Z <014>   679 MB info    |   russian roulette start bounce 6
+2020-05-08T10:44:26.680075Z <014>   679 MB info    |   importon lookup radius        5.000%
+2020-05-08T10:44:26.683077Z <014>   679 MB info    | sppm path tracing settings:
+2020-05-08T10:44:26.683077Z <014>   679 MB info    |   max bounces                   unlimited
+2020-05-08T10:44:26.683077Z <014>   679 MB info    |   max ray intensity             unlimited
+2020-05-08T10:44:26.683077Z <014>   679 MB info    |   russian roulette start bounce 6
+2020-05-08T10:44:26.683077Z <014>   679 MB info    |   initial photon lookup radius  0.100%
+2020-05-08T10:44:26.683077Z <014>   679 MB info    |   alpha                         0.7
+2020-05-08T10:44:26.683077Z <014>   679 MB info    |   max photons per estimate      100
+2020-05-08T10:44:26.683077Z <014>   679 MB info    |   dl light samples              1.0
+2020-05-08T10:44:26.683077Z <014>   679 MB info    |   dl light threshold            0.000
+2020-05-08T10:44:26.686080Z <014>   679 MB info    | using Intel Embree ray tracing kernel.
+2020-05-08T10:44:26.686080Z <014>   679 MB info    | collecting assembly instances...
+2020-05-08T10:44:26.687081Z <014>   679 MB info    | building assembly tree (1 assembly instance)...
+2020-05-08T10:44:26.687081Z <014>   679 MB info    | frame "/beauty" (#643) parameters:
+2020-05-08T10:44:26.687081Z <014>   679 MB info    |   camera name                   "Camera"
+2020-05-08T10:44:26.687081Z <014>   679 MB info    |   resolution                    1,920 x 1,080
+2020-05-08T10:44:26.687081Z <014>   679 MB info    |   tile size                     64 x 64
+2020-05-08T10:44:26.687081Z <014>   679 MB info    |   filter                        blackman-harris
+2020-05-08T10:44:26.687081Z <014>   679 MB info    |   filter size                   1.500000
+2020-05-08T10:44:26.687081Z <014>   679 MB info    |   crop window                   (0, 0)-(1,919, 1,079)
+2020-05-08T10:44:26.687081Z <014>   679 MB info    |   dithering                     on
+2020-05-08T10:44:26.687081Z <014>   679 MB info    |   noise seed                    0
+2020-05-08T10:44:26.687081Z <014>   679 MB info    |   denoising mode                off
+2020-05-08T10:44:26.687081Z <014>   679 MB info    |   create checkpoint             off
+2020-05-08T10:44:26.687081Z <014>   679 MB info    |   resume checkpoint             off
+2020-05-08T10:44:26.687081Z <014>   679 MB info    |   reference image path          n/a
+2020-05-08T10:44:26.692085Z <014>   679 MB info    | camera "/scene/Camera" (#644) parameters:
+2020-05-08T10:44:26.692085Z <014>   679 MB info    |   model                         pinhole_camera
+2020-05-08T10:44:26.692085Z <014>   679 MB info    |   film width                    0.032000
+2020-05-08T10:44:26.692085Z <014>   679 MB info    |   film height                   0.018000
+2020-05-08T10:44:26.692085Z <014>   679 MB info    |   focal length                  0.035000
+2020-05-08T10:44:26.692085Z <014>   679 MB info    |   near z                        -0.001000
+2020-05-08T10:44:26.692085Z <014>   679 MB info    |   shift                         0.000000, 0.000000
+2020-05-08T10:44:26.692085Z <014>   679 MB info    |   shutter open begin time       0.000000
+2020-05-08T10:44:26.692085Z <014>   679 MB info    |   shutter open end time         0.000000
+2020-05-08T10:44:26.692085Z <014>   679 MB info    |   shutter close begin time      1.000000
+2020-05-08T10:44:26.692085Z <014>   679 MB info    |   shutter close end time        1.000000
+2020-05-08T10:44:26.696089Z <015>   680 MB info    | --- beginning rendering pass #1 ---
+2020-05-08T10:44:26.696089Z <015>   680 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:44:28.025801Z <015>   911 MB info    | building sppm photon map from 3,058,681 photons...
+2020-05-08T10:44:29.292016Z <015>  1028 MB info    | sppm lookup radius is 0.056648 (100.000% of initial radius).
+2020-05-08T10:44:40.254182Z <015>  1099 MB info    | sppm pass 1 completed in 13.6 seconds.
+2020-05-08T10:44:40.254182Z <015>  1099 MB info    | --- beginning rendering pass #2 ---
+2020-05-08T10:44:40.257185Z <015>  1099 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:44:41.594409Z <015>  1146 MB info    | building sppm photon map from 3,057,026 photons...
+2020-05-08T10:44:42.870577Z <015>  1110 MB info    | sppm lookup radius is 0.047395 (83.666% of initial radius).
+2020-05-08T10:44:52.987774Z <015>  1110 MB info    | sppm pass 2 completed in 12.7 seconds.
+2020-05-08T10:44:52.987774Z <015>  1110 MB info    | --- beginning rendering pass #3 ---
+2020-05-08T10:44:52.990777Z <015>  1110 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:44:54.289517Z <015>  1146 MB info    | building sppm photon map from 3,054,666 photons...
+2020-05-08T10:44:55.548660Z <015>  1110 MB info    | sppm lookup radius is 0.043696 (77.136% of initial radius).
+2020-05-08T10:45:05.280165Z <015>  1110 MB info    | sppm pass 3 completed in 12.3 seconds.
+2020-05-08T10:45:05.284169Z <015>  1110 MB info    | --- beginning rendering pass #4 ---
+2020-05-08T10:45:05.284169Z <015>  1110 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:45:06.581346Z <015>  1146 MB info    | building sppm photon map from 3,057,438 photons...
+2020-05-08T10:45:07.842500Z <015>  1111 MB info    | sppm lookup radius is 0.041454 (73.178% of initial radius).
+2020-05-08T10:45:17.368521Z <015>  1111 MB info    | sppm pass 4 completed in 12.1 seconds.
+2020-05-08T10:45:17.370523Z <015>  1111 MB info    | --- beginning rendering pass #5 ---
+2020-05-08T10:45:17.371524Z <015>  1111 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:45:18.681810Z <015>  1146 MB info    | building sppm photon map from 3,055,845 photons...
+2020-05-08T10:45:19.938878Z <015>  1111 MB info    | sppm lookup radius is 0.039869 (70.380% of initial radius).
+2020-05-08T10:45:29.240953Z <015>  1111 MB info    | sppm pass 5 completed in 11.9 seconds.
+2020-05-08T10:45:29.240953Z <015>  1111 MB info    | --- beginning rendering pass #6 ---
+2020-05-08T10:45:29.242955Z <015>  1111 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:45:30.549152Z <015>  1148 MB info    | building sppm photon map from 3,060,225 photons...
+2020-05-08T10:45:31.798356Z <015>  1112 MB info    | sppm lookup radius is 0.038655 (68.236% of initial radius).
+2020-05-08T10:45:41.008323Z <015>  1111 MB info    | sppm pass 6 completed in 11.8 seconds.
+2020-05-08T10:45:41.008323Z <015>  1111 MB info    | --- beginning rendering pass #7 ---
+2020-05-08T10:45:41.010325Z <015>  1111 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:45:42.298017Z <015>  1148 MB info    | building sppm photon map from 3,056,774 photons...
+2020-05-08T10:45:43.560162Z <015>  1113 MB info    | sppm lookup radius is 0.037676 (66.508% of initial radius).
+2020-05-08T10:45:52.646923Z <015>  1113 MB info    | sppm pass 7 completed in 11.6 seconds.
+2020-05-08T10:45:52.646923Z <015>  1113 MB info    | --- beginning rendering pass #8 ---
+2020-05-08T10:45:52.648925Z <015>  1113 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:45:53.958638Z <015>  1148 MB info    | building sppm photon map from 3,053,706 photons...
+2020-05-08T10:45:55.204280Z <015>  1112 MB info    | sppm lookup radius is 0.036860 (65.068% of initial radius).
+2020-05-08T10:46:04.123689Z <015>  1112 MB info    | sppm pass 8 completed in 11.5 seconds.
+2020-05-08T10:46:04.123689Z <015>  1112 MB info    | --- beginning rendering pass #9 ---
+2020-05-08T10:46:04.125690Z <015>  1112 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:46:05.402386Z <015>  1148 MB info    | building sppm photon map from 3,054,721 photons...
+2020-05-08T10:46:06.659535Z <015>  1113 MB info    | sppm lookup radius is 0.036162 (63.836% of initial radius).
+2020-05-08T10:46:15.480155Z <015>  1113 MB info    | sppm pass 9 completed in 11.4 seconds.
+2020-05-08T10:46:15.480155Z <015>  1113 MB info    | --- beginning rendering pass #10 ---
+2020-05-08T10:46:15.482157Z <015>  1113 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:46:16.819910Z <015>  1148 MB info    | building sppm photon map from 3,054,700 photons...
+2020-05-08T10:46:18.088454Z <015>  1113 MB info    | sppm lookup radius is 0.035554 (62.763% of initial radius).
+2020-05-08T10:46:26.799046Z <015>  1113 MB info    | sppm pass 10 completed in 11.3 seconds.
+2020-05-08T10:46:26.799046Z <015>  1113 MB info    | --- beginning rendering pass #11 ---
+2020-05-08T10:46:26.801161Z <015>  1113 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:46:28.098249Z <015>  1147 MB info    | building sppm photon map from 3,056,636 photons...
+2020-05-08T10:46:29.361933Z <015>  1112 MB info    | sppm lookup radius is 0.035017 (61.814% of initial radius).
+2020-05-08T10:46:38.021768Z <015>  1112 MB info    | sppm pass 11 completed in 11.2 seconds.
+2020-05-08T10:46:38.021768Z <015>  1112 MB info    | --- beginning rendering pass #12 ---
+2020-05-08T10:46:38.023770Z <015>  1112 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:46:39.322986Z <015>  1149 MB info    | building sppm photon map from 3,055,423 photons...
+2020-05-08T10:46:40.577140Z <015>  1114 MB info    | sppm lookup radius is 0.034536 (60.966% of initial radius).
+2020-05-08T10:46:49.137600Z <015>  1114 MB info    | sppm pass 12 completed in 11.1 seconds.
+2020-05-08T10:46:49.141603Z <015>  1114 MB info    | --- beginning rendering pass #13 ---
+2020-05-08T10:46:49.142605Z <015>  1114 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:46:50.440804Z <015>  1147 MB info    | building sppm photon map from 3,056,341 photons...
+2020-05-08T10:46:51.693462Z <015>  1112 MB info    | sppm lookup radius is 0.034102 (60.199% of initial radius).
+2020-05-08T10:47:00.193890Z <015>  1112 MB info    | sppm pass 13 completed in 11.1 seconds.
+2020-05-08T10:47:00.193890Z <015>  1112 MB info    | --- beginning rendering pass #14 ---
+2020-05-08T10:47:00.195892Z <015>  1112 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:47:01.460553Z <015>  1148 MB info    | building sppm photon map from 3,054,860 photons...
+2020-05-08T10:47:02.731707Z <015>  1112 MB info    | sppm lookup radius is 0.033706 (59.500% of initial radius).
+2020-05-08T10:47:11.134754Z <015>  1111 MB info    | sppm pass 14 completed in 10.9 seconds.
+2020-05-08T10:47:11.134754Z <015>  1111 MB info    | --- beginning rendering pass #15 ---
+2020-05-08T10:47:11.136756Z <015>  1111 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:47:12.436793Z <015>  1147 MB info    | building sppm photon map from 3,059,488 photons...
+2020-05-08T10:47:13.697476Z <015>  1111 MB info    | sppm lookup radius is 0.033343 (58.859% of initial radius).
+2020-05-08T10:47:22.083151Z <015>  1110 MB info    | sppm pass 15 completed in 10.9 seconds.
+2020-05-08T10:47:22.083151Z <015>  1110 MB info    | --- beginning rendering pass #16 ---
+2020-05-08T10:47:22.085153Z <015>  1110 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:47:23.405351Z <015>  1146 MB info    | building sppm photon map from 3,059,971 photons...
+2020-05-08T10:47:24.675036Z <015>  1111 MB info    | sppm lookup radius is 0.033008 (58.268% of initial radius).
+2020-05-08T10:47:33.002309Z <015>  1111 MB info    | sppm pass 16 completed in 10.9 seconds.
+2020-05-08T10:47:33.002309Z <015>  1111 MB info    | --- beginning rendering pass #17 ---
+2020-05-08T10:47:33.004311Z <015>  1111 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:47:34.291502Z <015>  1148 MB info    | building sppm photon map from 3,060,109 photons...
+2020-05-08T10:47:35.562663Z <015>  1112 MB info    | sppm lookup radius is 0.032697 (57.719% of initial radius).
+2020-05-08T10:47:43.772110Z <015>  1110 MB info    | sppm pass 17 completed in 10.8 seconds.
+2020-05-08T10:47:43.772110Z <015>  1110 MB info    | --- beginning rendering pass #18 ---
+2020-05-08T10:47:43.774110Z <015>  1110 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:47:45.048001Z <015>  1147 MB info    | building sppm photon map from 3,056,316 photons...
+2020-05-08T10:47:46.306173Z <015>  1112 MB info    | sppm lookup radius is 0.032407 (57.207% of initial radius).
+2020-05-08T10:47:54.482450Z <015>  1111 MB info    | sppm pass 18 completed in 10.7 seconds.
+2020-05-08T10:47:54.482450Z <015>  1111 MB info    | --- beginning rendering pass #19 ---
+2020-05-08T10:47:54.484452Z <015>  1111 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:47:55.752108Z <015>  1148 MB info    | building sppm photon map from 3,057,759 photons...
+2020-05-08T10:47:57.016786Z <015>  1112 MB info    | sppm lookup radius is 0.032136 (56.728% of initial radius).
+2020-05-08T10:48:05.184420Z <015>  1111 MB info    | sppm pass 19 completed in 10.7 seconds.
+2020-05-08T10:48:05.184420Z <015>  1111 MB info    | --- beginning rendering pass #20 ---
+2020-05-08T10:48:05.186422Z <015>  1111 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:48:06.492142Z <015>  1148 MB info    | building sppm photon map from 3,061,509 photons...
+2020-05-08T10:48:07.764308Z <015>  1112 MB info    | sppm lookup radius is 0.031881 (56.279% of initial radius).
+2020-05-08T10:48:15.859627Z <015>  1111 MB info    | sppm pass 20 completed in 10.7 seconds.
+2020-05-08T10:48:15.859627Z <015>  1111 MB info    | --- beginning rendering pass #21 ---
+2020-05-08T10:48:15.863631Z <015>  1111 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:48:17.181827Z <015>  1147 MB info    | building sppm photon map from 3,060,187 photons...
+2020-05-08T10:48:18.457995Z <015>  1111 MB info    | sppm lookup radius is 0.031641 (55.855% of initial radius).
+2020-05-08T10:48:26.445142Z <015>  1110 MB info    | sppm pass 21 completed in 10.6 seconds.
+2020-05-08T10:48:26.449145Z <015>  1110 MB info    | --- beginning rendering pass #22 ---
+2020-05-08T10:48:26.449145Z <015>  1110 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:48:27.761370Z <015>  1148 MB info    | building sppm photon map from 3,058,749 photons...
+2020-05-08T10:48:29.025896Z <015>  1113 MB info    | sppm lookup radius is 0.031414 (55.455% of initial radius).
+2020-05-08T10:48:37.110754Z <015>  1112 MB info    | sppm pass 22 completed in 10.7 seconds.
+2020-05-08T10:48:37.110754Z <015>  1112 MB info    | --- beginning rendering pass #23 ---
+2020-05-08T10:48:37.112755Z <015>  1112 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:48:38.396949Z <015>  1149 MB info    | building sppm photon map from 3,057,081 photons...
+2020-05-08T10:48:39.649086Z <015>  1114 MB info    | sppm lookup radius is 0.031199 (55.075% of initial radius).
+2020-05-08T10:48:47.732899Z <015>  1112 MB info    | sppm pass 23 completed in 10.6 seconds.
+2020-05-08T10:48:47.732899Z <015>  1112 MB info    | --- beginning rendering pass #24 ---
+2020-05-08T10:48:47.733899Z <015>  1112 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:48:49.015104Z <015>  1149 MB info    | building sppm photon map from 3,059,397 photons...
+2020-05-08T10:48:50.267754Z <015>  1113 MB info    | sppm lookup radius is 0.030995 (54.715% of initial radius).
+2020-05-08T10:48:58.256469Z <015>  1113 MB info    | sppm pass 24 completed in 10.5 seconds.
+2020-05-08T10:48:58.256469Z <015>  1113 MB info    | --- beginning rendering pass #25 ---
+2020-05-08T10:48:58.258470Z <015>  1113 MB info    | tracing 1,000,000 sppm light photons...
+2020-05-08T10:48:59.580680Z <015>  1147 MB info    | building sppm photon map from 3,058,310 photons...
+2020-05-08T10:49:00.841700Z <015>  1112 MB info    | sppm lookup radius is 0.030801 (54.372% of initial radius).
+2020-05-08T10:49:08.873131Z <015>  1112 MB info    | sppm pass 25 completed in 10.6 seconds.
+Saved: 'C:\Users\UserPushka\Desktop\Diplom\3D_Models\A_Glass\0_appleseed\A025_samp.png'
