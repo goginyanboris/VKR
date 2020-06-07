@@ -1,0 +1,567 @@
+start rendering
+2020-05-26T22:03:48.880022Z <002>  1022 MB info    | texture store settings:
+2020-05-26T22:03:48.880022Z <002>  1022 MB info    |   max store size                1.0 GB
+2020-05-26T22:03:48.880022Z <002>  1022 MB info    |   track store size              off
+2020-05-26T22:03:48.880022Z <002>  1022 MB info    |   track tile loading            off
+2020-05-26T22:03:48.880022Z <002>  1022 MB info    |   track tile unloading          off
+2020-05-26T22:03:48.883025Z <002>  1022 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-diffuse.jpg and reading metadata...
+2020-05-26T22:03:48.884027Z <002>  1022 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-normal.jpg and reading metadata...
+2020-05-26T22:03:48.884027Z <002>  1022 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-specular.jpg and reading metadata...
+2020-05-26T22:03:48.884027Z <002>  1022 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg and reading metadata...
+2020-05-26T22:03:48.885027Z <002>  1022 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-normal.jpg and reading metadata...
+2020-05-26T22:03:48.885027Z <002>  1022 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-specular.jpg and reading metadata...
+2020-05-26T22:03:48.885027Z <002>  1022 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Buzz_lighter.jpg and reading metadata...
+2020-05-26T22:03:48.885027Z <002>  1022 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Fabric01_col.jpg and reading metadata...
+2020-05-26T22:03:48.886028Z <002>  1022 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Fabric01_nrm.jpg and reading metadata...
+2020-05-26T22:03:48.892034Z <002>  1022 MB info    | setting oiio texture cache size to 1.0 GB.
+2020-05-26T22:03:48.892034Z <002>  1022 MB info    | setting oiio search paths to C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders
+2020-05-26T22:03:48.893034Z <002>  1022 MB info    | setting osl shader search paths to C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders
+2020-05-26T22:03:48.893034Z <002>  1022 MB info    | found OSL headers in C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders\stdosl.h
+2020-05-26T22:03:49.048176Z <002>  1038 MB info    | collecting light emitters...
+2020-05-26T22:03:49.049177Z <002>  1038 MB info    | found 1 non-physical light, 2 light-tree compatible lights, 2 emitting shapes.
+2020-05-26T22:03:49.050178Z <002>  1038 MB info    | the scene does not rely on alpha mapping and does not contain participating media; using probe tracing.
+2020-05-26T22:03:49.051179Z <002>  1038 MB info    | generic frame renderer settings:
+2020-05-26T22:03:49.051179Z <002>  1038 MB info    |   spectrum mode                 rgb
+2020-05-26T22:03:49.051179Z <002>  1038 MB info    |   sampling mode                 qmc
+2020-05-26T22:03:49.051179Z <002>  1038 MB info    |   rendering threads             12
+2020-05-26T22:03:49.051179Z <002>  1038 MB info    |   tile ordering                 spiral
+2020-05-26T22:03:49.051179Z <002>  1038 MB info    |   passes                        10
+2020-05-26T22:03:49.052179Z <002>  1038 MB info    | adaptive tile renderer settings:
+2020-05-26T22:03:49.052179Z <002>  1038 MB info    |   batch size                    8
+2020-05-26T22:03:49.052179Z <002>  1038 MB info    |   min samples                   16
+2020-05-26T22:03:49.052179Z <002>  1038 MB info    |   max samples                   256
+2020-05-26T22:03:49.052179Z <002>  1038 MB info    |   noise threshold               1.000000
+2020-05-26T22:03:49.054181Z <002>  1038 MB info    | generic sample renderer settings:
+2020-05-26T22:03:49.054181Z <002>  1038 MB info    |   transparency threshold        0.001000
+2020-05-26T22:03:49.054181Z <002>  1038 MB info    |   max iterations                100
+2020-05-26T22:03:49.054181Z <002>  1038 MB info    |   report self intersections     off
+2020-05-26T22:03:49.055188Z <002>  1038 MB info    | unidirectional path tracer settings:
+2020-05-26T22:03:49.055188Z <002>  1038 MB info    |   direct lighting               on
+2020-05-26T22:03:49.055188Z <002>  1038 MB info    |   ibl                           on
+2020-05-26T22:03:49.055188Z <002>  1038 MB info    |   caustics                      off
+2020-05-26T22:03:49.055188Z <002>  1038 MB info    |   max bounces                   unlimited
+2020-05-26T22:03:49.055188Z <002>  1038 MB info    |   max diffuse bounces           10
+2020-05-26T22:03:49.055188Z <002>  1038 MB info    |   max glossy bounces            unlimited
+2020-05-26T22:03:49.055188Z <002>  1038 MB info    |   max specular bounces          unlimited
+2020-05-26T22:03:49.055188Z <002>  1038 MB info    |   max volume bounces            unlimited
+2020-05-26T22:03:49.055188Z <002>  1038 MB info    |   russian roulette start bounce 6
+2020-05-26T22:03:49.055188Z <002>  1038 MB info    |   next event estimation         on
+2020-05-26T22:03:49.055188Z <002>  1038 MB info    |   dl light samples              2.0
+2020-05-26T22:03:49.055188Z <002>  1038 MB info    |   dl light threshold            0.000
+2020-05-26T22:03:49.055188Z <002>  1038 MB info    |   ibl env samples               2.0
+2020-05-26T22:03:49.055188Z <002>  1038 MB info    |   max ray intensity             unlimited
+2020-05-26T22:03:49.055188Z <002>  1038 MB info    |   volume distance samples       2
+2020-05-26T22:03:49.055188Z <002>  1038 MB info    |   equiangular sampling          off
+2020-05-26T22:03:49.055188Z <002>  1038 MB info    |   clamp roughness               on
+2020-05-26T22:03:49.062188Z <002>  1038 MB info    | using built-in ray tracing kernel.
+2020-05-26T22:03:49.062188Z <002>  1038 MB info    | collecting assembly instances...
+2020-05-26T22:03:49.067193Z <002>  1038 MB info    | building assembly tree (1 assembly instance)...
+2020-05-26T22:03:49.078203Z <002>  1038 MB info    | collecting geometry for triangle tree #37 from assembly "/scene/assembly"...
+2020-05-26T22:03:49.218331Z <002>  1133 MB info    | building triangle tree #37 (bvh, 1,081,848 static triangles, 0 moving triangle)...
+2020-05-26T22:03:51.096543Z <002>  1198 MB info    | texture store settings:
+2020-05-26T22:03:51.096543Z <002>  1198 MB info    |   max store size                1.0 GB
+2020-05-26T22:03:51.096543Z <002>  1198 MB info    |   track store size              off
+2020-05-26T22:03:51.096543Z <002>  1198 MB info    |   track tile loading            off
+2020-05-26T22:03:51.096543Z <002>  1198 MB info    |   track tile unloading          off
+2020-05-26T22:03:51.099054Z <002>  1198 MB info    | frame "/beauty" (#42) parameters:
+2020-05-26T22:03:51.099054Z <002>  1198 MB info    |   camera name                   "Camera"
+2020-05-26T22:03:51.099054Z <002>  1198 MB info    |   resolution                    1,120 x 1,540
+2020-05-26T22:03:51.099054Z <002>  1198 MB info    |   tile size                     64 x 64
+2020-05-26T22:03:51.099054Z <002>  1198 MB info    |   filter                        blackman-harris
+2020-05-26T22:03:51.099054Z <002>  1198 MB info    |   filter size                   1.500000
+2020-05-26T22:03:51.099054Z <002>  1198 MB info    |   crop window                   (0, 0)-(1,119, 1,539)
+2020-05-26T22:03:51.099054Z <002>  1198 MB info    |   dithering                     on
+2020-05-26T22:03:51.099054Z <002>  1198 MB info    |   noise seed                    0
+2020-05-26T22:03:51.099054Z <002>  1198 MB info    |   denoising mode                off
+2020-05-26T22:03:51.099054Z <002>  1198 MB info    |   create checkpoint             off
+2020-05-26T22:03:51.099054Z <002>  1198 MB info    |   resume checkpoint             off
+2020-05-26T22:03:51.099054Z <002>  1198 MB info    |   reference image path          n/a
+2020-05-26T22:03:51.102052Z <002>  1198 MB info    | camera "/scene/Camera" (#43) parameters:
+2020-05-26T22:03:51.102052Z <002>  1198 MB info    |   model                         pinhole_camera
+2020-05-26T22:03:51.102052Z <002>  1198 MB info    |   film width                    0.023273
+2020-05-26T22:03:51.102052Z <002>  1198 MB info    |   film height                   0.032000
+2020-05-26T22:03:51.102052Z <002>  1198 MB info    |   focal length                  0.035000
+2020-05-26T22:03:51.102052Z <002>  1198 MB info    |   near z                        -0.001000
+2020-05-26T22:03:51.102052Z <002>  1198 MB info    |   shift                         0.000000, 0.000000
+2020-05-26T22:03:51.102052Z <002>  1198 MB info    |   shutter open begin time       0.000000
+2020-05-26T22:03:51.102052Z <002>  1198 MB info    |   shutter open end time         0.000000
+2020-05-26T22:03:51.102052Z <002>  1198 MB info    |   shutter close begin time      1.000000
+2020-05-26T22:03:51.102052Z <002>  1198 MB info    |   shutter close end time        1.000000
+2020-05-26T22:03:51.108058Z <003>  1198 MB info    | --- beginning rendering pass #1 ---
+2020-05-26T22:08:45.773339Z <003>  1445 MB info    | --- beginning rendering pass #2 ---
+2020-05-26T22:13:01.402274Z <003>  1446 MB info    | --- beginning rendering pass #3 ---
+2020-05-26T22:15:33.921880Z <004>  1446 MB warning | 1 sample at pixel (830, 130) had NaN, negative or infinite components and was ignored.
+2020-05-26T22:15:44.116874Z <005>  1446 MB warning | 1 sample at pixel (972, 896) had NaN, negative or infinite components and was ignored.
+2020-05-26T22:17:16.760312Z <003>  1446 MB info    | --- beginning rendering pass #4 ---
+2020-05-26T22:17:52.723011Z <005>  1446 MB warning | 1 sample at pixel (760, 454) had NaN, negative or infinite components and was ignored.
+2020-05-26T22:19:06.072164Z <006>  1446 MB warning | 1 sample at pixel (241, 267) had NaN, negative or infinite components and was ignored.
+2020-05-26T22:21:32.248734Z <003>  1446 MB info    | --- beginning rendering pass #5 ---
+2020-05-26T22:22:53.178137Z <007>  1446 MB warning | 1 sample at pixel (275, 460) had NaN, negative or infinite components and was ignored.
+2020-05-26T22:25:47.820593Z <003>  1446 MB info    | --- beginning rendering pass #6 ---
+2020-05-26T22:26:18.927288Z <004>  1446 MB warning | 1 sample at pixel (618, 415) had NaN, negative or infinite components and was ignored.
+2020-05-26T22:27:16.390379Z <008>  1446 MB warning | 1 sample at pixel (857, 440) had NaN, negative or infinite components and was ignored.
+2020-05-26T22:30:03.330903Z <003>  1446 MB info    | --- beginning rendering pass #7 ---
+2020-05-26T22:32:36.913756Z <004>  1446 MB warning | 1 sample at pixel (705, 169) had NaN, negative or infinite components and was ignored.
+2020-05-26T22:34:19.195259Z <003>  1446 MB info    | --- beginning rendering pass #8 ---
+2020-05-26T22:38:36.278822Z <003>  1446 MB info    | --- beginning rendering pass #9 ---
+2020-05-26T22:42:51.491030Z <003>  1446 MB info    | --- beginning rendering pass #10 ---
+2020-05-26T22:47:07.457369Z <002>  1441 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Fabric01_nrm.jpg...
+2020-05-26T22:47:07.457369Z <002>  1441 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Fabric01_col.jpg...
+2020-05-26T22:47:07.458377Z <002>  1441 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Buzz_lighter.jpg...
+2020-05-26T22:47:07.459377Z <002>  1441 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-specular.jpg...
+2020-05-26T22:47:07.459377Z <002>  1441 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-normal.jpg...
+2020-05-26T22:47:07.460378Z <002>  1441 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg...
+2020-05-26T22:47:07.460378Z <002>  1441 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-specular.jpg...
+2020-05-26T22:47:07.460378Z <002>  1441 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-normal.jpg...
+2020-05-26T22:47:07.460378Z <002>  1441 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-diffuse.jpg...
+Saved: 'C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\C0_5_12tr_.png'
+ Time: 43:19.36 (Saving: 00:00.20)
+
+mean time = 2599.3690977096558
+2020-05-26T22:47:08.252123Z <009>  1198 MB info    | texture store settings:
+2020-05-26T22:47:08.252123Z <009>  1198 MB info    |   max store size                1.0 GB
+2020-05-26T22:47:08.252123Z <009>  1198 MB info    |   track store size              off
+2020-05-26T22:47:08.252123Z <009>  1198 MB info    |   track tile loading            off
+2020-05-26T22:47:08.252123Z <009>  1198 MB info    |   track tile unloading          off
+2020-05-26T22:47:08.256126Z <009>  1198 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-diffuse.jpg and reading metadata...
+2020-05-26T22:47:08.260523Z <009>  1198 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-normal.jpg and reading metadata...
+2020-05-26T22:47:08.263133Z <009>  1198 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-specular.jpg and reading metadata...
+2020-05-26T22:47:08.265640Z <009>  1198 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg and reading metadata...
+2020-05-26T22:47:08.267153Z <009>  1198 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-normal.jpg and reading metadata...
+2020-05-26T22:47:08.270148Z <009>  1198 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-specular.jpg and reading metadata...
+2020-05-26T22:47:08.272150Z <009>  1198 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Buzz_lighter.jpg and reading metadata...
+2020-05-26T22:47:08.275153Z <009>  1198 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Fabric01_col.jpg and reading metadata...
+2020-05-26T22:47:08.277155Z <009>  1198 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Fabric01_nrm.jpg and reading metadata...
+2020-05-26T22:47:08.285162Z <009>  1198 MB info    | setting oiio texture cache size to 1.0 GB.
+2020-05-26T22:47:08.285162Z <009>  1198 MB info    | setting oiio search paths to C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders
+2020-05-26T22:47:08.285162Z <009>  1198 MB info    | setting osl shader search paths to C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders
+2020-05-26T22:47:08.286163Z <009>  1198 MB info    | found OSL headers in C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders\stdosl.h
+2020-05-26T22:47:08.475336Z <009>  1217 MB info    | collecting light emitters...
+2020-05-26T22:47:08.475336Z <009>  1217 MB info    | found 1 non-physical light, 2 light-tree compatible lights, 2 emitting shapes.
+2020-05-26T22:47:08.475336Z <009>  1217 MB info    | the scene does not rely on alpha mapping and does not contain participating media; using probe tracing.
+2020-05-26T22:47:08.476336Z <009>  1221 MB info    | generic frame renderer settings:
+2020-05-26T22:47:08.476336Z <009>  1221 MB info    |   spectrum mode                 rgb
+2020-05-26T22:47:08.476336Z <009>  1221 MB info    |   sampling mode                 qmc
+2020-05-26T22:47:08.476336Z <009>  1221 MB info    |   rendering threads             12
+2020-05-26T22:47:08.476336Z <009>  1221 MB info    |   tile ordering                 spiral
+2020-05-26T22:47:08.476336Z <009>  1221 MB info    |   passes                        20
+2020-05-26T22:47:08.478338Z <009>  1221 MB info    | adaptive tile renderer settings:
+2020-05-26T22:47:08.478338Z <009>  1221 MB info    |   batch size                    8
+2020-05-26T22:47:08.478338Z <009>  1221 MB info    |   min samples                   16
+2020-05-26T22:47:08.478338Z <009>  1221 MB info    |   max samples                   256
+2020-05-26T22:47:08.478338Z <009>  1221 MB info    |   noise threshold               1.000000
+2020-05-26T22:47:08.479339Z <009>  1221 MB info    | generic sample renderer settings:
+2020-05-26T22:47:08.479339Z <009>  1221 MB info    |   transparency threshold        0.001000
+2020-05-26T22:47:08.479339Z <009>  1221 MB info    |   max iterations                100
+2020-05-26T22:47:08.479339Z <009>  1221 MB info    |   report self intersections     off
+2020-05-26T22:47:08.480340Z <009>  1221 MB info    | unidirectional path tracer settings:
+2020-05-26T22:47:08.480340Z <009>  1221 MB info    |   direct lighting               on
+2020-05-26T22:47:08.480340Z <009>  1221 MB info    |   ibl                           on
+2020-05-26T22:47:08.480340Z <009>  1221 MB info    |   caustics                      off
+2020-05-26T22:47:08.480340Z <009>  1221 MB info    |   max bounces                   unlimited
+2020-05-26T22:47:08.480340Z <009>  1221 MB info    |   max diffuse bounces           10
+2020-05-26T22:47:08.480340Z <009>  1221 MB info    |   max glossy bounces            unlimited
+2020-05-26T22:47:08.480340Z <009>  1221 MB info    |   max specular bounces          unlimited
+2020-05-26T22:47:08.480340Z <009>  1221 MB info    |   max volume bounces            unlimited
+2020-05-26T22:47:08.480340Z <009>  1221 MB info    |   russian roulette start bounce 6
+2020-05-26T22:47:08.480340Z <009>  1221 MB info    |   next event estimation         on
+2020-05-26T22:47:08.480340Z <009>  1221 MB info    |   dl light samples              2.0
+2020-05-26T22:47:08.480340Z <009>  1221 MB info    |   dl light threshold            0.000
+2020-05-26T22:47:08.480340Z <009>  1221 MB info    |   ibl env samples               2.0
+2020-05-26T22:47:08.480340Z <009>  1221 MB info    |   max ray intensity             unlimited
+2020-05-26T22:47:08.480340Z <009>  1221 MB info    |   volume distance samples       2
+2020-05-26T22:47:08.480340Z <009>  1221 MB info    |   equiangular sampling          off
+2020-05-26T22:47:08.480340Z <009>  1221 MB info    |   clamp roughness               on
+2020-05-26T22:47:08.487346Z <009>  1221 MB info    | using built-in ray tracing kernel.
+2020-05-26T22:47:08.487346Z <009>  1221 MB info    | collecting assembly instances...
+2020-05-26T22:47:08.493351Z <009>  1221 MB info    | building assembly tree (1 assembly instance)...
+2020-05-26T22:47:08.503361Z <009>  1221 MB info    | collecting geometry for triangle tree #560 from assembly "/scene/assembly"...
+2020-05-26T22:47:08.638484Z <009>  1316 MB info    | building triangle tree #560 (bvh, 1,081,848 static triangles, 0 moving triangle)...
+2020-05-26T22:47:10.511179Z <009>  1380 MB info    | texture store settings:
+2020-05-26T22:47:10.511179Z <009>  1380 MB info    |   max store size                1.0 GB
+2020-05-26T22:47:10.511179Z <009>  1380 MB info    |   track store size              off
+2020-05-26T22:47:10.511179Z <009>  1380 MB info    |   track tile loading            off
+2020-05-26T22:47:10.511179Z <009>  1380 MB info    |   track tile unloading          off
+2020-05-26T22:47:10.513173Z <009>  1380 MB info    | frame "/beauty" (#565) parameters:
+2020-05-26T22:47:10.513173Z <009>  1380 MB info    |   camera name                   "Camera"
+2020-05-26T22:47:10.513173Z <009>  1380 MB info    |   resolution                    1,120 x 1,540
+2020-05-26T22:47:10.513173Z <009>  1380 MB info    |   tile size                     64 x 64
+2020-05-26T22:47:10.513173Z <009>  1380 MB info    |   filter                        blackman-harris
+2020-05-26T22:47:10.513173Z <009>  1380 MB info    |   filter size                   1.500000
+2020-05-26T22:47:10.513173Z <009>  1380 MB info    |   crop window                   (0, 0)-(1,119, 1,539)
+2020-05-26T22:47:10.513173Z <009>  1380 MB info    |   dithering                     on
+2020-05-26T22:47:10.513173Z <009>  1380 MB info    |   noise seed                    0
+2020-05-26T22:47:10.513173Z <009>  1380 MB info    |   denoising mode                off
+2020-05-26T22:47:10.513173Z <009>  1380 MB info    |   create checkpoint             off
+2020-05-26T22:47:10.513173Z <009>  1380 MB info    |   resume checkpoint             off
+2020-05-26T22:47:10.513173Z <009>  1380 MB info    |   reference image path          n/a
+2020-05-26T22:47:10.516184Z <009>  1380 MB info    | camera "/scene/Camera" (#566) parameters:
+2020-05-26T22:47:10.516184Z <009>  1380 MB info    |   model                         pinhole_camera
+2020-05-26T22:47:10.516184Z <009>  1380 MB info    |   film width                    0.023273
+2020-05-26T22:47:10.516184Z <009>  1380 MB info    |   film height                   0.032000
+2020-05-26T22:47:10.516184Z <009>  1380 MB info    |   focal length                  0.035000
+2020-05-26T22:47:10.516184Z <009>  1380 MB info    |   near z                        -0.001000
+2020-05-26T22:47:10.516184Z <009>  1380 MB info    |   shift                         0.000000, 0.000000
+2020-05-26T22:47:10.516184Z <009>  1380 MB info    |   shutter open begin time       0.000000
+2020-05-26T22:47:10.516184Z <009>  1380 MB info    |   shutter open end time         0.000000
+2020-05-26T22:47:10.516184Z <009>  1380 MB info    |   shutter close begin time      1.000000
+2020-05-26T22:47:10.516184Z <009>  1380 MB info    |   shutter close end time        1.000000
+2020-05-26T22:47:10.520179Z <010>  1381 MB info    | --- beginning rendering pass #1 ---
+2020-05-26T22:52:03.454212Z <010>  1624 MB info    | --- beginning rendering pass #2 ---
+2020-05-26T22:56:17.589497Z <010>  1624 MB info    | --- beginning rendering pass #3 ---
+2020-05-26T22:58:48.323393Z <011>  1624 MB warning | 1 sample at pixel (830, 130) had NaN, negative or infinite components and was ignored.
+2020-05-26T22:58:58.370921Z <012>  1624 MB warning | 1 sample at pixel (972, 896) had NaN, negative or infinite components and was ignored.
+2020-05-26T23:00:31.464296Z <010>  1624 MB info    | --- beginning rendering pass #4 ---
+2020-05-26T23:01:06.675171Z <013>  1624 MB warning | 1 sample at pixel (760, 454) had NaN, negative or infinite components and was ignored.
+2020-05-26T23:02:19.408503Z <014>  1624 MB warning | 1 sample at pixel (241, 267) had NaN, negative or infinite components and was ignored.
+2020-05-26T23:04:45.420863Z <010>  1624 MB info    | --- beginning rendering pass #5 ---
+2020-05-26T23:06:05.339611Z <015>  1624 MB warning | 1 sample at pixel (275, 460) had NaN, negative or infinite components and was ignored.
+2020-05-26T23:08:59.999029Z <010>  1624 MB info    | --- beginning rendering pass #6 ---
+2020-05-26T23:09:31.008779Z <015>  1624 MB warning | 1 sample at pixel (618, 415) had NaN, negative or infinite components and was ignored.
+2020-05-26T23:10:27.595339Z <016>  1624 MB warning | 1 sample at pixel (857, 440) had NaN, negative or infinite components and was ignored.
+2020-05-26T23:13:13.720095Z <010>  1624 MB info    | --- beginning rendering pass #7 ---
+2020-05-26T23:15:45.524774Z <011>  1624 MB warning | 1 sample at pixel (705, 169) had NaN, negative or infinite components and was ignored.
+2020-05-26T23:17:27.200691Z <010>  1624 MB info    | --- beginning rendering pass #8 ---
+2020-05-26T23:21:40.691773Z <010>  1624 MB info    | --- beginning rendering pass #9 ---
+2020-05-26T23:25:55.414117Z <010>  1624 MB info    | --- beginning rendering pass #10 ---
+2020-05-26T23:30:10.225431Z <010>  1624 MB info    | --- beginning rendering pass #11 ---
+2020-05-26T23:32:42.385080Z <017>  1624 MB warning | 1 sample at pixel (706, 167) had NaN, negative or infinite components and was ignored.
+2020-05-26T23:34:24.635161Z <010>  1624 MB info    | --- beginning rendering pass #12 ---
+2020-05-26T23:38:39.501805Z <010>  1624 MB info    | --- beginning rendering pass #13 ---
+2020-05-26T23:39:38.276280Z <012>  1624 MB warning | 1 sample at pixel (667, 327) had NaN, negative or infinite components and was ignored.
+2020-05-26T23:41:11.821177Z <016>  1624 MB warning | 1 sample at pixel (705, 168) had NaN, negative or infinite components and was ignored.
+2020-05-26T23:42:53.243668Z <010>  1624 MB info    | --- beginning rendering pass #14 ---
+2020-05-26T23:44:14.691284Z <017>  1624 MB warning | 1 sample at pixel (823, 270) had NaN, negative or infinite components and was ignored.
+2020-05-26T23:45:28.691781Z <018>  1624 MB warning | 1 sample at pixel (705, 168) had NaN, negative or infinite components and was ignored.
+2020-05-26T23:47:06.658122Z <010>  1624 MB info    | --- beginning rendering pass #15 ---
+2020-05-26T23:51:20.532086Z <010>  1624 MB info    | --- beginning rendering pass #16 ---
+2020-05-26T23:53:44.785651Z <016>  1624 MB warning | 1 sample at pixel (238, 147) had NaN, negative or infinite components and was ignored.
+2020-05-26T23:53:51.811929Z <019>  1624 MB warning | 1 sample at pixel (516, 168) had NaN, negative or infinite components and was ignored.
+2020-05-26T23:53:55.519373Z <020>  1624 MB warning | 1 sample at pixel (1001, 241) had NaN, negative or infinite components and was ignored.
+2020-05-26T23:54:27.368170Z <021>  1624 MB warning | 1 sample at pixel (250, 119) had NaN, negative or infinite components and was ignored.
+2020-05-26T23:55:34.510744Z <010>  1624 MB info    | --- beginning rendering pass #17 ---
+2020-05-26T23:56:35.203790Z <020>  1624 MB warning | 1 sample at pixel (829, 557) had NaN, negative or infinite components and was ignored.
+2020-05-26T23:59:48.253238Z <010>  1624 MB info    | --- beginning rendering pass #18 ---
+2020-05-27T00:00:25.214704Z <014>  1624 MB warning | 1 sample at pixel (742, 848) had NaN, negative or infinite components and was ignored.
+2020-05-27T00:04:02.628363Z <010>  1624 MB info    | --- beginning rendering pass #19 ---
+2020-05-27T00:04:16.675972Z <014>  1624 MB warning | 1 sample at pixel (614, 492) had NaN, negative or infinite components and was ignored.
+2020-05-27T00:05:59.165774Z <017>  1624 MB warning | 1 sample at pixel (710, 199) had NaN, negative or infinite components and was ignored.
+2020-05-27T00:08:16.481624Z <010>  1624 MB info    | --- beginning rendering pass #20 ---
+2020-05-27T00:08:48.422786Z <022>  1624 MB warning | 1 sample at pixel (598, 437) had NaN, negative or infinite components and was ignored.
+2020-05-27T00:12:30.196965Z <009>  1619 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Fabric01_nrm.jpg...
+2020-05-27T00:12:30.196965Z <009>  1619 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Fabric01_col.jpg...
+2020-05-27T00:12:30.197967Z <009>  1619 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Buzz_lighter.jpg...
+2020-05-27T00:12:30.197967Z <009>  1619 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-specular.jpg...
+2020-05-27T00:12:30.198967Z <009>  1619 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-normal.jpg...
+2020-05-27T00:12:30.198967Z <009>  1619 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg...
+2020-05-27T00:12:30.198967Z <009>  1619 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-specular.jpg...
+2020-05-27T00:12:30.199968Z <009>  1619 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-normal.jpg...
+2020-05-27T00:12:30.199968Z <009>  1619 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-diffuse.jpg...
+Saved: 'C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\C0_15_12tr_.png'
+ Time: 01:25:22.73 (Saving: 00:00.20)
+
+mean time = 5122.735562086105 var= 0.0
+2020-05-27T00:12:30.988191Z <023>  1376 MB info    | texture store settings:
+2020-05-27T00:12:30.988191Z <023>  1376 MB info    |   max store size                1.0 GB
+2020-05-27T00:12:30.988191Z <023>  1376 MB info    |   track store size              off
+2020-05-27T00:12:30.988191Z <023>  1376 MB info    |   track tile loading            off
+2020-05-27T00:12:30.988191Z <023>  1376 MB info    |   track tile unloading          off
+2020-05-27T00:12:30.992194Z <023>  1376 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-diffuse.jpg and reading metadata...
+2020-05-27T00:12:30.992194Z <023>  1376 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-normal.jpg and reading metadata...
+2020-05-27T00:12:30.992194Z <023>  1376 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-specular.jpg and reading metadata...
+2020-05-27T00:12:30.993195Z <023>  1376 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg and reading metadata...
+2020-05-27T00:12:30.993195Z <023>  1376 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-normal.jpg and reading metadata...
+2020-05-27T00:12:30.993195Z <023>  1376 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-specular.jpg and reading metadata...
+2020-05-27T00:12:30.994196Z <023>  1376 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Buzz_lighter.jpg and reading metadata...
+2020-05-27T00:12:30.994196Z <023>  1376 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Fabric01_col.jpg and reading metadata...
+2020-05-27T00:12:30.994196Z <023>  1376 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Fabric01_nrm.jpg and reading metadata...
+2020-05-27T00:12:31.000202Z <023>  1376 MB info    | setting oiio texture cache size to 1.0 GB.
+2020-05-27T00:12:31.000202Z <023>  1376 MB info    | setting oiio search paths to C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders
+2020-05-27T00:12:31.001202Z <023>  1376 MB info    | setting osl shader search paths to C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders
+2020-05-27T00:12:31.001202Z <023>  1376 MB info    | found OSL headers in C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders\stdosl.h
+2020-05-27T00:12:31.150338Z <023>  1393 MB info    | collecting light emitters...
+2020-05-27T00:12:31.150338Z <023>  1393 MB info    | found 1 non-physical light, 2 light-tree compatible lights, 2 emitting shapes.
+2020-05-27T00:12:31.151339Z <023>  1393 MB info    | the scene does not rely on alpha mapping and does not contain participating media; using probe tracing.
+2020-05-27T00:12:31.152340Z <023>  1399 MB info    | generic frame renderer settings:
+2020-05-27T00:12:31.152340Z <023>  1399 MB info    |   spectrum mode                 rgb
+2020-05-27T00:12:31.152340Z <023>  1399 MB info    |   sampling mode                 qmc
+2020-05-27T00:12:31.152340Z <023>  1399 MB info    |   rendering threads             12
+2020-05-27T00:12:31.152340Z <023>  1399 MB info    |   tile ordering                 spiral
+2020-05-27T00:12:31.152340Z <023>  1399 MB info    |   passes                        40
+2020-05-27T00:12:31.153341Z <023>  1399 MB info    | adaptive tile renderer settings:
+2020-05-27T00:12:31.153341Z <023>  1399 MB info    |   batch size                    8
+2020-05-27T00:12:31.153341Z <023>  1399 MB info    |   min samples                   16
+2020-05-27T00:12:31.153341Z <023>  1399 MB info    |   max samples                   256
+2020-05-27T00:12:31.153341Z <023>  1399 MB info    |   noise threshold               1.000000
+2020-05-27T00:12:31.155343Z <023>  1399 MB info    | generic sample renderer settings:
+2020-05-27T00:12:31.155343Z <023>  1399 MB info    |   transparency threshold        0.001000
+2020-05-27T00:12:31.155343Z <023>  1399 MB info    |   max iterations                100
+2020-05-27T00:12:31.155343Z <023>  1399 MB info    |   report self intersections     off
+2020-05-27T00:12:31.156344Z <023>  1399 MB info    | unidirectional path tracer settings:
+2020-05-27T00:12:31.156344Z <023>  1399 MB info    |   direct lighting               on
+2020-05-27T00:12:31.156344Z <023>  1399 MB info    |   ibl                           on
+2020-05-27T00:12:31.156344Z <023>  1399 MB info    |   caustics                      off
+2020-05-27T00:12:31.156344Z <023>  1399 MB info    |   max bounces                   unlimited
+2020-05-27T00:12:31.156344Z <023>  1399 MB info    |   max diffuse bounces           10
+2020-05-27T00:12:31.156344Z <023>  1399 MB info    |   max glossy bounces            unlimited
+2020-05-27T00:12:31.156344Z <023>  1399 MB info    |   max specular bounces          unlimited
+2020-05-27T00:12:31.156344Z <023>  1399 MB info    |   max volume bounces            unlimited
+2020-05-27T00:12:31.156344Z <023>  1399 MB info    |   russian roulette start bounce 6
+2020-05-27T00:12:31.156344Z <023>  1399 MB info    |   next event estimation         on
+2020-05-27T00:12:31.156344Z <023>  1399 MB info    |   dl light samples              2.0
+2020-05-27T00:12:31.156344Z <023>  1399 MB info    |   dl light threshold            0.000
+2020-05-27T00:12:31.156344Z <023>  1399 MB info    |   ibl env samples               2.0
+2020-05-27T00:12:31.156344Z <023>  1399 MB info    |   max ray intensity             unlimited
+2020-05-27T00:12:31.156344Z <023>  1399 MB info    |   volume distance samples       2
+2020-05-27T00:12:31.156344Z <023>  1399 MB info    |   equiangular sampling          off
+2020-05-27T00:12:31.156344Z <023>  1399 MB info    |   clamp roughness               on
+2020-05-27T00:12:31.163350Z <023>  1399 MB info    | using built-in ray tracing kernel.
+2020-05-27T00:12:31.163350Z <023>  1399 MB info    | collecting assembly instances...
+2020-05-27T00:12:31.168354Z <023>  1399 MB info    | building assembly tree (1 assembly instance)...
+2020-05-27T00:12:31.178868Z <023>  1399 MB info    | collecting geometry for triangle tree #1083 from assembly "/scene/assembly"...
+2020-05-27T00:12:31.310988Z <023>  1495 MB info    | building triangle tree #1083 (bvh, 1,081,848 static triangles, 0 moving triangle)...
+2020-05-27T00:12:33.199225Z <023>  1559 MB info    | texture store settings:
+2020-05-27T00:12:33.199225Z <023>  1559 MB info    |   max store size                1.0 GB
+2020-05-27T00:12:33.199225Z <023>  1559 MB info    |   track store size              off
+2020-05-27T00:12:33.199225Z <023>  1559 MB info    |   track tile loading            off
+2020-05-27T00:12:33.199225Z <023>  1559 MB info    |   track tile unloading          off
+2020-05-27T00:12:33.201219Z <023>  1559 MB info    | frame "/beauty" (#1088) parameters:
+2020-05-27T00:12:33.201219Z <023>  1559 MB info    |   camera name                   "Camera"
+2020-05-27T00:12:33.201219Z <023>  1559 MB info    |   resolution                    1,120 x 1,540
+2020-05-27T00:12:33.201219Z <023>  1559 MB info    |   tile size                     64 x 64
+2020-05-27T00:12:33.201219Z <023>  1559 MB info    |   filter                        blackman-harris
+2020-05-27T00:12:33.201219Z <023>  1559 MB info    |   filter size                   1.500000
+2020-05-27T00:12:33.201219Z <023>  1559 MB info    |   crop window                   (0, 0)-(1,119, 1,539)
+2020-05-27T00:12:33.201219Z <023>  1559 MB info    |   dithering                     on
+2020-05-27T00:12:33.201219Z <023>  1559 MB info    |   noise seed                    0
+2020-05-27T00:12:33.201219Z <023>  1559 MB info    |   denoising mode                off
+2020-05-27T00:12:33.201219Z <023>  1559 MB info    |   create checkpoint             off
+2020-05-27T00:12:33.201219Z <023>  1559 MB info    |   resume checkpoint             off
+2020-05-27T00:12:33.201219Z <023>  1559 MB info    |   reference image path          n/a
+2020-05-27T00:12:33.205230Z <023>  1559 MB info    | camera "/scene/Camera" (#1089) parameters:
+2020-05-27T00:12:33.205230Z <023>  1559 MB info    |   model                         pinhole_camera
+2020-05-27T00:12:33.205230Z <023>  1559 MB info    |   film width                    0.023273
+2020-05-27T00:12:33.205230Z <023>  1559 MB info    |   film height                   0.032000
+2020-05-27T00:12:33.205230Z <023>  1559 MB info    |   focal length                  0.035000
+2020-05-27T00:12:33.205230Z <023>  1559 MB info    |   near z                        -0.001000
+2020-05-27T00:12:33.205230Z <023>  1559 MB info    |   shift                         0.000000, 0.000000
+2020-05-27T00:12:33.205230Z <023>  1559 MB info    |   shutter open begin time       0.000000
+2020-05-27T00:12:33.205230Z <023>  1559 MB info    |   shutter open end time         0.000000
+2020-05-27T00:12:33.205230Z <023>  1559 MB info    |   shutter close begin time      1.000000
+2020-05-27T00:12:33.205230Z <023>  1559 MB info    |   shutter close end time        1.000000
+2020-05-27T00:12:33.211228Z <024>  1560 MB info    | --- beginning rendering pass #1 ---
+2020-05-27T00:17:31.305159Z <024>  1799 MB info    | --- beginning rendering pass #2 ---
+2020-05-27T00:21:49.891336Z <024>  1800 MB info    | --- beginning rendering pass #3 ---
+2020-05-27T00:24:22.373416Z <025>  1800 MB warning | 1 sample at pixel (830, 130) had NaN, negative or infinite components and was ignored.
+2020-05-27T00:24:32.550568Z <026>  1800 MB warning | 1 sample at pixel (972, 896) had NaN, negative or infinite components and was ignored.
+2020-05-27T00:26:08.838770Z <024>  1800 MB info    | --- beginning rendering pass #4 ---
+2020-05-27T00:26:44.421932Z <027>  1800 MB warning | 1 sample at pixel (760, 454) had NaN, negative or infinite components and was ignored.
+2020-05-27T00:27:57.787169Z <028>  1800 MB warning | 1 sample at pixel (241, 267) had NaN, negative or infinite components and was ignored.
+2020-05-27T00:30:27.142372Z <024>  1800 MB info    | --- beginning rendering pass #5 ---
+2020-05-27T00:31:47.258615Z <029>  1800 MB warning | 1 sample at pixel (275, 460) had NaN, negative or infinite components and was ignored.
+2020-05-27T00:34:46.141806Z <024>  1800 MB info    | --- beginning rendering pass #6 ---
+2020-05-27T00:35:16.913189Z <025>  1800 MB warning | 1 sample at pixel (618, 415) had NaN, negative or infinite components and was ignored.
+2020-05-27T00:36:14.163319Z <029>  1800 MB warning | 1 sample at pixel (857, 440) had NaN, negative or infinite components and was ignored.
+2020-05-27T00:39:04.264527Z <024>  1800 MB info    | --- beginning rendering pass #7 ---
+2020-05-27T00:41:38.029598Z <030>  1800 MB warning | 1 sample at pixel (705, 169) had NaN, negative or infinite components and was ignored.
+2020-05-27T00:43:22.772052Z <024>  1800 MB info    | --- beginning rendering pass #8 ---
+2020-05-27T00:47:41.476531Z <024>  1800 MB info    | --- beginning rendering pass #9 ---
+2020-05-27T00:52:01.481137Z <024>  1800 MB info    | --- beginning rendering pass #10 ---
+2020-05-27T00:56:20.891262Z <024>  1800 MB info    | --- beginning rendering pass #11 ---
+2020-05-27T00:58:54.535207Z <031>  1800 MB warning | 1 sample at pixel (706, 167) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:00:39.385115Z <024>  1800 MB info    | --- beginning rendering pass #12 ---
+2020-05-27T01:04:57.859024Z <024>  1800 MB info    | --- beginning rendering pass #13 ---
+2020-05-27T01:05:56.307193Z <031>  1800 MB warning | 1 sample at pixel (667, 327) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:07:32.030657Z <032>  1800 MB warning | 1 sample at pixel (705, 168) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:09:17.317844Z <024>  1800 MB info    | --- beginning rendering pass #14 ---
+2020-05-27T01:10:38.596828Z <027>  1800 MB warning | 1 sample at pixel (823, 270) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:11:54.542342Z <031>  1800 MB warning | 1 sample at pixel (705, 168) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:13:36.213232Z <024>  1800 MB info    | --- beginning rendering pass #15 ---
+2020-05-27T01:17:55.525374Z <024>  1800 MB info    | --- beginning rendering pass #16 ---
+2020-05-27T01:20:22.676642Z <032>  1800 MB warning | 1 sample at pixel (238, 147) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:20:28.314295Z <033>  1800 MB warning | 1 sample at pixel (516, 168) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:20:33.565635Z <026>  1800 MB warning | 1 sample at pixel (1001, 241) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:21:06.236865Z <034>  1800 MB warning | 1 sample at pixel (250, 119) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:22:15.244198Z <024>  1800 MB info    | --- beginning rendering pass #17 ---
+2020-05-27T01:23:16.534719Z <031>  1800 MB warning | 1 sample at pixel (829, 557) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:26:33.918376Z <024>  1800 MB info    | --- beginning rendering pass #18 ---
+2020-05-27T01:27:10.923268Z <033>  1800 MB warning | 1 sample at pixel (742, 848) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:30:52.242589Z <024>  1800 MB info    | --- beginning rendering pass #19 ---
+2020-05-27T01:31:06.557265Z <026>  1800 MB warning | 1 sample at pixel (614, 492) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:32:50.580025Z <033>  1800 MB warning | 1 sample at pixel (710, 199) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:35:11.652355Z <024>  1800 MB info    | --- beginning rendering pass #20 ---
+2020-05-27T01:35:43.741445Z <032>  1800 MB warning | 1 sample at pixel (598, 437) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:39:30.064304Z <024>  1800 MB info    | --- beginning rendering pass #21 ---
+2020-05-27T01:40:07.865995Z <035>  1800 MB warning | 1 sample at pixel (720, 699) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:43:48.199291Z <024>  1800 MB info    | --- beginning rendering pass #22 ---
+2020-05-27T01:44:23.477671Z <026>  1800 MB warning | 1 sample at pixel (737, 398) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:46:13.270780Z <034>  1800 MB warning | 1 sample at pixel (190, 315) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:48:06.666490Z <024>  1800 MB info    | --- beginning rendering pass #23 ---
+2020-05-27T01:52:24.900577Z <024>  1800 MB info    | --- beginning rendering pass #24 ---
+2020-05-27T01:52:59.052643Z <031>  1800 MB warning | 1 sample at pixel (618, 415) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:53:21.210602Z <032>  1800 MB warning | 1 sample at pixel (800, 378) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:54:57.188062Z <029>  1800 MB warning | 1 sample at pixel (829, 132) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:56:43.026516Z <024>  1800 MB info    | --- beginning rendering pass #25 ---
+2020-05-27T01:57:15.737451Z <032>  1800 MB warning | 1 sample at pixel (450, 408) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:58:35.263708Z <028>  1800 MB warning | 1 sample at pixel (243, 240) had NaN, negative or infinite components and was ignored.
+2020-05-27T01:59:33.690378Z <028>  1800 MB warning | 1 sample at pixel (657, 1463) had NaN, negative or infinite components and was ignored.
+2020-05-27T02:01:01.139812Z <024>  1800 MB info    | --- beginning rendering pass #26 ---
+2020-05-27T02:01:39.821260Z <035>  1800 MB warning | 1 sample at pixel (762, 1118) had NaN, negative or infinite components and was ignored.
+2020-05-27T02:02:02.908347Z <029>  1800 MB warning | 1 sample at pixel (771, 445) had NaN, negative or infinite components and was ignored.
+2020-05-27T02:05:18.933026Z <024>  1800 MB info    | --- beginning rendering pass #27 ---
+2020-05-27T02:05:24.078544Z <031>  1800 MB warning | 1 sample at pixel (560, 568) had NaN, negative or infinite components and was ignored.
+2020-05-27T02:05:35.274589Z <026>  1800 MB warning | 1 sample at pixel (696, 665) had NaN, negative or infinite components and was ignored.
+2020-05-27T02:05:59.795442Z <036>  1800 MB warning | 1 sample at pixel (739, 767) had NaN, negative or infinite components and was ignored.
+2020-05-27T02:06:28.634179Z <027>  1800 MB warning | 1 sample at pixel (769, 1041) had NaN, negative or infinite components and was ignored.
+2020-05-27T02:09:38.389071Z <024>  1800 MB info    | --- beginning rendering pass #28 ---
+2020-05-27T02:09:38.964622Z <033>  1800 MB warning | 1 sample at pixel (575, 686) had NaN, negative or infinite components and was ignored.
+2020-05-27T02:13:56.554095Z <024>  1800 MB info    | --- beginning rendering pass #29 ---
+2020-05-27T02:15:27.731264Z <025>  1800 MB warning | 1 sample at pixel (871, 600) had NaN, negative or infinite components and was ignored.
+2020-05-27T02:15:46.525428Z <031>  1800 MB warning | 1 sample at pixel (212, 518) had NaN, negative or infinite components and was ignored.
+2020-05-27T02:18:14.665693Z <024>  1800 MB info    | --- beginning rendering pass #30 ---
+2020-05-27T02:19:13.500184Z <036>  1800 MB warning | 1 sample at pixel (813, 708) had NaN, negative or infinite components and was ignored.
+2020-05-27T02:22:32.777321Z <024>  1800 MB info    | --- beginning rendering pass #31 ---
+2020-05-27T02:26:50.918062Z <024>  1800 MB info    | --- beginning rendering pass #32 ---
+2020-05-27T02:27:50.461346Z <035>  1800 MB warning | 1 sample at pixel (705, 345) had NaN, negative or infinite components and was ignored.
+2020-05-27T02:29:16.935627Z <032>  1800 MB warning | 1 sample at pixel (177, 152) had NaN, negative or infinite components and was ignored.
+2020-05-27T02:29:59.582429Z <025>  1800 MB warning | 1 sample at pixel (122, 214) had NaN, negative or infinite components and was ignored.
+2020-05-27T02:31:08.867535Z <024>  1800 MB info    | --- beginning rendering pass #33 ---
+2020-05-27T02:35:27.843662Z <024>  1800 MB info    | --- beginning rendering pass #34 ---
+2020-05-27T02:39:45.965671Z <024>  1800 MB info    | --- beginning rendering pass #35 ---
+2020-05-27T02:44:04.452647Z <024>  1800 MB info    | --- beginning rendering pass #36 ---
+2020-05-27T02:45:00.804849Z <035>  1800 MB warning | 1 sample at pixel (682, 383) had NaN, negative or infinite components and was ignored.
+2020-05-27T02:46:05.019389Z <026>  1800 MB warning | 1 sample at pixel (704, 195) had NaN, negative or infinite components and was ignored.
+2020-05-27T02:48:23.110064Z <024>  1800 MB info    | --- beginning rendering pass #37 ---
+2020-05-27T02:52:41.477969Z <024>  1800 MB info    | --- beginning rendering pass #38 ---
+2020-05-27T02:54:22.974541Z <035>  1800 MB warning | 1 sample at pixel (238, 769) had NaN, negative or infinite components and was ignored.
+2020-05-27T02:56:59.554408Z <024>  1800 MB info    | --- beginning rendering pass #39 ---
+2020-05-27T02:57:22.929023Z <025>  1800 MB warning | 1 sample at pixel (644, 887) had NaN, negative or infinite components and was ignored.
+2020-05-27T03:01:18.277374Z <024>  1800 MB info    | --- beginning rendering pass #40 ---
+2020-05-27T03:02:12.522016Z <026>  1800 MB warning | 1 sample at pixel (383, 532) had NaN, negative or infinite components and was ignored.
+2020-05-27T03:03:43.468083Z <028>  1800 MB warning | 1 sample at pixel (131, 484) had NaN, negative or infinite components and was ignored.
+2020-05-27T03:04:37.165978Z <030>  1800 MB warning | 1 sample at pixel (746, 127) had NaN, negative or infinite components and was ignored.
+2020-05-27T03:05:37.166202Z <023>  1795 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Fabric01_nrm.jpg...
+2020-05-27T03:05:37.166202Z <023>  1795 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Fabric01_col.jpg...
+2020-05-27T03:05:37.167211Z <023>  1795 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Buzz_lighter.jpg...
+2020-05-27T03:05:37.167211Z <023>  1795 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-specular.jpg...
+2020-05-27T03:05:37.168212Z <023>  1795 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-normal.jpg...
+2020-05-27T03:05:37.168212Z <023>  1795 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg...
+2020-05-27T03:05:37.168212Z <023>  1795 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-specular.jpg...
+2020-05-27T03:05:37.169213Z <023>  1795 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-normal.jpg...
+2020-05-27T03:05:37.169213Z <023>  1795 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-diffuse.jpg...
+Saved: 'C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\C0_20__12tr_.png'
+ Time: 02:53:06.96 (Saving: 00:00.20)
+
+mean time = 10386.971245765686 var= 0.0
+[2599.3690977096558, 5122.735562086105, 10386.971245765686]
+[0.0, 0.0, 0.0]
+start rendering
+2020-05-27T07:20:46.717424Z <037>  1553 MB info    | texture store settings:
+2020-05-27T07:20:46.717424Z <037>  1553 MB info    |   max store size                1.0 GB
+2020-05-27T07:20:46.717424Z <037>  1553 MB info    |   track store size              off
+2020-05-27T07:20:46.717424Z <037>  1553 MB info    |   track tile loading            off
+2020-05-27T07:20:46.717424Z <037>  1553 MB info    |   track tile unloading          off
+2020-05-27T07:20:46.720427Z <037>  1553 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-diffuse.jpg and reading metadata...
+2020-05-27T07:20:46.725431Z <037>  1553 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-normal.jpg and reading metadata...
+2020-05-27T07:20:46.728435Z <037>  1553 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-specular.jpg and reading metadata...
+2020-05-27T07:20:46.731858Z <037>  1553 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg and reading metadata...
+2020-05-27T07:20:46.734440Z <037>  1553 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-normal.jpg and reading metadata...
+2020-05-27T07:20:46.736946Z <037>  1553 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-specular.jpg and reading metadata...
+2020-05-27T07:20:46.740454Z <037>  1553 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Buzz_lighter.jpg and reading metadata...
+2020-05-27T07:20:46.742456Z <037>  1553 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Fabric01_col.jpg and reading metadata...
+2020-05-27T07:20:46.745458Z <037>  1553 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Fabric01_nrm.jpg and reading metadata...
+2020-05-27T07:20:46.753466Z <037>  1553 MB info    | setting oiio texture cache size to 1.0 GB.
+2020-05-27T07:20:46.753466Z <037>  1553 MB info    | setting oiio search paths to C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders
+2020-05-27T07:20:46.753466Z <037>  1553 MB info    | setting osl shader search paths to C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders
+2020-05-27T07:20:46.754466Z <037>  1553 MB info    | found OSL headers in C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders\stdosl.h
+2020-05-27T07:20:46.945640Z <037>  1572 MB info    | collecting light emitters...
+2020-05-27T07:20:46.945640Z <037>  1572 MB info    | found 1 non-physical light, 2 light-tree compatible lights, 2 emitting shapes.
+2020-05-27T07:20:46.945640Z <037>  1572 MB info    | the scene does not rely on alpha mapping and does not contain participating media; using probe tracing.
+2020-05-27T07:20:46.946641Z <037>  1578 MB info    | generic frame renderer settings:
+2020-05-27T07:20:46.946641Z <037>  1578 MB info    |   spectrum mode                 rgb
+2020-05-27T07:20:46.946641Z <037>  1578 MB info    |   sampling mode                 qmc
+2020-05-27T07:20:46.946641Z <037>  1578 MB info    |   rendering threads             12
+2020-05-27T07:20:46.946641Z <037>  1578 MB info    |   tile ordering                 spiral
+2020-05-27T07:20:46.946641Z <037>  1578 MB info    |   passes                        5
+2020-05-27T07:20:46.947642Z <037>  1578 MB info    | adaptive tile renderer settings:
+2020-05-27T07:20:46.947642Z <037>  1578 MB info    |   batch size                    8
+2020-05-27T07:20:46.947642Z <037>  1578 MB info    |   min samples                   16
+2020-05-27T07:20:46.947642Z <037>  1578 MB info    |   max samples                   256
+2020-05-27T07:20:46.947642Z <037>  1578 MB info    |   noise threshold               1.000000
+2020-05-27T07:20:46.947642Z <037>  1578 MB info    | generic sample renderer settings:
+2020-05-27T07:20:46.947642Z <037>  1578 MB info    |   transparency threshold        0.001000
+2020-05-27T07:20:46.947642Z <037>  1578 MB info    |   max iterations                100
+2020-05-27T07:20:46.947642Z <037>  1578 MB info    |   report self intersections     off
+2020-05-27T07:20:46.948643Z <037>  1578 MB info    | unidirectional path tracer settings:
+2020-05-27T07:20:46.948643Z <037>  1578 MB info    |   direct lighting               on
+2020-05-27T07:20:46.948643Z <037>  1578 MB info    |   ibl                           on
+2020-05-27T07:20:46.948643Z <037>  1578 MB info    |   caustics                      off
+2020-05-27T07:20:46.948643Z <037>  1578 MB info    |   max bounces                   unlimited
+2020-05-27T07:20:46.948643Z <037>  1578 MB info    |   max diffuse bounces           10
+2020-05-27T07:20:46.948643Z <037>  1578 MB info    |   max glossy bounces            unlimited
+2020-05-27T07:20:46.948643Z <037>  1578 MB info    |   max specular bounces          unlimited
+2020-05-27T07:20:46.948643Z <037>  1578 MB info    |   max volume bounces            unlimited
+2020-05-27T07:20:46.948643Z <037>  1578 MB info    |   russian roulette start bounce 6
+2020-05-27T07:20:46.948643Z <037>  1578 MB info    |   next event estimation         on
+2020-05-27T07:20:46.948643Z <037>  1578 MB info    |   dl light samples              2.0
+2020-05-27T07:20:46.948643Z <037>  1578 MB info    |   dl light threshold            0.000
+2020-05-27T07:20:46.948643Z <037>  1578 MB info    |   ibl env samples               2.0
+2020-05-27T07:20:46.948643Z <037>  1578 MB info    |   max ray intensity             unlimited
+2020-05-27T07:20:46.948643Z <037>  1578 MB info    |   volume distance samples       2
+2020-05-27T07:20:46.948643Z <037>  1578 MB info    |   equiangular sampling          off
+2020-05-27T07:20:46.948643Z <037>  1578 MB info    |   clamp roughness               on
+2020-05-27T07:20:46.950645Z <037>  1578 MB info    | using built-in ray tracing kernel.
+2020-05-27T07:20:46.951646Z <037>  1578 MB info    | collecting assembly instances...
+2020-05-27T07:20:46.956650Z <037>  1578 MB info    | building assembly tree (1 assembly instance)...
+2020-05-27T07:20:46.966659Z <037>  1578 MB info    | collecting geometry for triangle tree #1606 from assembly "/scene/assembly"...
+2020-05-27T07:20:47.110791Z <037>  1671 MB info    | building triangle tree #1606 (bvh, 1,081,848 static triangles, 0 moving triangle)...
+2020-05-27T07:20:49.001561Z <037>  1735 MB info    | texture store settings:
+2020-05-27T07:20:49.001561Z <037>  1735 MB info    |   max store size                1.0 GB
+2020-05-27T07:20:49.001561Z <037>  1735 MB info    |   track store size              off
+2020-05-27T07:20:49.001561Z <037>  1735 MB info    |   track tile loading            off
+2020-05-27T07:20:49.001561Z <037>  1735 MB info    |   track tile unloading          off
+2020-05-27T07:20:49.002562Z <037>  1735 MB info    | frame "/beauty" (#1611) parameters:
+2020-05-27T07:20:49.002562Z <037>  1735 MB info    |   camera name                   "Camera"
+2020-05-27T07:20:49.002562Z <037>  1735 MB info    |   resolution                    1,120 x 1,540
+2020-05-27T07:20:49.002562Z <037>  1735 MB info    |   tile size                     64 x 64
+2020-05-27T07:20:49.002562Z <037>  1735 MB info    |   filter                        blackman-harris
+2020-05-27T07:20:49.002562Z <037>  1735 MB info    |   filter size                   1.500000
+2020-05-27T07:20:49.002562Z <037>  1735 MB info    |   crop window                   (0, 0)-(1,119, 1,539)
+2020-05-27T07:20:49.002562Z <037>  1735 MB info    |   dithering                     on
+2020-05-27T07:20:49.002562Z <037>  1735 MB info    |   noise seed                    0
+2020-05-27T07:20:49.002562Z <037>  1735 MB info    |   denoising mode                off
+2020-05-27T07:20:49.002562Z <037>  1735 MB info    |   create checkpoint             off
+2020-05-27T07:20:49.002562Z <037>  1735 MB info    |   resume checkpoint             off
+2020-05-27T07:20:49.002562Z <037>  1735 MB info    |   reference image path          n/a
+2020-05-27T07:20:49.005557Z <037>  1735 MB info    | camera "/scene/Camera" (#1612) parameters:
+2020-05-27T07:20:49.005557Z <037>  1735 MB info    |   model                         pinhole_camera
+2020-05-27T07:20:49.005557Z <037>  1735 MB info    |   film width                    0.023273
+2020-05-27T07:20:49.005557Z <037>  1735 MB info    |   film height                   0.032000
+2020-05-27T07:20:49.005557Z <037>  1735 MB info    |   focal length                  0.035000
+2020-05-27T07:20:49.005557Z <037>  1735 MB info    |   near z                        -0.001000
+2020-05-27T07:20:49.005557Z <037>  1735 MB info    |   shift                         0.000000, 0.000000
+2020-05-27T07:20:49.005557Z <037>  1735 MB info    |   shutter open begin time       0.000000
+2020-05-27T07:20:49.005557Z <037>  1735 MB info    |   shutter open end time         0.000000
+2020-05-27T07:20:49.005557Z <037>  1735 MB info    |   shutter close begin time      1.000000
+2020-05-27T07:20:49.005557Z <037>  1735 MB info    |   shutter close end time        1.000000
+2020-05-27T07:20:49.007559Z <038>  1737 MB info    | --- beginning rendering pass #1 ---
+2020-05-27T07:25:44.108569Z <038>  1978 MB info    | --- beginning rendering pass #2 ---
+2020-05-27T07:29:59.579848Z <038>  1979 MB info    | --- beginning rendering pass #3 ---
+2020-05-27T07:32:30.510837Z <039>  1979 MB warning | 1 sample at pixel (830, 130) had NaN, negative or infinite components and was ignored.
+2020-05-27T07:32:40.784106Z <040>  1979 MB warning | 1 sample at pixel (972, 896) had NaN, negative or infinite components and was ignored.
+2020-05-27T07:34:14.423871Z <038>  1979 MB info    | --- beginning rendering pass #4 ---
+2020-05-27T07:34:50.800747Z <041>  1979 MB warning | 1 sample at pixel (760, 454) had NaN, negative or infinite components and was ignored.
+2020-05-27T07:36:03.359916Z <042>  1979 MB warning | 1 sample at pixel (241, 267) had NaN, negative or infinite components and was ignored.
+2020-05-27T07:38:30.169657Z <038>  1979 MB info    | --- beginning rendering pass #5 ---
+2020-05-27T07:39:51.042374Z <043>  1979 MB warning | 1 sample at pixel (275, 460) had NaN, negative or infinite components and was ignored.
+2020-05-27T07:42:45.805863Z <037>  1974 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Fabric01_nrm.jpg...
+2020-05-27T07:42:45.805863Z <037>  1974 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Fabric01_col.jpg...
+2020-05-27T07:42:45.805863Z <037>  1974 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\Buzz_lighter.jpg...
+2020-05-27T07:42:45.806870Z <037>  1974 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-specular.jpg...
+2020-05-27T07:42:45.806870Z <037>  1974 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-normal.jpg...
+2020-05-27T07:42:45.806870Z <037>  1974 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg...
+2020-05-27T07:42:45.806870Z <037>  1974 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-specular.jpg...
+2020-05-27T07:42:45.806870Z <037>  1974 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-normal.jpg...
+2020-05-27T07:42:45.807864Z <037>  1974 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\C_tranclucent_curtains\0_appleseed\textures\2K-cracked_wood_plank-diffuse.jpg...
+
+ Time: 21:59.88 (Saving: 00:00.20)
