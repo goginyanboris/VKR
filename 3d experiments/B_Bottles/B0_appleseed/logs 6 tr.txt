@@ -1,0 +1,607 @@
+start rendering
+2020-05-25T01:20:30.619587Z <008>  1862 MB info    | texture store settings:
+2020-05-25T01:20:30.619587Z <008>  1862 MB info    |   max store size                4.0 GB
+2020-05-25T01:20:30.619587Z <008>  1862 MB info    |   track store size              off
+2020-05-25T01:20:30.619587Z <008>  1862 MB info    |   track tile loading            off
+2020-05-25T01:20:30.619587Z <008>  1862 MB info    |   track tile unloading          off
+2020-05-25T01:20:30.623591Z <008>  1862 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-diffuse.jpg and reading metadata...
+2020-05-25T01:20:30.623591Z <008>  1862 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-displacement.jpg and reading metadata...
+2020-05-25T01:20:30.623591Z <008>  1862 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-normal.jpg and reading metadata...
+2020-05-25T01:20:30.624592Z <008>  1862 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-specular.jpg and reading metadata...
+2020-05-25T01:20:30.624592Z <008>  1862 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg and reading metadata...
+2020-05-25T01:20:30.624592Z <008>  1862 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-diffuse.jpg and reading metadata...
+2020-05-25T01:20:30.625592Z <008>  1862 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-normal.jpg and reading metadata...
+2020-05-25T01:20:30.625592Z <008>  1862 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\textures\2K-wood_fine_4-specular.jpg and reading metadata...
+2020-05-25T01:20:30.625592Z <008>  1862 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-specular.jpg and reading metadata...
+2020-05-25T01:20:30.633600Z <008>  1862 MB info    | setting oiio texture cache size to 4.0 GB.
+2020-05-25T01:20:30.633600Z <008>  1862 MB info    | setting oiio search paths to C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders
+2020-05-25T01:20:30.633600Z <008>  1862 MB info    | setting osl shader search paths to C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders
+2020-05-25T01:20:30.634601Z <008>  1862 MB info    | found OSL headers in C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders\stdosl.h
+2020-05-25T01:20:30.772727Z <008>  1878 MB info    | collecting light emitters...
+2020-05-25T01:20:30.772727Z <008>  1878 MB info    | found 0 non-physical light, 2 light-tree compatible lights, 2 emitting shapes.
+2020-05-25T01:20:30.773728Z <008>  1878 MB info    | the scene does not rely on alpha mapping and does not contain participating media; using probe tracing.
+2020-05-25T01:20:30.774729Z <008>  1878 MB info    | generic frame renderer settings:
+2020-05-25T01:20:30.774729Z <008>  1878 MB info    |   spectrum mode                 rgb
+2020-05-25T01:20:30.774729Z <008>  1878 MB info    |   sampling mode                 qmc
+2020-05-25T01:20:30.774729Z <008>  1878 MB info    |   rendering threads             6
+2020-05-25T01:20:30.774729Z <008>  1878 MB info    |   tile ordering                 hilbert
+2020-05-25T01:20:30.774729Z <008>  1878 MB info    |   passes                        9
+2020-05-25T01:20:30.775730Z <008>  1878 MB info    | uniform pixel renderer settings:
+2020-05-25T01:20:30.775730Z <008>  1878 MB info    |   samples                       2
+2020-05-25T01:20:30.775730Z <008>  1878 MB info    |   force anti-aliasing           on
+2020-05-25T01:20:30.776731Z <008>  1878 MB info    | generic sample renderer settings:
+2020-05-25T01:20:30.776731Z <008>  1878 MB info    |   transparency threshold        0.001000
+2020-05-25T01:20:30.776731Z <008>  1878 MB info    |   max iterations                100
+2020-05-25T01:20:30.776731Z <008>  1878 MB info    |   report self intersections     off
+2020-05-25T01:20:30.777731Z <008>  1878 MB info    | unidirectional path tracer settings:
+2020-05-25T01:20:30.777731Z <008>  1878 MB info    |   direct lighting               on
+2020-05-25T01:20:30.777731Z <008>  1878 MB info    |   ibl                           on
+2020-05-25T01:20:30.777731Z <008>  1878 MB info    |   caustics                      off
+2020-05-25T01:20:30.777731Z <008>  1878 MB info    |   max bounces                   unlimited
+2020-05-25T01:20:30.777731Z <008>  1878 MB info    |   max diffuse bounces           8
+2020-05-25T01:20:30.777731Z <008>  1878 MB info    |   max glossy bounces            unlimited
+2020-05-25T01:20:30.777731Z <008>  1878 MB info    |   max specular bounces          unlimited
+2020-05-25T01:20:30.777731Z <008>  1878 MB info    |   max volume bounces            unlimited
+2020-05-25T01:20:30.777731Z <008>  1878 MB info    |   russian roulette start bounce 6
+2020-05-25T01:20:30.777731Z <008>  1878 MB info    |   next event estimation         on
+2020-05-25T01:20:30.777731Z <008>  1878 MB info    |   dl light samples              2.0
+2020-05-25T01:20:30.777731Z <008>  1878 MB info    |   dl light threshold            0.000
+2020-05-25T01:20:30.777731Z <008>  1878 MB info    |   ibl env samples               2.0
+2020-05-25T01:20:30.777731Z <008>  1878 MB info    |   max ray intensity             unlimited
+2020-05-25T01:20:30.777731Z <008>  1878 MB info    |   volume distance samples       2
+2020-05-25T01:20:30.777731Z <008>  1878 MB info    |   equiangular sampling          off
+2020-05-25T01:20:30.777731Z <008>  1878 MB info    |   clamp roughness               on
+2020-05-25T01:20:30.784737Z <008>  1878 MB info    | using built-in ray tracing kernel.
+2020-05-25T01:20:30.784737Z <008>  1878 MB info    | collecting assembly instances...
+2020-05-25T01:20:30.791744Z <008>  1878 MB info    | building assembly tree (1 assembly instance)...
+2020-05-25T01:20:30.805757Z <008>  1878 MB info    | collecting geometry for triangle tree #1615 from assembly "/scene/assembly"...
+2020-05-25T01:20:30.959905Z <008>  1968 MB info    | building triangle tree #1615 (bvh, 1,535,736 static triangles, 0 moving triangle)...
+2020-05-25T01:20:33.904697Z <008>  2104 MB info    | texture store settings:
+2020-05-25T01:20:33.904697Z <008>  2104 MB info    |   max store size                1.0 GB
+2020-05-25T01:20:33.904697Z <008>  2104 MB info    |   track store size              off
+2020-05-25T01:20:33.904697Z <008>  2104 MB info    |   track tile loading            off
+2020-05-25T01:20:33.904697Z <008>  2104 MB info    |   track tile unloading          off
+2020-05-25T01:20:33.906699Z <008>  2104 MB info    | frame "/beauty" (#1620) parameters:
+2020-05-25T01:20:33.906699Z <008>  2104 MB info    |   camera name                   "Camera"
+2020-05-25T01:20:33.906699Z <008>  2104 MB info    |   resolution                    2,000 x 1,700
+2020-05-25T01:20:33.906699Z <008>  2104 MB info    |   tile size                     64 x 64
+2020-05-25T01:20:33.906699Z <008>  2104 MB info    |   filter                        blackman-harris
+2020-05-25T01:20:33.906699Z <008>  2104 MB info    |   filter size                   1.020000
+2020-05-25T01:20:33.906699Z <008>  2104 MB info    |   crop window                   (0, 0)-(1,999, 1,699)
+2020-05-25T01:20:33.906699Z <008>  2104 MB info    |   dithering                     on
+2020-05-25T01:20:33.906699Z <008>  2104 MB info    |   noise seed                    0
+2020-05-25T01:20:33.906699Z <008>  2104 MB info    |   denoising mode                off
+2020-05-25T01:20:33.906699Z <008>  2104 MB info    |   create checkpoint             off
+2020-05-25T01:20:33.906699Z <008>  2104 MB info    |   resume checkpoint             off
+2020-05-25T01:20:33.906699Z <008>  2104 MB info    |   reference image path          n/a
+2020-05-25T01:20:33.910702Z <008>  2104 MB info    | camera "/scene/Camera" (#1621) parameters:
+2020-05-25T01:20:33.910702Z <008>  2104 MB info    |   model                         pinhole_camera
+2020-05-25T01:20:33.910702Z <008>  2104 MB info    |   film width                    0.032000
+2020-05-25T01:20:33.910702Z <008>  2104 MB info    |   film height                   0.027200
+2020-05-25T01:20:33.910702Z <008>  2104 MB info    |   focal length                  0.035000
+2020-05-25T01:20:33.910702Z <008>  2104 MB info    |   near z                        -0.001000
+2020-05-25T01:20:33.910702Z <008>  2104 MB info    |   shift                         0.000000, 0.000000
+2020-05-25T01:20:33.910702Z <008>  2104 MB info    |   shutter open begin time       0.000000
+2020-05-25T01:20:33.910702Z <008>  2104 MB info    |   shutter open end time         0.000000
+2020-05-25T01:20:33.910702Z <008>  2104 MB info    |   shutter close begin time      1.000000
+2020-05-25T01:20:33.910702Z <008>  2104 MB info    |   shutter close end time        1.000000
+2020-05-25T01:20:33.915707Z <009>  2105 MB info    | --- beginning rendering pass #1 ---
+2020-05-25T01:22:08.176114Z <009>  2284 MB info    | --- beginning rendering pass #2 ---
+2020-05-25T01:23:41.746218Z <009>  2284 MB info    | --- beginning rendering pass #3 ---
+2020-05-25T01:25:15.645569Z <009>  2284 MB info    | --- beginning rendering pass #4 ---
+2020-05-25T01:26:49.252779Z <009>  2284 MB info    | --- beginning rendering pass #5 ---
+2020-05-25T01:28:23.046744Z <009>  2284 MB info    | --- beginning rendering pass #6 ---
+2020-05-25T01:29:56.865162Z <009>  2284 MB info    | --- beginning rendering pass #7 ---
+2020-05-25T01:31:30.332911Z <009>  2284 MB info    | --- beginning rendering pass #8 ---
+2020-05-25T01:33:04.053852Z <009>  2284 MB info    | --- beginning rendering pass #9 ---
+2020-05-25T01:34:37.758871Z <008>  2282 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-specular.jpg...
+2020-05-25T01:34:37.758871Z <008>  2282 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\textures\2K-wood_fine_4-specular.jpg...
+2020-05-25T01:34:37.758871Z <008>  2282 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-normal.jpg...
+2020-05-25T01:34:37.759864Z <008>  2282 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-diffuse.jpg...
+2020-05-25T01:34:37.759864Z <008>  2282 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg...
+2020-05-25T01:34:37.760865Z <008>  2282 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-specular.jpg...
+2020-05-25T01:34:37.760865Z <008>  2282 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-normal.jpg...
+2020-05-25T01:34:37.760865Z <008>  2282 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-displacement.jpg...
+2020-05-25T01:34:37.760865Z <008>  2282 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-diffuse.jpg...
+Saved: 'C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\B0_9__6tr_.png'
+ Time: 14:08.64 (Saving: 00:00.39)
+
+mean time = 848.6516518592834
+[848.6516518592834]
+[0.0]
+start rendering
+2020-05-25T01:44:57.254098Z <010>  1946 MB info    | texture store settings:
+2020-05-25T01:44:57.254098Z <010>  1946 MB info    |   max store size                4.0 GB
+2020-05-25T01:44:57.254098Z <010>  1946 MB info    |   track store size              off
+2020-05-25T01:44:57.254098Z <010>  1946 MB info    |   track tile loading            off
+2020-05-25T01:44:57.254098Z <010>  1946 MB info    |   track tile unloading          off
+2020-05-25T01:44:57.257100Z <010>  1946 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-diffuse.jpg and reading metadata...
+2020-05-25T01:44:57.262105Z <010>  1946 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-displacement.jpg and reading metadata...
+2020-05-25T01:44:57.266108Z <010>  1946 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-normal.jpg and reading metadata...
+2020-05-25T01:44:57.269111Z <010>  1946 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-specular.jpg and reading metadata...
+2020-05-25T01:44:57.271113Z <010>  1946 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg and reading metadata...
+2020-05-25T01:44:57.273640Z <010>  1946 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-diffuse.jpg and reading metadata...
+2020-05-25T01:44:57.276153Z <010>  1946 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-normal.jpg and reading metadata...
+2020-05-25T01:44:57.278149Z <010>  1946 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\textures\2K-wood_fine_4-specular.jpg and reading metadata...
+2020-05-25T01:44:57.280150Z <010>  1946 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-specular.jpg and reading metadata...
+2020-05-25T01:44:57.291160Z <010>  1946 MB info    | setting oiio texture cache size to 4.0 GB.
+2020-05-25T01:44:57.291160Z <010>  1946 MB info    | setting oiio search paths to C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders
+2020-05-25T01:44:57.292162Z <010>  1946 MB info    | setting osl shader search paths to C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders
+2020-05-25T01:44:57.292162Z <010>  1946 MB info    | found OSL headers in C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders\stdosl.h
+2020-05-25T01:44:57.458312Z <010>  1961 MB info    | collecting light emitters...
+2020-05-25T01:44:57.459313Z <010>  1961 MB info    | found 0 non-physical light, 2 light-tree compatible lights, 2 emitting shapes.
+2020-05-25T01:44:57.459313Z <010>  1961 MB info    | the scene does not rely on alpha mapping and does not contain participating media; using probe tracing.
+2020-05-25T01:44:57.460315Z <010>  1961 MB info    | generic frame renderer settings:
+2020-05-25T01:44:57.460315Z <010>  1961 MB info    |   spectrum mode                 rgb
+2020-05-25T01:44:57.460315Z <010>  1961 MB info    |   sampling mode                 qmc
+2020-05-25T01:44:57.460315Z <010>  1961 MB info    |   rendering threads             6
+2020-05-25T01:44:57.460315Z <010>  1961 MB info    |   tile ordering                 hilbert
+2020-05-25T01:44:57.460315Z <010>  1961 MB info    |   passes                        7
+2020-05-25T01:44:57.462316Z <010>  1961 MB info    | uniform pixel renderer settings:
+2020-05-25T01:44:57.462316Z <010>  1961 MB info    |   samples                       2
+2020-05-25T01:44:57.462316Z <010>  1961 MB info    |   force anti-aliasing           on
+2020-05-25T01:44:57.463317Z <010>  1961 MB info    | generic sample renderer settings:
+2020-05-25T01:44:57.463317Z <010>  1961 MB info    |   transparency threshold        0.001000
+2020-05-25T01:44:57.463317Z <010>  1961 MB info    |   max iterations                100
+2020-05-25T01:44:57.463317Z <010>  1961 MB info    |   report self intersections     off
+2020-05-25T01:44:57.464318Z <010>  1961 MB info    | unidirectional path tracer settings:
+2020-05-25T01:44:57.464318Z <010>  1961 MB info    |   direct lighting               on
+2020-05-25T01:44:57.464318Z <010>  1961 MB info    |   ibl                           on
+2020-05-25T01:44:57.464318Z <010>  1961 MB info    |   caustics                      off
+2020-05-25T01:44:57.464318Z <010>  1961 MB info    |   max bounces                   unlimited
+2020-05-25T01:44:57.464318Z <010>  1961 MB info    |   max diffuse bounces           8
+2020-05-25T01:44:57.464318Z <010>  1961 MB info    |   max glossy bounces            unlimited
+2020-05-25T01:44:57.464318Z <010>  1961 MB info    |   max specular bounces          unlimited
+2020-05-25T01:44:57.464318Z <010>  1961 MB info    |   max volume bounces            unlimited
+2020-05-25T01:44:57.464318Z <010>  1961 MB info    |   russian roulette start bounce 6
+2020-05-25T01:44:57.464318Z <010>  1961 MB info    |   next event estimation         on
+2020-05-25T01:44:57.464318Z <010>  1961 MB info    |   dl light samples              2.0
+2020-05-25T01:44:57.464318Z <010>  1961 MB info    |   dl light threshold            0.000
+2020-05-25T01:44:57.464318Z <010>  1961 MB info    |   ibl env samples               2.0
+2020-05-25T01:44:57.464318Z <010>  1961 MB info    |   max ray intensity             unlimited
+2020-05-25T01:44:57.464318Z <010>  1961 MB info    |   volume distance samples       2
+2020-05-25T01:44:57.464318Z <010>  1961 MB info    |   equiangular sampling          off
+2020-05-25T01:44:57.464318Z <010>  1961 MB info    |   clamp roughness               on
+2020-05-25T01:44:57.470323Z <010>  1961 MB info    | using built-in ray tracing kernel.
+2020-05-25T01:44:57.470323Z <010>  1961 MB info    | collecting assembly instances...
+2020-05-25T01:44:57.478331Z <010>  1961 MB info    | building assembly tree (1 assembly instance)...
+2020-05-25T01:44:57.492344Z <010>  1961 MB info    | collecting geometry for triangle tree #2140 from assembly "/scene/assembly"...
+2020-05-25T01:44:57.655003Z <010>  2052 MB info    | building triangle tree #2140 (bvh, 1,535,736 static triangles, 0 moving triangle)...
+2020-05-25T01:45:00.568168Z <010>  2188 MB info    | texture store settings:
+2020-05-25T01:45:00.568168Z <010>  2188 MB info    |   max store size                1.0 GB
+2020-05-25T01:45:00.568168Z <010>  2188 MB info    |   track store size              off
+2020-05-25T01:45:00.568168Z <010>  2188 MB info    |   track tile loading            off
+2020-05-25T01:45:00.568168Z <010>  2188 MB info    |   track tile unloading          off
+2020-05-25T01:45:00.570167Z <010>  2188 MB info    | frame "/beauty" (#2145) parameters:
+2020-05-25T01:45:00.570167Z <010>  2188 MB info    |   camera name                   "Camera"
+2020-05-25T01:45:00.570167Z <010>  2188 MB info    |   resolution                    2,000 x 1,700
+2020-05-25T01:45:00.570167Z <010>  2188 MB info    |   tile size                     64 x 64
+2020-05-25T01:45:00.570167Z <010>  2188 MB info    |   filter                        blackman-harris
+2020-05-25T01:45:00.570167Z <010>  2188 MB info    |   filter size                   1.020000
+2020-05-25T01:45:00.570167Z <010>  2188 MB info    |   crop window                   (0, 0)-(1,999, 1,699)
+2020-05-25T01:45:00.570167Z <010>  2188 MB info    |   dithering                     on
+2020-05-25T01:45:00.570167Z <010>  2188 MB info    |   noise seed                    0
+2020-05-25T01:45:00.570167Z <010>  2188 MB info    |   denoising mode                off
+2020-05-25T01:45:00.570167Z <010>  2188 MB info    |   create checkpoint             off
+2020-05-25T01:45:00.570167Z <010>  2188 MB info    |   resume checkpoint             off
+2020-05-25T01:45:00.570167Z <010>  2188 MB info    |   reference image path          n/a
+2020-05-25T01:45:00.574166Z <010>  2188 MB info    | camera "/scene/Camera" (#2146) parameters:
+2020-05-25T01:45:00.574166Z <010>  2188 MB info    |   model                         pinhole_camera
+2020-05-25T01:45:00.574166Z <010>  2188 MB info    |   film width                    0.032000
+2020-05-25T01:45:00.574166Z <010>  2188 MB info    |   film height                   0.027200
+2020-05-25T01:45:00.574166Z <010>  2188 MB info    |   focal length                  0.035000
+2020-05-25T01:45:00.574166Z <010>  2188 MB info    |   near z                        -0.001000
+2020-05-25T01:45:00.574166Z <010>  2188 MB info    |   shift                         0.000000, 0.000000
+2020-05-25T01:45:00.574166Z <010>  2188 MB info    |   shutter open begin time       0.000000
+2020-05-25T01:45:00.574166Z <010>  2188 MB info    |   shutter open end time         0.000000
+2020-05-25T01:45:00.574166Z <010>  2188 MB info    |   shutter close begin time      1.000000
+2020-05-25T01:45:00.574166Z <010>  2188 MB info    |   shutter close end time        1.000000
+2020-05-25T01:45:00.580171Z <011>  2188 MB info    | --- beginning rendering pass #1 ---
+2020-05-25T01:46:35.365071Z <011>  2382 MB info    | --- beginning rendering pass #2 ---
+2020-05-25T01:48:09.252692Z <011>  2382 MB info    | --- beginning rendering pass #3 ---
+2020-05-25T01:49:42.602648Z <011>  2382 MB info    | --- beginning rendering pass #4 ---
+2020-05-25T01:51:16.476405Z <011>  2382 MB info    | --- beginning rendering pass #5 ---
+2020-05-25T01:52:50.088847Z <011>  2382 MB info    | --- beginning rendering pass #6 ---
+2020-05-25T01:54:24.259162Z <011>  2382 MB info    | --- beginning rendering pass #7 ---
+2020-05-25T01:55:58.016599Z <010>  2380 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-specular.jpg...
+2020-05-25T01:55:58.016599Z <010>  2380 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\textures\2K-wood_fine_4-specular.jpg...
+2020-05-25T01:55:58.017599Z <010>  2380 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-normal.jpg...
+2020-05-25T01:55:58.017599Z <010>  2380 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-diffuse.jpg...
+2020-05-25T01:55:58.017599Z <010>  2380 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg...
+2020-05-25T01:55:58.018600Z <010>  2380 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-specular.jpg...
+2020-05-25T01:55:58.018600Z <010>  2380 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-normal.jpg...
+2020-05-25T01:55:58.018600Z <010>  2380 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-displacement.jpg...
+2020-05-25T01:55:58.019601Z <010>  2380 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-diffuse.jpg...
+Saved: 'C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\B0_7__6tr_.png'
+ Time: 11:02.22 (Saving: 00:00.38)
+
+mean time = 662.2328367233276
+2020-05-25T01:55:59.502503Z <012>  2047 MB info    | texture store settings:
+2020-05-25T01:55:59.502503Z <012>  2047 MB info    |   max store size                4.0 GB
+2020-05-25T01:55:59.502503Z <012>  2047 MB info    |   track store size              off
+2020-05-25T01:55:59.502503Z <012>  2047 MB info    |   track tile loading            off
+2020-05-25T01:55:59.502503Z <012>  2047 MB info    |   track tile unloading          off
+2020-05-25T01:55:59.506507Z <012>  2047 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-diffuse.jpg and reading metadata...
+2020-05-25T01:55:59.506507Z <012>  2047 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-displacement.jpg and reading metadata...
+2020-05-25T01:55:59.506507Z <012>  2047 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-normal.jpg and reading metadata...
+2020-05-25T01:55:59.507508Z <012>  2047 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-specular.jpg and reading metadata...
+2020-05-25T01:55:59.507508Z <012>  2047 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg and reading metadata...
+2020-05-25T01:55:59.507508Z <012>  2047 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-diffuse.jpg and reading metadata...
+2020-05-25T01:55:59.508509Z <012>  2047 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-normal.jpg and reading metadata...
+2020-05-25T01:55:59.508509Z <012>  2047 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\textures\2K-wood_fine_4-specular.jpg and reading metadata...
+2020-05-25T01:55:59.508509Z <012>  2047 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-specular.jpg and reading metadata...
+2020-05-25T01:55:59.516516Z <012>  2047 MB info    | setting oiio texture cache size to 4.0 GB.
+2020-05-25T01:55:59.516516Z <012>  2047 MB info    | setting oiio search paths to C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders
+2020-05-25T01:55:59.517517Z <012>  2047 MB info    | setting osl shader search paths to C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders
+2020-05-25T01:55:59.517517Z <012>  2047 MB info    | found OSL headers in C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders\stdosl.h
+2020-05-25T01:55:59.650638Z <012>  2063 MB info    | collecting light emitters...
+2020-05-25T01:55:59.650638Z <012>  2063 MB info    | found 0 non-physical light, 2 light-tree compatible lights, 2 emitting shapes.
+2020-05-25T01:55:59.651639Z <012>  2063 MB info    | the scene does not rely on alpha mapping and does not contain participating media; using probe tracing.
+2020-05-25T01:55:59.652640Z <012>  2063 MB info    | generic frame renderer settings:
+2020-05-25T01:55:59.652640Z <012>  2063 MB info    |   spectrum mode                 rgb
+2020-05-25T01:55:59.652640Z <012>  2063 MB info    |   sampling mode                 qmc
+2020-05-25T01:55:59.652640Z <012>  2063 MB info    |   rendering threads             6
+2020-05-25T01:55:59.652640Z <012>  2063 MB info    |   tile ordering                 hilbert
+2020-05-25T01:55:59.652640Z <012>  2063 MB info    |   passes                        14
+2020-05-25T01:55:59.653641Z <012>  2063 MB info    | uniform pixel renderer settings:
+2020-05-25T01:55:59.653641Z <012>  2063 MB info    |   samples                       2
+2020-05-25T01:55:59.653641Z <012>  2063 MB info    |   force anti-aliasing           on
+2020-05-25T01:55:59.654641Z <012>  2063 MB info    | generic sample renderer settings:
+2020-05-25T01:55:59.654641Z <012>  2063 MB info    |   transparency threshold        0.001000
+2020-05-25T01:55:59.654641Z <012>  2063 MB info    |   max iterations                100
+2020-05-25T01:55:59.654641Z <012>  2063 MB info    |   report self intersections     off
+2020-05-25T01:55:59.655642Z <012>  2063 MB info    | unidirectional path tracer settings:
+2020-05-25T01:55:59.655642Z <012>  2063 MB info    |   direct lighting               on
+2020-05-25T01:55:59.655642Z <012>  2063 MB info    |   ibl                           on
+2020-05-25T01:55:59.655642Z <012>  2063 MB info    |   caustics                      off
+2020-05-25T01:55:59.655642Z <012>  2063 MB info    |   max bounces                   unlimited
+2020-05-25T01:55:59.655642Z <012>  2063 MB info    |   max diffuse bounces           8
+2020-05-25T01:55:59.655642Z <012>  2063 MB info    |   max glossy bounces            unlimited
+2020-05-25T01:55:59.655642Z <012>  2063 MB info    |   max specular bounces          unlimited
+2020-05-25T01:55:59.655642Z <012>  2063 MB info    |   max volume bounces            unlimited
+2020-05-25T01:55:59.655642Z <012>  2063 MB info    |   russian roulette start bounce 6
+2020-05-25T01:55:59.655642Z <012>  2063 MB info    |   next event estimation         on
+2020-05-25T01:55:59.655642Z <012>  2063 MB info    |   dl light samples              2.0
+2020-05-25T01:55:59.655642Z <012>  2063 MB info    |   dl light threshold            0.000
+2020-05-25T01:55:59.655642Z <012>  2063 MB info    |   ibl env samples               2.0
+2020-05-25T01:55:59.655642Z <012>  2063 MB info    |   max ray intensity             unlimited
+2020-05-25T01:55:59.655642Z <012>  2063 MB info    |   volume distance samples       2
+2020-05-25T01:55:59.655642Z <012>  2063 MB info    |   equiangular sampling          off
+2020-05-25T01:55:59.655642Z <012>  2063 MB info    |   clamp roughness               on
+2020-05-25T01:55:59.662649Z <012>  2063 MB info    | using built-in ray tracing kernel.
+2020-05-25T01:55:59.662649Z <012>  2063 MB info    | collecting assembly instances...
+2020-05-25T01:55:59.669655Z <012>  2063 MB info    | building assembly tree (1 assembly instance)...
+2020-05-25T01:55:59.684669Z <012>  2063 MB info    | collecting geometry for triangle tree #2665 from assembly "/scene/assembly"...
+2020-05-25T01:55:59.845815Z <012>  2153 MB info    | building triangle tree #2665 (bvh, 1,535,736 static triangles, 0 moving triangle)...
+2020-05-25T01:56:02.749426Z <012>  2290 MB info    | texture store settings:
+2020-05-25T01:56:02.749426Z <012>  2290 MB info    |   max store size                1.0 GB
+2020-05-25T01:56:02.749426Z <012>  2290 MB info    |   track store size              off
+2020-05-25T01:56:02.749426Z <012>  2290 MB info    |   track tile loading            off
+2020-05-25T01:56:02.749426Z <012>  2290 MB info    |   track tile unloading          off
+2020-05-25T01:56:02.751428Z <012>  2290 MB info    | frame "/beauty" (#2670) parameters:
+2020-05-25T01:56:02.751428Z <012>  2290 MB info    |   camera name                   "Camera"
+2020-05-25T01:56:02.751428Z <012>  2290 MB info    |   resolution                    2,000 x 1,700
+2020-05-25T01:56:02.751428Z <012>  2290 MB info    |   tile size                     64 x 64
+2020-05-25T01:56:02.751428Z <012>  2290 MB info    |   filter                        blackman-harris
+2020-05-25T01:56:02.751428Z <012>  2290 MB info    |   filter size                   1.020000
+2020-05-25T01:56:02.751428Z <012>  2290 MB info    |   crop window                   (0, 0)-(1,999, 1,699)
+2020-05-25T01:56:02.751428Z <012>  2290 MB info    |   dithering                     on
+2020-05-25T01:56:02.751428Z <012>  2290 MB info    |   noise seed                    0
+2020-05-25T01:56:02.751428Z <012>  2290 MB info    |   denoising mode                off
+2020-05-25T01:56:02.751428Z <012>  2290 MB info    |   create checkpoint             off
+2020-05-25T01:56:02.751428Z <012>  2290 MB info    |   resume checkpoint             off
+2020-05-25T01:56:02.751428Z <012>  2290 MB info    |   reference image path          n/a
+2020-05-25T01:56:02.755432Z <012>  2290 MB info    | camera "/scene/Camera" (#2671) parameters:
+2020-05-25T01:56:02.755432Z <012>  2290 MB info    |   model                         pinhole_camera
+2020-05-25T01:56:02.755432Z <012>  2290 MB info    |   film width                    0.032000
+2020-05-25T01:56:02.755432Z <012>  2290 MB info    |   film height                   0.027200
+2020-05-25T01:56:02.755432Z <012>  2290 MB info    |   focal length                  0.035000
+2020-05-25T01:56:02.755432Z <012>  2290 MB info    |   near z                        -0.001000
+2020-05-25T01:56:02.755432Z <012>  2290 MB info    |   shift                         0.000000, 0.000000
+2020-05-25T01:56:02.755432Z <012>  2290 MB info    |   shutter open begin time       0.000000
+2020-05-25T01:56:02.755432Z <012>  2290 MB info    |   shutter open end time         0.000000
+2020-05-25T01:56:02.755432Z <012>  2290 MB info    |   shutter close begin time      1.000000
+2020-05-25T01:56:02.755432Z <012>  2290 MB info    |   shutter close end time        1.000000
+2020-05-25T01:56:02.761438Z <013>  2290 MB info    | --- beginning rendering pass #1 ---
+2020-05-25T01:57:36.236046Z <013>  2480 MB info    | --- beginning rendering pass #2 ---
+2020-05-25T01:59:08.959410Z <013>  2480 MB info    | --- beginning rendering pass #3 ---
+2020-05-25T02:00:41.266485Z <013>  2480 MB info    | --- beginning rendering pass #4 ---
+2020-05-25T02:02:13.658409Z <013>  2480 MB info    | --- beginning rendering pass #5 ---
+2020-05-25T02:03:45.890773Z <013>  2480 MB info    | --- beginning rendering pass #6 ---
+2020-05-25T02:05:18.477828Z <013>  2480 MB info    | --- beginning rendering pass #7 ---
+2020-05-25T02:06:50.708151Z <013>  2480 MB info    | --- beginning rendering pass #8 ---
+2020-05-25T02:08:23.116472Z <013>  2480 MB info    | --- beginning rendering pass #9 ---
+2020-05-25T02:09:56.600547Z <013>  2480 MB info    | --- beginning rendering pass #10 ---
+2020-05-25T02:11:29.440363Z <013>  2480 MB info    | --- beginning rendering pass #11 ---
+2020-05-25T02:13:02.455890Z <013>  2480 MB info    | --- beginning rendering pass #12 ---
+2020-05-25T02:14:35.374777Z <013>  2480 MB info    | --- beginning rendering pass #13 ---
+2020-05-25T02:16:08.399061Z <013>  2480 MB info    | --- beginning rendering pass #14 ---
+2020-05-25T02:17:41.461795Z <012>  2477 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-specular.jpg...
+2020-05-25T02:17:41.461795Z <012>  2477 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\textures\2K-wood_fine_4-specular.jpg...
+2020-05-25T02:17:41.462796Z <012>  2477 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-normal.jpg...
+2020-05-25T02:17:41.462796Z <012>  2477 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-diffuse.jpg...
+2020-05-25T02:17:41.463797Z <012>  2477 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg...
+2020-05-25T02:17:41.463797Z <012>  2477 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-specular.jpg...
+2020-05-25T02:17:41.463797Z <012>  2477 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-normal.jpg...
+2020-05-25T02:17:41.463797Z <012>  2477 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-displacement.jpg...
+2020-05-25T02:17:41.464798Z <012>  2477 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-diffuse.jpg...
+Saved: 'C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\B0_14_6tr_.png'
+ Time: 21:43.44 (Saving: 00:00.38)
+
+mean time = 1303.4572069644928
+2020-05-25T02:17:42.961715Z <014>  2145 MB info    | texture store settings:
+2020-05-25T02:17:42.961715Z <014>  2145 MB info    |   max store size                4.0 GB
+2020-05-25T02:17:42.961715Z <014>  2145 MB info    |   track store size              off
+2020-05-25T02:17:42.961715Z <014>  2145 MB info    |   track tile loading            off
+2020-05-25T02:17:42.961715Z <014>  2145 MB info    |   track tile unloading          off
+2020-05-25T02:17:42.965718Z <014>  2145 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-diffuse.jpg and reading metadata...
+2020-05-25T02:17:42.965718Z <014>  2145 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-displacement.jpg and reading metadata...
+2020-05-25T02:17:42.966719Z <014>  2145 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-normal.jpg and reading metadata...
+2020-05-25T02:17:42.966719Z <014>  2145 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-specular.jpg and reading metadata...
+2020-05-25T02:17:42.966719Z <014>  2145 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg and reading metadata...
+2020-05-25T02:17:42.966719Z <014>  2145 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-diffuse.jpg and reading metadata...
+2020-05-25T02:17:42.967720Z <014>  2145 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-normal.jpg and reading metadata...
+2020-05-25T02:17:42.967720Z <014>  2145 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\textures\2K-wood_fine_4-specular.jpg and reading metadata...
+2020-05-25T02:17:42.967720Z <014>  2145 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-specular.jpg and reading metadata...
+2020-05-25T02:17:42.975727Z <014>  2145 MB info    | setting oiio texture cache size to 4.0 GB.
+2020-05-25T02:17:42.975727Z <014>  2145 MB info    | setting oiio search paths to C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders
+2020-05-25T02:17:42.976728Z <014>  2145 MB info    | setting osl shader search paths to C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders
+2020-05-25T02:17:42.976728Z <014>  2145 MB info    | found OSL headers in C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders\stdosl.h
+2020-05-25T02:17:43.114854Z <014>  2160 MB info    | collecting light emitters...
+2020-05-25T02:17:43.114854Z <014>  2160 MB info    | found 0 non-physical light, 2 light-tree compatible lights, 2 emitting shapes.
+2020-05-25T02:17:43.115863Z <014>  2160 MB info    | the scene does not rely on alpha mapping and does not contain participating media; using probe tracing.
+2020-05-25T02:17:43.116863Z <014>  2160 MB info    | generic frame renderer settings:
+2020-05-25T02:17:43.116863Z <014>  2160 MB info    |   spectrum mode                 rgb
+2020-05-25T02:17:43.116863Z <014>  2160 MB info    |   sampling mode                 qmc
+2020-05-25T02:17:43.116863Z <014>  2160 MB info    |   rendering threads             6
+2020-05-25T02:17:43.116863Z <014>  2160 MB info    |   tile ordering                 hilbert
+2020-05-25T02:17:43.116863Z <014>  2160 MB info    |   passes                        27
+2020-05-25T02:17:43.117857Z <014>  2160 MB info    | uniform pixel renderer settings:
+2020-05-25T02:17:43.117857Z <014>  2160 MB info    |   samples                       2
+2020-05-25T02:17:43.117857Z <014>  2160 MB info    |   force anti-aliasing           on
+2020-05-25T02:17:43.118858Z <014>  2160 MB info    | generic sample renderer settings:
+2020-05-25T02:17:43.118858Z <014>  2160 MB info    |   transparency threshold        0.001000
+2020-05-25T02:17:43.118858Z <014>  2160 MB info    |   max iterations                100
+2020-05-25T02:17:43.118858Z <014>  2160 MB info    |   report self intersections     off
+2020-05-25T02:17:43.119859Z <014>  2160 MB info    | unidirectional path tracer settings:
+2020-05-25T02:17:43.119859Z <014>  2160 MB info    |   direct lighting               on
+2020-05-25T02:17:43.119859Z <014>  2160 MB info    |   ibl                           on
+2020-05-25T02:17:43.119859Z <014>  2160 MB info    |   caustics                      off
+2020-05-25T02:17:43.119859Z <014>  2160 MB info    |   max bounces                   unlimited
+2020-05-25T02:17:43.119859Z <014>  2160 MB info    |   max diffuse bounces           8
+2020-05-25T02:17:43.119859Z <014>  2160 MB info    |   max glossy bounces            unlimited
+2020-05-25T02:17:43.119859Z <014>  2160 MB info    |   max specular bounces          unlimited
+2020-05-25T02:17:43.119859Z <014>  2160 MB info    |   max volume bounces            unlimited
+2020-05-25T02:17:43.119859Z <014>  2160 MB info    |   russian roulette start bounce 6
+2020-05-25T02:17:43.119859Z <014>  2160 MB info    |   next event estimation         on
+2020-05-25T02:17:43.119859Z <014>  2160 MB info    |   dl light samples              2.0
+2020-05-25T02:17:43.119859Z <014>  2160 MB info    |   dl light threshold            0.000
+2020-05-25T02:17:43.119859Z <014>  2160 MB info    |   ibl env samples               2.0
+2020-05-25T02:17:43.119859Z <014>  2160 MB info    |   max ray intensity             unlimited
+2020-05-25T02:17:43.119859Z <014>  2160 MB info    |   volume distance samples       2
+2020-05-25T02:17:43.119859Z <014>  2160 MB info    |   equiangular sampling          off
+2020-05-25T02:17:43.119859Z <014>  2160 MB info    |   clamp roughness               on
+2020-05-25T02:17:43.125864Z <014>  2160 MB info    | using built-in ray tracing kernel.
+2020-05-25T02:17:43.126865Z <014>  2160 MB info    | collecting assembly instances...
+2020-05-25T02:17:43.133871Z <014>  2160 MB info    | building assembly tree (1 assembly instance)...
+2020-05-25T02:17:43.147884Z <014>  2160 MB info    | collecting geometry for triangle tree #3190 from assembly "/scene/assembly"...
+2020-05-25T02:17:43.308030Z <014>  2250 MB info    | building triangle tree #3190 (bvh, 1,535,736 static triangles, 0 moving triangle)...
+2020-05-25T02:17:46.239770Z <014>  2387 MB info    | texture store settings:
+2020-05-25T02:17:46.239770Z <014>  2387 MB info    |   max store size                1.0 GB
+2020-05-25T02:17:46.239770Z <014>  2387 MB info    |   track store size              off
+2020-05-25T02:17:46.239770Z <014>  2387 MB info    |   track tile loading            off
+2020-05-25T02:17:46.239770Z <014>  2387 MB info    |   track tile unloading          off
+2020-05-25T02:17:46.241764Z <014>  2387 MB info    | frame "/beauty" (#3195) parameters:
+2020-05-25T02:17:46.241764Z <014>  2387 MB info    |   camera name                   "Camera"
+2020-05-25T02:17:46.241764Z <014>  2387 MB info    |   resolution                    2,000 x 1,700
+2020-05-25T02:17:46.241764Z <014>  2387 MB info    |   tile size                     64 x 64
+2020-05-25T02:17:46.241764Z <014>  2387 MB info    |   filter                        blackman-harris
+2020-05-25T02:17:46.241764Z <014>  2387 MB info    |   filter size                   1.020000
+2020-05-25T02:17:46.241764Z <014>  2387 MB info    |   crop window                   (0, 0)-(1,999, 1,699)
+2020-05-25T02:17:46.241764Z <014>  2387 MB info    |   dithering                     on
+2020-05-25T02:17:46.241764Z <014>  2387 MB info    |   noise seed                    0
+2020-05-25T02:17:46.241764Z <014>  2387 MB info    |   denoising mode                off
+2020-05-25T02:17:46.241764Z <014>  2387 MB info    |   create checkpoint             off
+2020-05-25T02:17:46.241764Z <014>  2387 MB info    |   resume checkpoint             off
+2020-05-25T02:17:46.241764Z <014>  2387 MB info    |   reference image path          n/a
+2020-05-25T02:17:46.245768Z <014>  2387 MB info    | camera "/scene/Camera" (#3196) parameters:
+2020-05-25T02:17:46.245768Z <014>  2387 MB info    |   model                         pinhole_camera
+2020-05-25T02:17:46.245768Z <014>  2387 MB info    |   film width                    0.032000
+2020-05-25T02:17:46.245768Z <014>  2387 MB info    |   film height                   0.027200
+2020-05-25T02:17:46.245768Z <014>  2387 MB info    |   focal length                  0.035000
+2020-05-25T02:17:46.245768Z <014>  2387 MB info    |   near z                        -0.001000
+2020-05-25T02:17:46.245768Z <014>  2387 MB info    |   shift                         0.000000, 0.000000
+2020-05-25T02:17:46.245768Z <014>  2387 MB info    |   shutter open begin time       0.000000
+2020-05-25T02:17:46.245768Z <014>  2387 MB info    |   shutter open end time         0.000000
+2020-05-25T02:17:46.245768Z <014>  2387 MB info    |   shutter close begin time      1.000000
+2020-05-25T02:17:46.245768Z <014>  2387 MB info    |   shutter close end time        1.000000
+2020-05-25T02:17:46.252775Z <015>  2387 MB info    | --- beginning rendering pass #1 ---
+2020-05-25T02:19:20.640027Z <015>  2577 MB info    | --- beginning rendering pass #2 ---
+2020-05-25T02:20:54.079456Z <015>  2577 MB info    | --- beginning rendering pass #3 ---
+2020-05-25T02:22:27.313477Z <015>  2577 MB info    | --- beginning rendering pass #4 ---
+2020-05-25T02:24:00.873477Z <015>  2577 MB info    | --- beginning rendering pass #5 ---
+2020-05-25T02:25:34.391146Z <015>  2577 MB info    | --- beginning rendering pass #6 ---
+2020-05-25T02:27:07.740657Z <015>  2577 MB info    | --- beginning rendering pass #7 ---
+2020-05-25T02:28:41.511478Z <015>  2577 MB info    | --- beginning rendering pass #8 ---
+2020-05-25T02:30:14.955297Z <015>  2577 MB info    | --- beginning rendering pass #9 ---
+2020-05-25T02:31:48.246965Z <015>  2577 MB info    | --- beginning rendering pass #10 ---
+2020-05-25T02:33:21.563462Z <015>  2577 MB info    | --- beginning rendering pass #11 ---
+2020-05-25T02:34:54.795737Z <015>  2577 MB info    | --- beginning rendering pass #12 ---
+2020-05-25T02:36:27.930085Z <015>  2577 MB info    | --- beginning rendering pass #13 ---
+2020-05-25T02:38:01.332693Z <015>  2577 MB info    | --- beginning rendering pass #14 ---
+2020-05-25T02:39:34.523976Z <015>  2577 MB info    | --- beginning rendering pass #15 ---
+2020-05-25T02:41:07.742136Z <015>  2577 MB info    | --- beginning rendering pass #16 ---
+2020-05-25T02:42:41.075638Z <015>  2577 MB info    | --- beginning rendering pass #17 ---
+2020-05-25T02:44:14.320384Z <015>  2577 MB info    | --- beginning rendering pass #18 ---
+2020-05-25T02:45:47.909762Z <015>  2577 MB info    | --- beginning rendering pass #19 ---
+2020-05-25T02:47:20.850258Z <015>  2577 MB info    | --- beginning rendering pass #20 ---
+2020-05-25T02:48:54.009433Z <015>  2577 MB info    | --- beginning rendering pass #21 ---
+2020-05-25T02:50:27.310504Z <015>  2577 MB info    | --- beginning rendering pass #22 ---
+2020-05-25T02:52:00.342265Z <015>  2577 MB info    | --- beginning rendering pass #23 ---
+2020-05-25T02:53:33.315869Z <015>  2577 MB info    | --- beginning rendering pass #24 ---
+2020-05-25T02:55:06.909037Z <015>  2577 MB info    | --- beginning rendering pass #25 ---
+2020-05-25T02:56:40.139273Z <015>  2577 MB info    | --- beginning rendering pass #26 ---
+2020-05-25T02:58:13.567268Z <015>  2577 MB info    | --- beginning rendering pass #27 ---
+2020-05-25T02:59:46.849410Z <014>  2575 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-specular.jpg...
+2020-05-25T02:59:46.849410Z <014>  2575 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\textures\2K-wood_fine_4-specular.jpg...
+2020-05-25T02:59:46.850411Z <014>  2575 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-normal.jpg...
+2020-05-25T02:59:46.850411Z <014>  2575 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-diffuse.jpg...
+2020-05-25T02:59:46.851411Z <014>  2575 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg...
+2020-05-25T02:59:46.851411Z <014>  2575 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-specular.jpg...
+2020-05-25T02:59:46.851411Z <014>  2575 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-normal.jpg...
+2020-05-25T02:59:46.851411Z <014>  2575 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-displacement.jpg...
+2020-05-25T02:59:46.852412Z <014>  2575 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-diffuse.jpg...
+Saved: 'C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\B0_27__6tr_.png'
+ Time: 42:05.38 (Saving: 00:00.37)
+
+mean time = 2525.390625476837
+2020-05-25T02:59:48.365816Z <016>  2243 MB info    | texture store settings:
+2020-05-25T02:59:48.365816Z <016>  2243 MB info    |   max store size                4.0 GB
+2020-05-25T02:59:48.365816Z <016>  2243 MB info    |   track store size              off
+2020-05-25T02:59:48.365816Z <016>  2243 MB info    |   track tile loading            off
+2020-05-25T02:59:48.365816Z <016>  2243 MB info    |   track tile unloading          off
+2020-05-25T02:59:48.368818Z <016>  2243 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-diffuse.jpg and reading metadata...
+2020-05-25T02:59:48.369820Z <016>  2243 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-displacement.jpg and reading metadata...
+2020-05-25T02:59:48.369820Z <016>  2243 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-normal.jpg and reading metadata...
+2020-05-25T02:59:48.369820Z <016>  2243 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-specular.jpg and reading metadata...
+2020-05-25T02:59:48.370821Z <016>  2243 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg and reading metadata...
+2020-05-25T02:59:48.370821Z <016>  2243 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-diffuse.jpg and reading metadata...
+2020-05-25T02:59:48.370821Z <016>  2243 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-normal.jpg and reading metadata...
+2020-05-25T02:59:48.371821Z <016>  2243 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\textures\2K-wood_fine_4-specular.jpg and reading metadata...
+2020-05-25T02:59:48.371821Z <016>  2243 MB info    | opening texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-specular.jpg and reading metadata...
+2020-05-25T02:59:48.379828Z <016>  2243 MB info    | setting oiio texture cache size to 4.0 GB.
+2020-05-25T02:59:48.379828Z <016>  2243 MB info    | setting oiio search paths to C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders
+2020-05-25T02:59:48.379828Z <016>  2243 MB info    | setting osl shader search paths to C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders
+2020-05-25T02:59:48.380829Z <016>  2243 MB info    | found OSL headers in C:\Users\UserPushka\AppData\Roaming\Blender Foundation\Blender\2.82\scripts\addons\blenderseed\appleseed\shaders\stdosl.h
+2020-05-25T02:59:48.519956Z <016>  2259 MB info    | collecting light emitters...
+2020-05-25T02:59:48.519956Z <016>  2259 MB info    | found 0 non-physical light, 2 light-tree compatible lights, 2 emitting shapes.
+2020-05-25T02:59:48.520957Z <016>  2259 MB info    | the scene does not rely on alpha mapping and does not contain participating media; using probe tracing.
+2020-05-25T02:59:48.520957Z <016>  2259 MB info    | generic frame renderer settings:
+2020-05-25T02:59:48.520957Z <016>  2259 MB info    |   spectrum mode                 rgb
+2020-05-25T02:59:48.520957Z <016>  2259 MB info    |   sampling mode                 qmc
+2020-05-25T02:59:48.520957Z <016>  2259 MB info    |   rendering threads             6
+2020-05-25T02:59:48.520957Z <016>  2259 MB info    |   tile ordering                 hilbert
+2020-05-25T02:59:48.520957Z <016>  2259 MB info    |   passes                        54
+2020-05-25T02:59:48.522959Z <016>  2259 MB info    | uniform pixel renderer settings:
+2020-05-25T02:59:48.522959Z <016>  2259 MB info    |   samples                       2
+2020-05-25T02:59:48.522959Z <016>  2259 MB info    |   force anti-aliasing           on
+2020-05-25T02:59:48.523959Z <016>  2259 MB info    | generic sample renderer settings:
+2020-05-25T02:59:48.523959Z <016>  2259 MB info    |   transparency threshold        0.001000
+2020-05-25T02:59:48.523959Z <016>  2259 MB info    |   max iterations                100
+2020-05-25T02:59:48.523959Z <016>  2259 MB info    |   report self intersections     off
+2020-05-25T02:59:48.524961Z <016>  2259 MB info    | unidirectional path tracer settings:
+2020-05-25T02:59:48.524961Z <016>  2259 MB info    |   direct lighting               on
+2020-05-25T02:59:48.524961Z <016>  2259 MB info    |   ibl                           on
+2020-05-25T02:59:48.524961Z <016>  2259 MB info    |   caustics                      off
+2020-05-25T02:59:48.524961Z <016>  2259 MB info    |   max bounces                   unlimited
+2020-05-25T02:59:48.524961Z <016>  2259 MB info    |   max diffuse bounces           8
+2020-05-25T02:59:48.524961Z <016>  2259 MB info    |   max glossy bounces            unlimited
+2020-05-25T02:59:48.524961Z <016>  2259 MB info    |   max specular bounces          unlimited
+2020-05-25T02:59:48.524961Z <016>  2259 MB info    |   max volume bounces            unlimited
+2020-05-25T02:59:48.524961Z <016>  2259 MB info    |   russian roulette start bounce 6
+2020-05-25T02:59:48.524961Z <016>  2259 MB info    |   next event estimation         on
+2020-05-25T02:59:48.524961Z <016>  2259 MB info    |   dl light samples              2.0
+2020-05-25T02:59:48.524961Z <016>  2259 MB info    |   dl light threshold            0.000
+2020-05-25T02:59:48.524961Z <016>  2259 MB info    |   ibl env samples               2.0
+2020-05-25T02:59:48.524961Z <016>  2259 MB info    |   max ray intensity             unlimited
+2020-05-25T02:59:48.524961Z <016>  2259 MB info    |   volume distance samples       2
+2020-05-25T02:59:48.524961Z <016>  2259 MB info    |   equiangular sampling          off
+2020-05-25T02:59:48.524961Z <016>  2259 MB info    |   clamp roughness               on
+2020-05-25T02:59:48.530966Z <016>  2259 MB info    | using built-in ray tracing kernel.
+2020-05-25T02:59:48.531967Z <016>  2259 MB info    | collecting assembly instances...
+2020-05-25T02:59:48.538973Z <016>  2259 MB info    | building assembly tree (1 assembly instance)...
+2020-05-25T02:59:48.552986Z <016>  2259 MB info    | collecting geometry for triangle tree #3715 from assembly "/scene/assembly"...
+2020-05-25T02:59:48.708134Z <016>  2349 MB info    | building triangle tree #3715 (bvh, 1,535,736 static triangles, 0 moving triangle)...
+2020-05-25T02:59:51.652926Z <016>  2486 MB info    | texture store settings:
+2020-05-25T02:59:51.652926Z <016>  2486 MB info    |   max store size                1.0 GB
+2020-05-25T02:59:51.652926Z <016>  2486 MB info    |   track store size              off
+2020-05-25T02:59:51.652926Z <016>  2486 MB info    |   track tile loading            off
+2020-05-25T02:59:51.652926Z <016>  2486 MB info    |   track tile unloading          off
+2020-05-25T02:59:51.654928Z <016>  2486 MB info    | frame "/beauty" (#3720) parameters:
+2020-05-25T02:59:51.654928Z <016>  2486 MB info    |   camera name                   "Camera"
+2020-05-25T02:59:51.654928Z <016>  2486 MB info    |   resolution                    2,000 x 1,700
+2020-05-25T02:59:51.654928Z <016>  2486 MB info    |   tile size                     64 x 64
+2020-05-25T02:59:51.654928Z <016>  2486 MB info    |   filter                        blackman-harris
+2020-05-25T02:59:51.654928Z <016>  2486 MB info    |   filter size                   1.020000
+2020-05-25T02:59:51.654928Z <016>  2486 MB info    |   crop window                   (0, 0)-(1,999, 1,699)
+2020-05-25T02:59:51.654928Z <016>  2486 MB info    |   dithering                     on
+2020-05-25T02:59:51.654928Z <016>  2486 MB info    |   noise seed                    0
+2020-05-25T02:59:51.654928Z <016>  2486 MB info    |   denoising mode                off
+2020-05-25T02:59:51.654928Z <016>  2486 MB info    |   create checkpoint             off
+2020-05-25T02:59:51.654928Z <016>  2486 MB info    |   resume checkpoint             off
+2020-05-25T02:59:51.654928Z <016>  2486 MB info    |   reference image path          n/a
+2020-05-25T02:59:51.658932Z <016>  2486 MB info    | camera "/scene/Camera" (#3721) parameters:
+2020-05-25T02:59:51.658932Z <016>  2486 MB info    |   model                         pinhole_camera
+2020-05-25T02:59:51.658932Z <016>  2486 MB info    |   film width                    0.032000
+2020-05-25T02:59:51.658932Z <016>  2486 MB info    |   film height                   0.027200
+2020-05-25T02:59:51.658932Z <016>  2486 MB info    |   focal length                  0.035000
+2020-05-25T02:59:51.658932Z <016>  2486 MB info    |   near z                        -0.001000
+2020-05-25T02:59:51.658932Z <016>  2486 MB info    |   shift                         0.000000, 0.000000
+2020-05-25T02:59:51.658932Z <016>  2486 MB info    |   shutter open begin time       0.000000
+2020-05-25T02:59:51.658932Z <016>  2486 MB info    |   shutter open end time         0.000000
+2020-05-25T02:59:51.658932Z <016>  2486 MB info    |   shutter close begin time      1.000000
+2020-05-25T02:59:51.658932Z <016>  2486 MB info    |   shutter close end time        1.000000
+2020-05-25T02:59:51.664937Z <017>  2486 MB info    | --- beginning rendering pass #1 ---
+2020-05-25T03:01:27.177076Z <017>  2675 MB info    | --- beginning rendering pass #2 ---
+2020-05-25T03:03:01.340545Z <017>  2675 MB info    | --- beginning rendering pass #3 ---
+2020-05-25T03:04:35.092917Z <017>  2675 MB info    | --- beginning rendering pass #4 ---
+2020-05-25T03:06:09.238930Z <017>  2675 MB info    | --- beginning rendering pass #5 ---
+2020-05-25T03:07:43.412144Z <017>  2675 MB info    | --- beginning rendering pass #6 ---
+2020-05-25T03:09:17.889900Z <017>  2675 MB info    | --- beginning rendering pass #7 ---
+2020-05-25T03:10:52.501664Z <017>  2675 MB info    | --- beginning rendering pass #8 ---
+2020-05-25T03:12:26.781176Z <017>  2675 MB info    | --- beginning rendering pass #9 ---
+2020-05-25T03:14:00.726581Z <017>  2675 MB info    | --- beginning rendering pass #10 ---
+2020-05-25T03:15:34.878264Z <017>  2675 MB info    | --- beginning rendering pass #11 ---
+2020-05-25T03:17:09.122494Z <017>  2675 MB info    | --- beginning rendering pass #12 ---
+2020-05-25T03:18:43.327495Z <017>  2675 MB info    | --- beginning rendering pass #13 ---
+2020-05-25T03:20:17.440006Z <017>  2675 MB info    | --- beginning rendering pass #14 ---
+2020-05-25T03:21:51.524557Z <017>  2675 MB info    | --- beginning rendering pass #15 ---
+2020-05-25T03:23:25.938070Z <017>  2675 MB info    | --- beginning rendering pass #16 ---
+2020-05-25T03:24:59.913522Z <017>  2675 MB info    | --- beginning rendering pass #17 ---
+2020-05-25T03:26:33.960636Z <017>  2675 MB info    | --- beginning rendering pass #18 ---
+2020-05-25T03:28:08.318877Z <017>  2675 MB info    | --- beginning rendering pass #19 ---
+2020-05-25T03:29:42.497827Z <017>  2675 MB info    | --- beginning rendering pass #20 ---
+2020-05-25T03:31:16.716514Z <017>  2675 MB info    | --- beginning rendering pass #21 ---
+2020-05-25T03:32:50.888005Z <017>  2675 MB info    | --- beginning rendering pass #22 ---
+2020-05-25T03:34:25.134082Z <017>  2675 MB info    | --- beginning rendering pass #23 ---
+2020-05-25T03:35:59.711501Z <017>  2675 MB info    | --- beginning rendering pass #24 ---
+2020-05-25T03:37:33.819266Z <017>  2675 MB info    | --- beginning rendering pass #25 ---
+2020-05-25T03:39:08.176363Z <017>  2675 MB info    | --- beginning rendering pass #26 ---
+2020-05-25T03:40:42.351220Z <017>  2675 MB info    | --- beginning rendering pass #27 ---
+2020-05-25T03:42:16.624180Z <017>  2675 MB info    | --- beginning rendering pass #28 ---
+2020-05-25T03:43:50.568176Z <017>  2675 MB info    | --- beginning rendering pass #29 ---
+2020-05-25T03:45:24.317901Z <017>  2675 MB info    | --- beginning rendering pass #30 ---
+2020-05-25T03:46:58.493106Z <017>  2675 MB info    | --- beginning rendering pass #31 ---
+2020-05-25T03:48:32.438326Z <017>  2675 MB info    | --- beginning rendering pass #32 ---
+2020-05-25T03:50:06.314681Z <017>  2675 MB info    | --- beginning rendering pass #33 ---
+2020-05-25T03:51:40.384108Z <017>  2675 MB info    | --- beginning rendering pass #34 ---
+2020-05-25T03:53:14.378875Z <017>  2675 MB info    | --- beginning rendering pass #35 ---
+2020-05-25T03:54:48.524757Z <017>  2675 MB info    | --- beginning rendering pass #36 ---
+2020-05-25T03:56:23.046252Z <017>  2675 MB info    | --- beginning rendering pass #37 ---
+2020-05-25T03:57:57.181182Z <017>  2675 MB info    | --- beginning rendering pass #38 ---
+2020-05-25T03:59:31.377332Z <017>  2675 MB info    | --- beginning rendering pass #39 ---
+2020-05-25T04:01:05.574075Z <017>  2675 MB info    | --- beginning rendering pass #40 ---
+2020-05-25T04:02:39.926064Z <017>  2675 MB info    | --- beginning rendering pass #41 ---
+2020-05-25T04:04:13.869188Z <017>  2675 MB info    | --- beginning rendering pass #42 ---
+2020-05-25T04:05:48.000884Z <017>  2675 MB info    | --- beginning rendering pass #43 ---
+2020-05-25T04:07:22.267236Z <017>  2675 MB info    | --- beginning rendering pass #44 ---
+2020-05-25T04:08:56.317453Z <017>  2675 MB info    | --- beginning rendering pass #45 ---
+2020-05-25T04:10:30.767383Z <017>  2675 MB info    | --- beginning rendering pass #46 ---
+2020-05-25T04:12:04.636719Z <017>  2675 MB info    | --- beginning rendering pass #47 ---
+2020-05-25T04:13:39.002158Z <017>  2675 MB info    | --- beginning rendering pass #48 ---
+2020-05-25T04:15:13.102511Z <017>  2675 MB info    | --- beginning rendering pass #49 ---
+2020-05-25T04:16:47.240254Z <017>  2675 MB info    | --- beginning rendering pass #50 ---
+2020-05-25T04:18:21.923903Z <017>  2675 MB info    | --- beginning rendering pass #51 ---
+2020-05-25T04:19:56.048190Z <017>  2675 MB info    | --- beginning rendering pass #52 ---
+2020-05-25T04:21:30.364641Z <017>  2675 MB info    | --- beginning rendering pass #53 ---
+2020-05-25T04:23:04.156926Z <017>  2675 MB info    | --- beginning rendering pass #54 ---
+2020-05-25T04:24:38.792212Z <016>  2672 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-specular.jpg...
+2020-05-25T04:24:38.792212Z <016>  2672 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\textures\2K-wood_fine_4-specular.jpg...
+2020-05-25T04:24:38.793213Z <016>  2672 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-normal.jpg...
+2020-05-25T04:24:38.793213Z <016>  2672 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-wood_fine_4\2K-wood_fine_4-diffuse.jpg...
+2020-05-25T04:24:38.793213Z <016>  2672 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\textures\2K-wood_fine_4-diffuse.jpg...
+2020-05-25T04:24:38.794214Z <016>  2672 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-specular.jpg...
+2020-05-25T04:24:38.794214Z <016>  2672 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-normal.jpg...
+2020-05-25T04:24:38.794214Z <016>  2672 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-displacement.jpg...
+2020-05-25T04:24:38.795215Z <016>  2672 MB info    | closing texture file C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\..\2K-walllpaper_10\2K-walllpaper_10-diffuse.jpg...
+Saved: 'C:\Users\UserPushka\Desktop\Diplom\3D_Models\B_Bottles\0_appleseed\B0_54__6tr_.png'
