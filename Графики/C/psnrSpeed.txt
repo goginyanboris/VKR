@@ -1,5 +1,0 @@
-средняя скорость алгоритма: 
-appleseed path tr: 1.574285508527473 
-cycles path tr: 0.06499387815922948
-luxcore bidir pt: 0.035493223607254265 
-luxcore path tr: 0.036992305172886354
